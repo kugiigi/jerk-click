@@ -2,6 +2,9 @@
   This file is part of ut-tweak-tool
   Copyright (C) 2015 Stefano Verzegnassi
 
+  Modified for Ambot Installer
+  Copyright (C) 2024 Kugi Eusebio
+
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License 3 as published by
   the Free Software Foundation.
@@ -19,10 +22,13 @@ import QtQuick 2.4
 import Lomiri.Components 1.3
 import com.ubuntu.PamAuthentication 0.1
 import QtQml.Models 2.1
+import Qt.labs.settings 1.0
+import Lomiri.Components.Popups 1.3
 
 MainView {
     // DO NOT MODIFY, this is updated automatically during the build
     readonly property var appVersion: "1.0.0"
+    property alias settings: settingsItem
     property alias overlayContainer: overlayContainer
 
     id: mainView
@@ -35,6 +41,12 @@ MainView {
     Component.onCompleted: {
         window.minimumWidth = units.gu(100)
         window.minimumHeight = units.gu(60)
+    }
+
+    Settings {
+        id: settingsItem
+
+        property bool initialDialogShown: false
     }
 
     AdaptivePageLayout {
@@ -220,6 +232,64 @@ MainView {
             id: pam
             serviceName: "jerk-click"
             onDenied: Qt.quit();
+            onGranted: {
+                if (!mainView.settings.initialDialogShown) {
+                    let _popup = PopupUtils.open(initialDialog, mainView)
+                    
+                    _popup.accepted.connect(function() {
+                        mainView.settings.initialDialogShown = true
+                    })
+                    _popup.getMeOut.connect(function() {
+                        Qt.quit();
+                    })
+                }
+            }
+        }
+    }
+    
+    Component {
+        id: initialDialog
+        Dialog {
+            id: initialDialogue
+
+            signal getMeOut
+            signal accepted
+
+            title: i18n.tr("Ambot Installer")
+            text: [
+                i18n.tr("READ BEFORE USE!\n\n")
+                ,i18n.tr("This app can and will modify your system files when you install a package.")
+                ,i18n.tr("Given the nature of this app's capability, use this app with caution and only when you accept the risk.")
+                ,i18n.tr("Although the app and packages were tested to be working, any unexpected issue or bug may render your device unusable.")
+                ,i18n.tr("It is highly recommended to only use this when you have UBports Installer accessible to you.")
+                ,i18n.tr("Don't worry, you can reflash your system without wiping your data like nothing happened :)")
+                ,i18n.tr("\n\nBe responsible!\n\n")
+                ,i18n.tr("Please remove all changes to your system before reporting an issue to UBports official repositories.")
+                ,i18n.tr("You can use the 'Reset All Components' function in this app.")
+                ,i18n.tr("After resetting, you may try to replicate the issue and see if it is an actual issue or an issue with the packages installed.")
+                ,i18n.tr("\n\nRecommended Package\n\n")
+                ,i18n.tr("For devices with rounded corners and/or display cutout, Lomiri Plus Essentials is recommeded.")
+                ,i18n.tr("In fact, it's the main reason why this app exists.")
+                ,i18n.tr("To easily share the display cutout and rounded corners support until the official one is released.")
+            ].join(" ")
+
+            Button {
+                text: i18n.tr("I understand the risk")
+                color: theme.palette.normal.positive
+
+                onClicked: {
+                    initialDialogue.accepted()
+                    PopupUtils.close(initialDialogue)
+                }
+            }
+
+            Button {
+                text: i18n.tr("Get me out of here!")
+                onClicked: {
+                    initialDialogue.getMeOut()
+                    PopupUtils.close(initialDialogue)
+                }
+            }
         }
     }
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-26 07:48+0000\n"
+"POT-Creation-Date: 2024-08-26 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,72 +17,185 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:11
-#: ../src/app/qml/aboutTab/AboutPage.qml:23
+#: ../src/app/qml/aboutTab/AboutPage.qml:12
+#: ../src/app/qml/aboutTab/AboutPage.qml:24
 msgid "About"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:26
+#: ../src/app/qml/aboutTab/AboutPage.qml:27
 msgid "Credits"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:42
-#: ../src/app/qml/aboutTab/AboutPage.qml:43
-#: ../src/app/qml/aboutTab/AboutPage.qml:44
-#: ../src/app/qml/aboutTab/AboutPage.qml:45
+#: ../src/app/qml/aboutTab/AboutPage.qml:30
+msgid "How It Works"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:46
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
 msgid "Resources"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:42
+#: ../src/app/qml/aboutTab/AboutPage.qml:46
 msgid "Bugs"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:43
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
 msgid "Contact"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:44
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
 msgid "Jerk Installer"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:45
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
 msgid "Jerk Packages"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
 msgid "Developers"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
 msgid "Main Developer"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:100 ../src/app/qml/main.qml:100
-#: ../src/app/qml/main.qml:104
+#: ../src/app/qml/aboutTab/AboutPage.qml:104 ../src/app/qml/main.qml:112
+#: ../src/app/qml/main.qml:116 ../src/app/qml/main.qml:258
 #: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
 msgid "Ambot Installer"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:105
+#: ../src/app/qml/aboutTab/AboutPage.qml:109
 #, qt-format
 msgid "Version %1"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:113
+#: ../src/app/qml/aboutTab/AboutPage.qml:117
 msgid "Installer of fun, useful but possibly dangerous hacks and mods."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:127
+#: ../src/app/qml/aboutTab/AboutPage.qml:131
 msgid "(C) 2024 Kugi Eusebio"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:135
+#: ../src/app/qml/aboutTab/AboutPage.qml:139
 msgid "Released under the terms of the GNU GPL v3"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:145
+#: ../src/app/qml/aboutTab/AboutPage.qml:149
 #, qt-format
 msgid "Source code available on %1"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:219
+msgid "How does the Installer works?\n"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:227
+msgid "Ambot Installer uses a script that can modify your system files."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:228
+msgid ""
+"When you install a package, it backs up the original files and copy over the "
+"modified files from a package you are trying to install."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:229
+msgid ""
+"Packages have copies of unmodified files which they are based on and use "
+"those to check compatibility with your system."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:230
+msgid ""
+"You can't install a package that is not found to be compatible with your "
+"system."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:231
+msgid ""
+"\n"
+"\n"
+"When you uninstall a package, it checks if it is actually installed to your "
+"system and delete the system files that matches the files in the package."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:232
+msgid "New folders created by the package will be retained."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:233
+msgid ""
+"Uninstalling a package may take a long time for bigger packages because it "
+"reads the files from the archived package file and compare them to the "
+"system files."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:234
+msgid ""
+"\n"
+"\n"
+"When you reset a component, it simply restores all files the has the "
+"filename suffix/extension of this installer's modification (.JERKORIG)."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:235
+msgid "It does not delete new files installed by the packages."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:236
+msgid ""
+"Because of this, this is a much faster way of removing packages albeit less "
+"clean."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:243
+msgid ""
+"\n"
+"\n"
+"Why are OTA Updates blocked?:\n"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:251
+msgid "The Installer updates parts of your system."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:252
+msgid "OTA Updates can be a delta update or a full update."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:253
+msgid ""
+"We are avoiding delta updates as it also only updates parts of the system."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:254
+msgid ""
+"When a delta update is applied, there is a chance that it changes some files "
+"that has conflict to this Installer's changes."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:255
+msgid ""
+"A full update on the otherhand is very safe since it puts your system back "
+"to a clean slate."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:256
+msgid ""
+"OTA updates are blocked via System Settings app to avoid accidental "
+"installation of a delta update."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:257
+msgid ""
+"\n"
+"\n"
+"It is highly recommended to reset all components first before installing an "
+"OTA update."
 msgstr ""
 
 #: ../src/app/qml/actionsTab/ActionsTab.qml:56
@@ -721,16 +834,107 @@ msgstr ""
 msgid "Changelog"
 msgstr ""
 
-#: ../src/app/qml/main.qml:66
+#: ../src/app/qml/main.qml:78
 msgid "Installer"
 msgstr ""
 
-#: ../src/app/qml/main.qml:72
+#: ../src/app/qml/main.qml:84
 msgid "Actions"
 msgstr ""
 
-#: ../src/app/qml/main.qml:78
+#: ../src/app/qml/main.qml:90
 msgid "Settings"
+msgstr ""
+
+#: ../src/app/qml/main.qml:260
+msgid ""
+"READ BEFORE USE!\n"
+"\n"
+msgstr ""
+
+#: ../src/app/qml/main.qml:261
+msgid ""
+"This app can and will modify your system files when you install a package."
+msgstr ""
+
+#: ../src/app/qml/main.qml:262
+msgid ""
+"Given the nature of this app's capability, use this app with caution and "
+"only when you accept the risk."
+msgstr ""
+
+#: ../src/app/qml/main.qml:263
+msgid ""
+"Although the app and packages were tested to be working, any unexpected "
+"issue or bug may render your device unusable."
+msgstr ""
+
+#: ../src/app/qml/main.qml:264
+msgid ""
+"It is highly recommended to only use this when you have UBports Installer "
+"accessible to you."
+msgstr ""
+
+#: ../src/app/qml/main.qml:265
+msgid ""
+"Don't worry, you can reflash your system without wiping your data like "
+"nothing happened :)"
+msgstr ""
+
+#: ../src/app/qml/main.qml:266
+msgid ""
+"\n"
+"\n"
+"Be responsible!\n"
+"\n"
+msgstr ""
+
+#: ../src/app/qml/main.qml:267
+msgid ""
+"Please remove all changes to your system before reporting an issue to "
+"UBports official repositories."
+msgstr ""
+
+#: ../src/app/qml/main.qml:268
+msgid "You can use the 'Reset All Components' function in this app."
+msgstr ""
+
+#: ../src/app/qml/main.qml:269
+msgid ""
+"After resetting, you may try to replicate the issue and see if it is an "
+"actual issue or an issue with the packages installed."
+msgstr ""
+
+#: ../src/app/qml/main.qml:270
+msgid ""
+"\n"
+"\n"
+"Recommended Package\n"
+"\n"
+msgstr ""
+
+#: ../src/app/qml/main.qml:271
+msgid ""
+"For devices with rounded corners and/or display cutout, Lomiri Plus "
+"Essentials is recommeded."
+msgstr ""
+
+#: ../src/app/qml/main.qml:272
+msgid "In fact, it's the main reason why this app exists."
+msgstr ""
+
+#: ../src/app/qml/main.qml:273
+msgid ""
+"To easily share the display cutout and rounded corners support until the "
+"official one is released."
+msgstr ""
+
+#: ../src/app/qml/main.qml:277
+msgid "I understand the risk"
+msgstr ""
+
+#: ../src/app/qml/main.qml:287
+msgid "Get me out of here!"
 msgstr ""
 
 #: ../src/app/qml/settingsTab/SettingsTab.qml:56
