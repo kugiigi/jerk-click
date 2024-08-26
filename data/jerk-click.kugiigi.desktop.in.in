@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Ambot Installer
+_Keywords=tweak;tool;settings;mods;hacks;
+_Comment=A simple but powerful tool to install awesome and cool hacks and mods
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true
+X-Lomiri-Splash-Color=#6299b6
+

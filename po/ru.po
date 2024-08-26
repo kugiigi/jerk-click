@@ -1,0 +1,1159 @@
+# Russian translation for ubuntu-touch-tweak-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the ubuntu-touch-tweak-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubuntu-touch-tweak-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-08 23:29+0000\n"
+"PO-Revision-Date: 2021-08-21 07:34+0000\n"
+"Last-Translator: Eugene Markoff <uralhistory@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/ut-tweak-tool/"
+"ut-tweak-tool/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8-dev\n"
+"X-Launchpad-Export-Date: 2016-12-09 05:45+0000\n"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:11
+#: ../src/app/qml/aboutTab/AboutPage.qml:23
+msgid "About"
+msgstr "О приложении"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:26
+msgid "Credits"
+msgstr "Ссылки"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+msgid "Resources"
+msgstr "Источники"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+msgid "Bugs"
+msgstr "Ошибки"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+msgid "Contact"
+msgstr "Контакты"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+msgid "Translations"
+msgstr "Перевести приложение"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
+msgid "Developers"
+msgstr "Разработчики"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
+msgid "Founder"
+msgstr "Основатель"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
+msgid "Maintainer"
+msgstr "Сопровождение"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
+msgid "Contributor"
+msgstr "Соавтор"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:103
+msgid "Ubuntu Touch Tweak Tool"
+msgstr "Ubuntu Touch Tweak Tool"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:108
+#, qt-format
+msgid "Version %1"
+msgstr "Версия %1"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:116
+msgid ""
+"A Tweak tool application for Ubuntu Touch.<br/>Tweak your device, unlock its "
+"full power! Advanced settings for your ubuntu device."
+msgstr ""
+"Tweak tool - приложение для Ubuntu Touch. <br/> Настройте свое устройство, "
+"откройте его полную мощь! Здесь находятся расширенные настройки для вашего "
+"устройства."
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:130
+msgid ""
+"A special thanks to all translators, beta-testers, and users<br/>in general "
+"who improve this app with their work and feedback<br/>"
+msgstr ""
+"Особая благодарность всем переводчикам, бета-тестерам и пользователям <br/> "
+"в целом, которые улучшают это приложение своей работой и отзывами <br/>"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:137
+msgid ""
+"(C) 2014-2016 Stefano Verzegnassi<br/>Maintainer (C) 2018 Rudi Timmermans<br/"
+">"
+msgstr ""
+"(C) 2014-2016 Stefano Verzegnassi<br/>Maintainer (C) 2018 Rudi Timmermans<br/"
+">"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:138
+msgid "Maintainer (C) 2018-2024 Imran Iqbal<br/>"
+msgstr "Поддержка приложения (C) 2018-2024 Imran Iqbal<br/>"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:146
+msgid "Released under the terms of the GNU GPL v3"
+msgstr "Выпущено на условиях GNU GPL v3"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:156
+#, qt-format
+msgid "Source code available on %1"
+msgstr "Исходный код доступен на %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:14
+msgid "Details"
+msgstr "Подробности"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:18
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:41
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:40
+msgid "General"
+msgstr "Общее"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:18
+msgid "Hooks"
+msgstr "Кавычки"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:22
+msgid "Uninstall"
+msgstr "Удалить"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:88
+msgid "Do you want to uninstall this package?"
+msgstr "Хотите ли вы удалить этот пакет?"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:95
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:217
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:165
+#: ../src/app/qml/behaviourTab/Theme.qml:114
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:296
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
+#: ../src/app/qml/systemTab/Services.qml:75
+#: ../src/app/qml/systemTab/UsbMode.qml:111
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:62
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:101
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:222
+#: ../src/app/qml/behaviourTab/Audio.qml:208
+#: ../src/app/qml/systemTab/UsbMode.qml:117
+msgid "OK"
+msgstr "ОК"
+
+#. TRANSLATORS: The template is defined in the AppArmor manifest of a package.
+#. "<i>generic</i>" is used when no template has been defined in the manifest (i.e. it's a standard confined app).
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:80
+#, qt-format
+msgid "Template: %1"
+msgstr "Шаблон: %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:80
+msgid "<i>generic</i>"
+msgstr "<i> общий </i>"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:81
+#, qt-format
+msgid "Policy version: %1"
+msgstr "Версия политики: %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:101
+msgid "Can integrate with your online accounts"
+msgstr "Может интегрироваться с вашими онлайн-аккаунтами"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:104
+msgid "Can play audio"
+msgstr "Может воспроизводить аудио"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:107
+msgid "Can access the calendar (reserved)"
+msgstr "Имеет доступ к календарю (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:110
+msgid "Can access the camera"
+msgstr "Может получать доступ к камере"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:113
+msgid "Can access network connectivity informations"
+msgstr "Может получать доступ к информации о сетевом подключении"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:116
+msgid "Can access contacts"
+msgstr "Может получать доступ к контактам"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:119
+msgid "Can request/import data from other applications"
+msgstr "Может запрашивать/получать данные из других приложений"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:122
+msgid "Can provide/export data to other applications"
+msgstr "Может предоставлять/передавать данные в другие приложения"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:125
+msgid "Use special debugging tools (reserved)"
+msgstr "Используйте специальные инструменты отладки (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:128
+msgid "Can access message and call history (reserved)"
+msgstr "Может получать доступ к истории сообщений и звонков (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:131
+msgid "In-app purchases"
+msgstr "Покупки в приложении"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:134
+msgid "Can request keeping the screen on"
+msgstr "Может запросить оставить экран включенным"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:137
+msgid "Can access to your current location"
+msgstr "Может получать доступ к вашему текущему местоположению"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:140
+msgid "Can access the microphone"
+msgstr "Может получать доступ к микрофону"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:143
+msgid "Can read and write to music files (reserved)"
+msgstr "Может читать и записывать музыкальные файлы (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:146
+msgid "Can read all music files (reserved)"
+msgstr "Может читать все музыкальные файлы (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:149
+msgid "Can access the network"
+msgstr "Может получать доступ к сети"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:152
+msgid "Can read and write to pictures files (reserved)"
+msgstr "Может читать и записывать файлы изображений (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:155
+msgid "Can read all pictures files (reserved)"
+msgstr "Может читать все файлы изображений (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:158
+msgid "Can use push notifications"
+msgstr "Может использовать push-уведомления"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:161
+msgid "Can access the device sensors"
+msgstr "Может получать доступ к датчикам устройства"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:164
+msgid "Can show informations on the lock screen"
+msgstr "Может показывать информацию на экране блокировки"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:167
+msgid "Can play video"
+msgstr "Может воспроизводить видео"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:170
+msgid "Can read and write to video files (reserved)"
+msgstr "Может читать и записывать видеофайлы (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:173
+msgid "Can read all video files (reserved)"
+msgstr "Может читать все видео файлы (зарезервировано)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:176
+msgid "Can use the Ubuntu webview component"
+msgstr "Может использовать компонент веб-просмотра Ubuntu"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:286
+msgid "Can read the following additional paths:"
+msgstr "Может прочитать следующие дополнительные пути:"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:309
+msgid "Can write to the following additional paths:"
+msgstr "Может писать по следующим дополнительным путям:"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:101
+msgid "Description"
+msgstr "Описание"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:115
+msgid "Prevent app suspension"
+msgstr "Предотвратить приостановку приложения"
+
+#. TRANSLATORS: "—" is a special char (please copy-paste it into your translation) . "%1" is a formatted string (e.g. 2.56 MB)
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:138
+#, qt-format
+msgid "Disk usage — %1"
+msgstr "Использование диска - %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:144
+msgid "Application size"
+msgstr "Размер приложения"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:150
+msgid "Cache size"
+msgstr "Размер кэша"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:156
+msgid "Data size"
+msgstr "Размер данных"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:162
+msgid "Config size"
+msgstr "Размер конфигурации"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:169
+msgid "Clear..."
+msgstr "Очищено..."
+
+#. TRANSLATORS: %1 is the name of the application
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:175
+#, qt-format
+msgid "Clear %1 data"
+msgstr "Очищено %1 данных"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:199
+msgid "Cache:"
+msgstr "Кэш:"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:204
+msgid "Application data:"
+msgstr "Данные Приложения:"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:209
+msgid "Config:"
+msgstr "Конфигурация:"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in GB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:241
+#, qt-format
+msgid "%1 GB"
+msgstr "%1 ГБайт"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in MB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:246
+#, qt-format
+msgid "%1 MB"
+msgstr "%1 МБайт"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in kB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:251
+#, qt-format
+msgid "%1 kB"
+msgstr "%1 кБайт"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in byte
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:254
+#, qt-format
+msgid "%1 byte"
+msgstr "%1 байт"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Show all"
+msgstr "Отобразить все"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Contains an app"
+msgstr "Содержит приложение"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Contains a scope"
+msgstr "Содержит scope"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:39
+msgid "No installed package"
+msgstr "Нет установленного пакета"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:49
+msgid ""
+"Set your favorite apps to be shown in the applications scope.<br>Swipe to "
+"right to delete an item. Press and hold will activate the sort mode."
+msgstr ""
+"Настройте отображение избранных приложений в области приложений. <br> "
+"Проведите пальцем вправо, чтобы удалить элемент. Нажмите и удерживайте, "
+"чтобы активировать режим сортировки."
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:53
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:146
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:36
+msgid "Favorite apps"
+msgstr "Любимые приложения"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:63
+msgid "No favorite specified"
+msgstr "Не указано избранное"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:64
+msgid ""
+"Default applications will be shown in the 'App' scope.\n"
+"Tap the '+' in the header to add a favorite app."
+msgstr ""
+"Приложения по умолчанию будут показаны в области «Приложение».\n"
+"Нажмите «+» в заголовке, чтобы добавить любимое приложение."
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:83
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:67
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:118
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:170
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:227
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:96
+msgid "Reset"
+msgstr "Сбросить"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:93
+msgid "<i>This app is currently uninstalled.</i>"
+msgstr "<i>Это приложение в настоящее время удалено.</i>"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:102
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:151
+#: ../src/app/qml/behaviourTab/AppsScopeFavsAddFromInstalled.qml:34
+msgid "Add new favorite"
+msgstr "Добавить новое избранное"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavsAddFromInstalled.qml:52
+msgid "Available apps"
+msgstr "Доступные приложения"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:46
+msgid "Notification sound"
+msgstr "Звук уведомления"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:97
+msgid ""
+"Please note that if you choose an audio file from an external media (e.g. SD "
+"card), that file could not be played if the media will be removed."
+msgstr ""
+"Обратите внимание, что если вы выберете аудиофайл с внешнего носителя ("
+"например, SD-карты), этот файл не может быть воспроизведен, если носитель "
+"будет удален."
+
+#: ../src/app/qml/behaviourTab/Audio.qml:100
+msgid "Message received"
+msgstr "Сообщение получено"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:104
+msgid ""
+"Ensure your audio file length is max. 10 seconds.<br><b>N.B.</b> The file "
+"will be played until its end: if you use a 3 minutes song, your device will "
+"be ringing for that time!"
+msgstr ""
+"Убедитесь, что длина вашего аудиофайла не превышает макс. 10 секунд.<br> <b> "
+"N.B.</b> Файл будет воспроизводиться до конца: если вы используете 3-х "
+"минутную песню, ваше устройство будет звонить это время!"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:108
+msgid ""
+"This feature needs to create a file inside your system (/usr/share/sounds/"
+"ubuntu/notifications) to avoid breaking notification sound from other "
+"applications such as Telegram and FluffyChat.<br><b>N.B.</b> Please, note "
+"that it will be removed after every system update, you'll need to set it up "
+"again."
+msgstr ""
+"Эта функция должна создать файл внутри вашей системы (/usr/share/sounds/"
+"ubuntu/notifications), чтобы избежать прерывания звука уведомлений из других "
+"приложений, таких как Telegram и FluffyChat.<br> <b> NB </b> Пожалуйста, "
+"обратите внимание что он будет удаляться после каждого обновления системы, "
+"вам нужно будет настроить его снова."
+
+#: ../src/app/qml/behaviourTab/Audio.qml:114
+msgid "Current notification sound:"
+msgstr "Текущий звук уведомления:"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:116
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:134
+msgid "Pick"
+msgstr "Выбрать"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:125
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:258
+msgid "Restore default..."
+msgstr "Сброс настроек..."
+
+#: ../src/app/qml/behaviourTab/Audio.qml:152
+msgid "Choose a notification sound"
+msgstr "Выберите звук уведомления"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:176
+msgid "Restore default"
+msgstr "Сбросить настройки"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:177
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:180
+msgid "Yes"
+msgstr "Да"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:189
+msgid "No"
+msgstr "Нет"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:204
+msgid "MP3 File Selected"
+msgstr "Выбран файл MP3"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:205
+msgid ""
+"OGG format is highly recommended. Currently, MP3 format breaks the "
+"notification sound for other apps such as Telegram and FluffyChat"
+msgstr ""
+"Настоятельно рекомендуется формат OGG. В настоящее время формат MP3 "
+"прерывает звук уведомлений для других приложений, таких как Telegram и "
+"FluffyChat"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:32
+msgid "Application scope"
+msgstr "Область приложения"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:43
+msgid "Unity 8"
+msgstr "Unity 8"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:47
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:32
+msgid "Scaling"
+msgstr "Масштабирование"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:52
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:29
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:68
+msgid "Usage mode"
+msgstr "Режим использования"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:57
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:29
+msgid "Launcher"
+msgstr "Лаунчер"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:62
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:29
+msgid "Indicators"
+msgstr "Индикаторы"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:67
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:31
+msgid "Edge sensitivity"
+msgstr "Чувствительность края"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:74
+msgid "Audio"
+msgstr "Звук"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:78
+msgid "Set a custom notification sound"
+msgstr "Установите собственный звук уведомления"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:85
+msgid "Experimental"
+msgstr "Экспериментальный"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:89
+#: ../src/app/qml/behaviourTab/Theme.qml:32
+msgid "System theme"
+msgstr "Тема по умолчанию"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:52
+msgid "Unity 8 has three available themes"
+msgstr "В Unity 8 доступны три темы"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:53
+msgid "Currently, only the default theme (Ambiance) is well-supported."
+msgstr ""
+"В настоящее время хорошо поддерживается только тема по умолчанию (Ambiance)."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:54
+msgid "The other themes are only useful for testing purposes."
+msgstr "Остальные темы полезны только для тестирования."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:57
+msgid "Theme selection"
+msgstr "Выбор темы"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:62
+msgid "(default theme)"
+msgstr "(тема по умолчанию)"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:107
+#: ../src/app/qml/behaviourTab/Theme.qml:122
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:291
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:301
+#: ../src/app/qml/systemTab/Services.qml:46
+#: ../src/app/qml/systemTab/Services.qml:69
+#: ../src/app/qml/systemTab/Services.qml:80
+msgid "Restart Unity 8"
+msgstr "Перезапустить Unity 8"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:108
+msgid "This change requires restarting Unity 8 to take effect."
+msgstr "Это изменение требует перезапуска Unity 8, чтобы оно вступило в силу."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:109
+#: ../src/app/qml/systemTab/Services.qml:70
+msgid "Do you want to restart Unity 8 now?"
+msgstr "Хотите перезапустить Unity 8 сейчас?"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:110
+#: ../src/app/qml/systemTab/Services.qml:71
+msgid "All currently open apps will be closed."
+msgstr "Все открытые в данный момент приложения будут закрыты."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:111
+#: ../src/app/qml/systemTab/Services.qml:72
+msgid "Save all your work before continuing!"
+msgstr "Прежде чем продолжить, сохраните всю свою работу!"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:42
+msgid "Edge barrier sensitivity"
+msgstr "Чувствительность краевого барьера"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:50
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:102
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:154
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:209
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:80
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:191
+#, qt-format
+msgid "Current value: %1"
+msgstr "Текущее значение: %1"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:51
+msgid "Sensitivity of screen edge barriers for the mouse pointer."
+msgstr "Чувствительность краевых барьеров экрана к указателю мыши."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:52
+msgid ""
+"Some UI actions like revealing the launcher or the applications spread are "
+"triggered by pushing the mouse pointer against a screen edge. This key "
+"defines how much you have to push in order to trigger the associated action."
+msgstr ""
+"Некоторые действия пользовательского интерфейса, такие как активация "
+"Лаунчера или перемещение приложений, запускаются при нажатии указателя мыши "
+"на край экрана. Этот ключ определяет, сколько вам нужно нажать, чтобы "
+"вызвать связанное действие."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:94
+msgid "Edge barrier minimum push"
+msgstr "Минимальное нажатие на краевой барьер"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:103
+msgid "Minimum push needed to overcome edge barrier."
+msgstr "Минимальное нажатие, необходимое для преодоления краевого барьера."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:104
+msgid ""
+"How much you have to push (in grid units) the mouse against an edge barrier "
+"when sensibility is 100."
+msgstr ""
+"Насколько сильно вы должны нажимать (в единицах сетки) чтобы мышь оказалась "
+"на краевом барьере, когда чувствительность равна 100."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:146
+msgid "Edge barrier maximum push"
+msgstr "Максимальное нажатие краевого барьера"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:155
+msgid "Maximum push needed to overcome edge barrier."
+msgstr "Максимальное нажатие, необходимое для преодоления краевого барьера."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:156
+msgid ""
+"How much you have to push (in grid units) the mouse against an edge barrier "
+"when sensibility is 1."
+msgstr ""
+"Насколько сильно вы должны нажимать (в единицах сетки) чтобы мышь оказалась "
+"на краевом барьере, когда чувствительность равна 1."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:198
+msgid "Edge drag areas width"
+msgstr "Ширина области перетаскивания края"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:210
+msgid "The width of the edge drag areas"
+msgstr "Ширина краевых областей перетаскивания"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:211
+msgid "How big (in grid units) the edge-drag sensitive area should be."
+msgstr ""
+"Насколько большой (в единицах сетки) должна быть область, чувствительная к "
+"перетаскиванию края."
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:49
+msgid "Enable the indicator menu"
+msgstr "Включить меню индикатора"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:50
+msgid "Enable or disable the indicator menu"
+msgstr "Включение или отключение меню индикатора"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:65
+msgid "Battery"
+msgstr "Аккумулятор"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:68
+msgid "Show percentage on panel"
+msgstr "Показать процент на панели"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:76
+msgid "Date & Time"
+msgstr "Дата и Время"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:79
+msgid "Show Calendar"
+msgstr "Отобразить Календарь"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:88
+msgid "Show Events"
+msgstr "Отобразить События"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:97
+msgid "Show Week Numbers"
+msgstr "Отобразить Количество Недель"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:98
+msgid "Enable showing week numbers on calendar"
+msgstr "Включить отображение количества недель в календаре"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:43
+msgid "Enable the launcher"
+msgstr "Активировать Лаунчер"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:44
+msgid "Enable or disable the launcher"
+msgstr "Активировать или отключить Лаунчер"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:60
+msgid "Autohide"
+msgstr "Авто-скрытие"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:61
+msgid ""
+"This will only be applied in windowed mode. In staged mode, the launcher "
+"will always hide."
+msgstr ""
+"Это будет применяться только в оконном режиме. В поэтапном режиме Лаунчер "
+"всегда будет скрываться."
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:72
+msgid "Launcher width"
+msgstr "Ширина Лаунчера"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:81
+msgid "Width of the launcher in grid units."
+msgstr "Ширина Лаунчера в единицах сетки."
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:82
+msgid "Changes the width of the launcher in all usage modes."
+msgstr "Изменяет ширину Лаунчера во всех режимах использования."
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:65
+msgid ""
+"This setting allows you to switch from the stage mode (default for mobile "
+"device) to the windowed mode."
+msgstr ""
+"Этот параметр позволяет переключаться из режима сцены (по умолчанию для "
+"мобильного устройства) в оконный режим."
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Staged"
+msgstr "Поэтапный"
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Windowed"
+msgstr "Оконный"
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Automatic"
+msgstr "Автоматический"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:129
+msgid "Large Text"
+msgstr "Большой текст"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:147
+msgid "Normal Text"
+msgstr "Обычный текст"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:157
+msgid "Small Text"
+msgstr "Маленький текст"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:172
+msgid "Preview (Approximation only)"
+msgstr "Предварительный просмотр (только приблизительное значение)"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:183
+msgid "Grid Unit"
+msgstr "Сетка"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:191
+#, qt-format
+msgid "New value: %1"
+msgstr "Новое значение: %1"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:192
+msgid "Unity 8 scaling in grid units."
+msgstr "Масштабирование Unity 8 в единицах сетки."
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:193
+msgid "How much pixels should there be in 1 grid unit."
+msgstr "Сколько пикселей должно быть в 1 единице сетки."
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:234
+msgid "Test"
+msgstr "Тест"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:244
+msgid "Apply"
+msgstr "Применить"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:278
+msgid ""
+"This is just temporary and a device reboot will revert back to the default "
+"scaling"
+msgstr ""
+"Это временно, и при перезагрузке устройства будет восстановлено "
+"масштабирование по умолчанию"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:281
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:292
+msgid "This will make the scaling persistent and will survive a device reboot"
+msgstr ""
+"Это сделает масштабирование постоянным и приведет к перезагрузке устройства"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:284
+msgid "This will restore to the default scaling"
+msgstr "Это восстановит масштабирование по умолчанию"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:291
+msgid "Apply new setting"
+msgstr "Применить новые настройки"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:292
+msgid ""
+"This change requires restarting Unity 8 to take effect. Do you want to "
+"restart Unity 8 now? All currently opened apps will be closed. Save all your "
+"works before continuing!"
+msgstr ""
+"Это изменение требует перезапуска Unity 8, чтобы оно вступило в силу. Хотите "
+"перезапустить Unity 8 сейчас? Все открытые в данный момент приложения будут "
+"закрыты. Прежде чем продолжить, сохраните выполненную работу!"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:293
+msgid "Note:"
+msgstr "Примечание:"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:301
+msgid "Proceed"
+msgstr "Продолжить"
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:61
+msgid "Select None"
+msgstr "Выберите \"Нет\""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:63
+msgid "Select All"
+msgstr "Выберите Всё"
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:201
+msgid "Back to parent folder"
+msgstr "Вернуться в родительскую папку"
+
+#: ../src/app/qml/components/FilePickerPage.qml:31
+msgid "Pick a file"
+msgstr "Выберите файл"
+
+#: ../src/app/qml/main.qml:72
+msgid "Behavior"
+msgstr "Поведение"
+
+#: ../src/app/qml/main.qml:78
+msgid "Apps & Scopes"
+msgstr "Приложения и Области"
+
+#: ../src/app/qml/main.qml:84 ../src/app/qml/systemTab/SystemTab.qml:33
+msgid "System"
+msgstr "Система"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:32
+#: ../src/app/qml/systemTab/ClickInstall.qml:146
+#: ../src/app/qml/systemTab/SystemTab.qml:37
+msgid "Install click package"
+msgstr "Установить пакет кликов"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:54
+msgid "Select package"
+msgstr "Выбрать пакет"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:58
+msgid "Selected package"
+msgstr "Выбранный пакет"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:59
+msgid "<i>None</i>"
+msgstr "<i>Нет</i>"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:63
+msgid "Pick..."
+msgstr "Выбирать..."
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:74
+msgid "Install"
+msgstr "Установить"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:88
+msgid "Output:"
+msgstr "Выход:"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:115
+msgid "Choose a package"
+msgstr "Выберите пакет"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:131
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:135
+#: ../src/app/qml/systemTab/ClickInstall.qml:150
+msgid "Close"
+msgstr "Закрыть"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:147
+msgid "The package has been successfully installed."
+msgstr "Пакет успешно установлен."
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:31
+#: ../src/app/qml/systemTab/SystemTab.qml:42
+msgid "Make image writable"
+msgstr "Сделать изображение доступным для записи"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:45
+msgid ""
+"Be very careful when editing the filesystem image. There is a high risk of "
+"breaking OTA updates."
+msgstr ""
+"Будьте очень осторожны при редактировании образа файловой системы. "
+"Существует высокий риск поломки OTA-обновлений."
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:49
+#: ../src/app/qml/systemTab/SSH.qml:55
+msgid "Available settings"
+msgstr "Доступные настройки"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:54
+msgid "[Read-Only] Default setting"
+msgstr "[Только для чтения] Настройка по умолчанию"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:55
+msgid "[Read-Write] Temporary (until reboot)"
+msgstr "[Чтение-Запись] Временное (до перезагрузки)"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:56
+msgid "[Read-Write] Permanent (persists after reboot)"
+msgstr "[Чтение-Запись] Постоянно (сохраняется после перезагрузки)"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:108
+msgid "Output"
+msgstr "Выход"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:117
+msgid "Any errors will be displayed below."
+msgstr "Любые ошибки будут отображаться ниже."
+
+#: ../src/app/qml/systemTab/SSH.qml:31
+#: ../src/app/qml/systemTab/SystemTab.qml:48
+msgid "SSH settings"
+msgstr "Настройки SSH"
+
+#: ../src/app/qml/systemTab/SSH.qml:45
+msgid ""
+"For information on how to configure SSH, refer back to the UBports "
+"documentation:"
+msgstr ""
+"Для получения информации о том, как настроить SSH, обратитесь к документации "
+"UBports:"
+
+#. TRANSLATORS: Select the best available language for http://docs.ubports.com
+#: ../src/app/qml/systemTab/SSH.qml:48
+msgid "en"
+msgstr "Английский"
+
+#. TRANSLATORS: Use the documentation's page title for the selected language
+#: ../src/app/qml/systemTab/SSH.qml:51
+msgid "Shell access via ssh"
+msgstr "Доступ к оболочке через ssh"
+
+#: ../src/app/qml/systemTab/SSH.qml:58
+msgid "Enable SSH access"
+msgstr "Включить доступ по SSH"
+
+#: ../src/app/qml/systemTab/Services.qml:30
+#: ../src/app/qml/systemTab/SystemTab.qml:78
+msgid "Services"
+msgstr "Услуги"
+
+#: ../src/app/qml/systemTab/Services.qml:42
+msgid "Restart services"
+msgstr "Перезапустить сервисы"
+
+#: ../src/app/qml/systemTab/Services.qml:48
+msgid "Close all running apps and restart the home screen."
+msgstr "Закройте все запущенные приложения и перезапустите главный экран."
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:29
+msgid "<i>Unknown</i>"
+msgstr "<i>Неизвестно</i>"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:40
+msgid "System information"
+msgstr "Системная информация"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:54
+msgid "Ubuntu Touch information"
+msgstr "Информация об Ubuntu Touch"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:58
+msgid "Kernel:"
+msgstr "Kernel:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:63
+msgid "System platform:"
+msgstr "Системная платформа:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:68
+msgid "Distro:"
+msgstr "Distro:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:73
+msgid "Desktop environment:"
+msgstr "Окружение рабочего стола:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:80
+msgid "Hardware information"
+msgstr "Информация об оборудовании"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:84
+msgid "Device name:"
+msgstr "Имя устройства:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:89
+msgid "CPU:"
+msgstr "CPU:"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:94
+msgid "Memory:"
+msgstr "Объем памяти:"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:54
+msgid "System informations"
+msgstr "Системная информация"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:61
+msgid "USB settings"
+msgstr "Настройки USB"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:66
+#: ../src/app/qml/systemTab/UsbMode.qml:31
+msgid "ADB settings"
+msgstr "Настройки ADB"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:74
+msgid "Utilities"
+msgstr "Утилиты"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:44
+msgid "USB mode"
+msgstr "Режим USB"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:50
+msgid "MTP - Media Transfer Protocol"
+msgstr "MTP - Протокол передачи мультимедиа"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:51
+msgid "RNDIS - Remote Network Driver Interface Specification"
+msgstr "RNDIS - Удаленный сетевой драйвер, виртуальная карта Ethernet"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:77
+msgid "Debugging"
+msgstr "Отладка"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:83
+#: ../src/app/qml/systemTab/UsbMode.qml:102
+msgid "Revoke USB debugging authorizations"
+msgstr "Отменить авторизацию отладки USB"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:103
+msgid ""
+"Revoke access to USB debugging from all computers you've previously "
+"authorized?"
+msgstr ""
+"Отменить доступ к отладке по USB со всех компьютеров, которые вы ранее "
+"авторизовали?"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:25
+msgid "Authentication required"
+msgstr "Требуется авторизация"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:27
+msgid "Enter passcode or passphrase:"
+msgstr "Введите код доступа или кодовую фразу:"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:40
+msgid "passcode or passphrase"
+msgstr "пароль или кодовая фраза"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:50
+#: ../src/plugin/pamauthentication/NotifyDialog.qml:25
+msgid "Ok"
+msgstr "Ок"
+
+#: ../src/plugin/pamauthentication/AuthenticationService.qml:59
+msgid "Authentication failed"
+msgstr "Ошибка аутентификации"
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:67
+msgid "Failed with miscellaneous internal error."
+msgstr "Сбой из-за другой внутренней ошибки."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:70
+msgid "Failed with syntax error, or failed to parse command."
+msgstr ""
+"Сбой из-за синтаксической ошибки или не удалось выполнить синтаксический "
+"анализ команды."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:73
+msgid "Failed as a file or directory was not found."
+msgstr "Ошибка, так как файл или каталог не найдены."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:76
+msgid "Nothing useful was done."
+msgstr "Ничего функционального не произошло."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:79
+msgid "The initial setup failed, e.g. setting the network proxy."
+msgstr ""
+"Не удалось выполнить первоначальную настройку, например настройка сетевого "
+"прокси."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:82
+msgid "The transaction failed, see the detailed error for more information."
+msgstr "Транзакция не удалась, см. Подробную информацию об ошибке."

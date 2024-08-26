@@ -1,0 +1,16 @@
+{
+    "name": "jerk-click.kugiigi",
+    "title": "Ambot Installer",
+    "description": "A simple but powerful tool to install awesome and cool hacks and mods",
+    "framework" : "ubuntu-sdk-20.04",
+    "architecture": "@CLICK_ARCH@",
+    "icon": "@ICON@",
+    "hooks": {
+        "jerk-click": {
+            "apparmor": "jerk-click.apparmor",
+            "desktop": "@DESKTOP_FILE@"
+        }
+    },
+    "version": "@VERSION@",
+    "maintainer": "Kugi Eusebio <kugi_eusebio@protonmail.com>"
+}

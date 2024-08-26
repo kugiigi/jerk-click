@@ -1,0 +1,1265 @@
+# French translation for ubuntu-touch-tweak-tool
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the ubuntu-touch-tweak-tool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ubuntu-touch-tweak-tool\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-12 09:46+0000\n"
+"PO-Revision-Date: 2020-11-10 00:20+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/ut-tweak-tool/"
+"ut-tweak-tool/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4-dev\n"
+"X-Launchpad-Export-Date: 2016-12-09 05:45+0000\n"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:11
+#: ../src/app/qml/aboutTab/AboutPage.qml:23
+msgid "About"
+msgstr "À propos"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:26
+msgid "Credits"
+msgstr "Remerciements"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+msgid "Resources"
+msgstr "Ressources"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+msgid "Bugs"
+msgstr "Problèmes"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+msgid "Contact"
+msgstr "Contact"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+msgid "Translations"
+msgstr "Traductions"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
+msgid "Developers"
+msgstr "Développeurs"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:47
+msgid "Founder"
+msgstr "Créateur"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:52
+msgid "Maintainer"
+msgstr "Mainteneur"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
+msgid "Contributor"
+msgstr "Contributeur"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:104
+msgid "Ubuntu Touch Tweak Tool"
+msgstr "Personnalisation d'Ubuntu Touch"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:109
+#, qt-format
+msgid "Version %1"
+msgstr "Version %1"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:117
+msgid ""
+"A Tweak tool application for Ubuntu Touch.<br/>Tweak your device, unlock its "
+"full power! Advanced settings for your ubuntu device."
+msgstr ""
+"Un outil de personalisation d'Ubuntu Touch.<br/>Bidouillez votre appareil, "
+"débloquez son plein potentiel ! Paramètres avancés pour votre appareil sous "
+"Ubuntu."
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:131
+msgid ""
+"A special thanks to all translators, beta-testers, and users<br/>in general "
+"who improve this app with their work and feedback<br/>"
+msgstr ""
+"Un remerciement spécial à tous les traducteurs/trices, béta-testeurs/trices "
+"et utilisateurs/trices<br/>en général qui améliorent cette application par "
+"leur travail et leurs retours<br/>"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:138
+msgid ""
+"(C) 2014-2016 Stefano Verzegnassi<br/>Maintainer (C) 2018 Rudi Timmermans<br/"
+">"
+msgstr ""
+"© 2014-2016 Stefano Verzegnassi<br/>Mainteneur © 2018 Rudi Timmermans<br/>"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:139
+msgid "Maintainer (C) 2018-2024 Imran Iqbal<br/>"
+msgstr "Mainteneur © 2018-2024 Imran Iqbal<br/>"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:147
+msgid "Released under the terms of the GNU GPL v3"
+msgstr "Distribuée sous les termes de la licence GNU GPL v3"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:157
+#, qt-format
+msgid "Source code available on %1"
+msgstr "Code source disponible sous %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:14
+msgid "Details"
+msgstr "Détails"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:18
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:41
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:40
+msgid "General"
+msgstr "Général"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:18
+msgid "Hooks"
+msgstr "Attaches"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:22
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:91
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:88
+msgid "Do you want to uninstall this package?"
+msgstr "Voulez-vous désinstaller ce paquet ?"
+
+#: ../src/app/qml/applicationsTab/ApplicationPage.qml:101
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:217
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:166
+#: ../src/app/qml/behaviourTab/Audio.qml:200
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:304
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
+#: ../src/app/qml/systemTab/Services.qml:84
+#: ../src/app/qml/systemTab/UsbMode.qml:143
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:62
+msgid "Cancel"
+msgstr "Annuler"
+
+#. TRANSLATORS: The template is defined in the AppArmor manifest of a package.
+#. "<i>generic</i>" is used when no template has been defined in the manifest (i.e. it's a standard confined app).
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:80
+#, qt-format
+msgid "Template: %1"
+msgstr "Modèle : %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:80
+msgid "<i>generic</i>"
+msgstr "<i>générique</i>"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:81
+#, qt-format
+msgid "Policy version: %1"
+msgstr "Version de la politique : %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:101
+msgid "Can integrate with your online accounts"
+msgstr "Peut interagir avec vos comptes en ligne"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:104
+msgid "Can play audio"
+msgstr "Peut lire du son"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:107
+msgid "Can access the calendar (reserved)"
+msgstr "Peut accéder au calendrier (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:110
+msgid "Can access the camera"
+msgstr "Peut accéder à la caméra"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:113
+msgid "Can access network connectivity informations"
+msgstr "Peut accéder aux informations de connectivité au réseau"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:116
+msgid "Can access contacts"
+msgstr "Peut accéder aux contacts"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:119
+msgid "Can request/import data from other applications"
+msgstr "Peut demander / importer des données d'autres applications"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:122
+msgid "Can provide/export data to other applications"
+msgstr "Peut fournir / exporter des données vers d'autres applications"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:125
+msgid "Use special debugging tools (reserved)"
+msgstr "Utiliser des outils de débogage spéciaux (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:128
+msgid "Can access message and call history (reserved)"
+msgstr "Peut accéder à l'historique des messages et des appels (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:131
+msgid "In-app purchases"
+msgstr "Achats intégrés aux applications"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:134
+msgid "Can request keeping the screen on"
+msgstr "Peut demander de conserver l'écran allumé"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:137
+msgid "Can access to your current location"
+msgstr "Peut accéder à votre position actuelle"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:140
+msgid "Can access the microphone"
+msgstr "Peut accéder au microphone"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:143
+msgid "Can read and write to music files (reserved)"
+msgstr "Peut lire et écrire dans des fichiers musicaux (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:146
+msgid "Can read all music files (reserved)"
+msgstr "Peut lire tous les fichiers musicaux (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:149
+msgid "Can access the network"
+msgstr "Peut accéder au réseau"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:152
+msgid "Can read and write to pictures files (reserved)"
+msgstr "Peut lire et écrire dans des fichiers images (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:155
+msgid "Can read all pictures files (reserved)"
+msgstr "Peut lire tous les fichiers images (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:158
+msgid "Can use push notifications"
+msgstr "Peut utiliser des notifications"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:161
+msgid "Can access the device sensors"
+msgstr "Peut accéder aux capteurs de l'appareil"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:164
+msgid "Can show informations on the lock screen"
+msgstr "Peut afficher des informations sur l'écran de verrouillage"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:167
+msgid "Can play video"
+msgstr "Peut lire des vidéos"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:170
+msgid "Can read and write to video files (reserved)"
+msgstr "Peut lire et écrire dans des fichiers vidéos (réservé)"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:173
+msgid "Can read all video files (reserved)"
+msgstr "Peut lire tous les fichiers vidéos"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:176
+msgid "Can use the Ubuntu webview component"
+msgstr "Peut utiliser le composant Ubuntu Webview"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:286
+msgid "Can read the following additional paths:"
+msgstr "Peut lire dans les emplacements supplémentaires suivants :"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageHooksTab.qml:309
+msgid "Can write to the following additional paths:"
+msgstr "Peut écrire dans les emplacements supplémentaires suivants :"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:101
+msgid "Description"
+msgstr "Description"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:115
+msgid "Prevent app suspension"
+msgstr "Éviter l'interruption de l'application"
+
+#. TRANSLATORS: "—" is a special char (please copy-paste it into your translation) . "%1" is a formatted string (e.g. 2.56 MB)
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:138
+#, qt-format
+msgid "Disk usage — %1"
+msgstr "Utilisation de l'espace disque — %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:144
+msgid "Application size"
+msgstr "Taille de l'application"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:150
+msgid "Cache size"
+msgstr "Taille du cache"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:156
+msgid "Data size"
+msgstr "Taille des données"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:162
+msgid "Config size"
+msgstr "Taille de la configuration"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:169
+msgid "Clear..."
+msgstr "Effacer…"
+
+#. TRANSLATORS: %1 is the name of the application
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:175
+#, qt-format
+msgid "Clear %1 data"
+msgstr "Effacer les données relatives à %1"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:199
+msgid "Cache:"
+msgstr "Cache :"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:204
+msgid "Application data:"
+msgstr "Données de l'application :"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:209
+msgid "Config:"
+msgstr "Configuration :"
+
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:222
+#: ../src/app/qml/behaviourTab/Audio.qml:219
+#: ../src/app/qml/systemTab/UsbMode.qml:149
+msgid "OK"
+msgstr "Valider"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in GB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:241
+#, qt-format
+msgid "%1 GB"
+msgstr "%1 Go"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in MB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:246
+#, qt-format
+msgid "%1 MB"
+msgstr "%1 Mo"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in kB
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:251
+#, qt-format
+msgid "%1 kB"
+msgstr "%1 ko"
+
+#. TRANSLATORS: %1 is the size of a file, expressed in byte
+#: ../src/app/qml/applicationsTab/ApplicationPageOverviewTab.qml:254
+#, qt-format
+msgid "%1 byte"
+msgstr "%1 octet"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Show all"
+msgstr "Tout afficher"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Contains an app"
+msgstr "Contient une application"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:33
+msgid "Contains a scope"
+msgstr "Contient un moteur de recherche"
+
+#: ../src/app/qml/applicationsTab/ApplicationsTab.qml:39
+msgid "No installed package"
+msgstr "Aucun paquet installé"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:49
+msgid ""
+"NOTE: Favorites are no longer supported in the new app drawer, so this "
+"feature will be removed after OTA-12."
+msgstr ""
+"NOTE : les favoris ne sont plus pris en charge dans le nouveau lanceur "
+"étendu, cette fonctionnalité sera donc supprimée après l'OTA-12."
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:50
+msgid ""
+"Set your favorite apps to be shown in the applications scope.<br>Swipe to "
+"right to delete an item. Press and hold will activate the sort mode."
+msgstr ""
+"Indiquez vos applications favorites à afficher dans le moteur de recherche "
+"des applications.<br>Faites glisser votre doigt à droite pour supprimer un "
+"élément. Un appui long activera le mode tri."
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:54
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:147
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:36
+msgid "Favorite apps"
+msgstr "Applications favorites"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:64
+msgid "No favorite specified"
+msgstr "Aucun favori spécifié"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:65
+msgid ""
+"Default applications will be shown in the 'App' scope.\n"
+"Tap the '+' in the header to add a favorite app."
+msgstr ""
+"Les applications par défaut seront affichées dans le moteur de recherche "
+"« Applications ».\n"
+"Appuyez sur « + » dans l'en-tête pour ajouter une application dans les "
+"favoris."
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:84
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:67
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:118
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:170
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:227
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:96
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:94
+msgid "<i>This app is currently uninstalled.</i>"
+msgstr "<i>Cette application est actuellement désinstallée.</i>"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:103
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavs.qml:152
+#: ../src/app/qml/behaviourTab/AppsScopeFavsAddFromInstalled.qml:34
+msgid "Add new favorite"
+msgstr "Ajouter un nouveau favori"
+
+#: ../src/app/qml/behaviourTab/AppsScopeFavsAddFromInstalled.qml:52
+msgid "Available apps"
+msgstr "Applications disponibles"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:47
+msgid "Notification sound"
+msgstr "Sons de notification"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:108
+msgid ""
+"Please note that if you choose an audio file from an external media (e.g. SD "
+"card), that file could not be played if the media will be removed."
+msgstr ""
+"Veuillez noter que si vous choisissez un fichier audio à partir d'un "
+"périphérique (par exemple une carte mémoire), ce fichier ne pourra pas être "
+"lu si le périphérique est débranché."
+
+#: ../src/app/qml/behaviourTab/Audio.qml:111
+msgid "Message received"
+msgstr "Message reçu"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:115
+msgid ""
+"Ensure your audio file length is max. 10 seconds.<br><b>N.B.</b> The file "
+"will be played until its end: if you use a 3 minutes song, your device will "
+"be ringing for that time!"
+msgstr ""
+"Assurez-vous que votre fichier audio fait moins de 10 secondes.<br><b>Note</"
+"b> Le fichier sera lu jusqu'à sa fin : si vous utilisez un morceau de 3 "
+"minutes, votre appareil sonnera pendant tout ce temps !"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:119
+msgid ""
+"This feature needs to create a file inside your system (/usr/share/sounds/"
+"ubuntu/notifications) to avoid breaking notification sound from other "
+"applications such as Telegram and FluffyChat.<br><b>N.B.</b> Please, note "
+"that it will be removed after every system update, you'll need to set it up "
+"again."
+msgstr ""
+"Cette fonctionnalité a besoin de créer un fichier au sein de votre système (/"
+"usr/share/sounds/ubuntu/notifications) afin d'éviter d'interférer avec les "
+"sons de notification des autres applications telles que Telegram et "
+"FluffyChat.<br><b>Note</b> Veuillez noter qu'il sera supprimé après chaque "
+"mise à jour du système, vous devrez donc le reconfigurer."
+
+#: ../src/app/qml/behaviourTab/Audio.qml:125
+msgid "Current notification sound:"
+msgstr "Son actuel de notification :"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:127
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:134
+msgid "Pick"
+msgstr "Sélectionner"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:136
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:257
+msgid "Restore default..."
+msgstr "Restaurer le son par défaut…"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:163
+msgid "Choose a notification sound"
+msgstr "Choisissez un son de notification"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:187
+msgid "Restore default"
+msgstr "Restaurer le son par défaut"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:188
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr(e) ?"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:191
+msgid "Restore"
+msgstr "Restaurer"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:215
+msgid "MP3 File Selected"
+msgstr "Fichier MP3 sélectionné"
+
+#: ../src/app/qml/behaviourTab/Audio.qml:216
+msgid ""
+"OGG format is highly recommended. Currently, MP3 format breaks the "
+"notification sound for other apps such as Telegram and FluffyChat"
+msgstr ""
+"Le format OGG est grandement recommandé. Actuellement, le format MP3 "
+"interfère avec le son de notification d'autres applications telles que "
+"Telegram et FluffyChat"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:32
+msgid "Application scope"
+msgstr "Moteur de recherche d'applications"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:43
+msgid "Unity 8"
+msgstr "Unity 8"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:47
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:32
+msgid "Scaling"
+msgstr "Mise à l'échelle"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:52
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:29
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:68
+msgid "Usage mode"
+msgstr "Mode d'utilisation"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:57
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:29
+msgid "Launcher"
+msgstr "Lanceur"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:62
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:29
+msgid "Indicators"
+msgstr "Indicateurs"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:67
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:31
+msgid "Edge sensitivity"
+msgstr "Sensibilité des bords"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:74
+msgid "Audio"
+msgstr "Audio"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:78
+msgid "Set a custom notification sound"
+msgstr "Personnaliser le son des notifications"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:85
+msgid "Experimental"
+msgstr "Expérimental"
+
+#: ../src/app/qml/behaviourTab/BehaviourTab.qml:89
+#: ../src/app/qml/behaviourTab/Theme.qml:32
+msgid "System theme"
+msgstr "Thème du système"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:51
+msgid "Unity 8 has three available themes"
+msgstr "Unity 8 possède trois thèmes"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:52
+msgid "Restart any open apps to use the selected theme."
+msgstr ""
+"Redémarrer tous les applications ouvertes pour utiliser le thème sélectionné."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:53
+msgid ""
+"Alternatively, use this feature to open different apps with different themes."
+msgstr ""
+"Utilisez ceci sinon pour ouvrir des applications différentes avec des thèmes "
+"différents."
+
+#: ../src/app/qml/behaviourTab/Theme.qml:56
+msgid "Theme selection"
+msgstr "Sélection du thème"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:61
+msgid "(default theme)"
+msgstr "(thème par défaut)"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:62
+msgid "(dark theme)"
+msgstr "(thème sombre)"
+
+#: ../src/app/qml/behaviourTab/Theme.qml:63
+msgid "(test theme, unsupported)"
+msgstr "(thème test, non pris en charge)"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:42
+msgid "Edge barrier sensitivity"
+msgstr "Seuil de sensibilité des bords"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:50
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:102
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:154
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:209
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:80
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:191
+#, qt-format
+msgid "Current value: %1"
+msgstr "Valeur actuelle : %1"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:51
+msgid "Sensitivity of screen edge barriers for the mouse pointer."
+msgstr ""
+"Seuil de sensibilité des bords de l'écran pour le pointeur de la souris."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:52
+msgid ""
+"Some UI actions like revealing the launcher or the applications spread are "
+"triggered by pushing the mouse pointer against a screen edge. This key "
+"defines how much you have to push in order to trigger the associated action."
+msgstr ""
+"Certaines actions de l'interface utilisateur comme l'apparition du lanceur "
+"ou le déclenchement du mode exposé sont déclenchées en déplaçant le curseur "
+"de la souris contre un des bords de l'écran. Cette clé définit de combien "
+"vous devez déplacer la souris pour déclencher les actions associées."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:94
+msgid "Edge barrier minimum push"
+msgstr "Déplacement minimal de seuil de bord"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:103
+msgid "Minimum push needed to overcome edge barrier."
+msgstr "Déplacement minimal pour dépasser le seuil de bord."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:104
+msgid ""
+"How much you have to push (in grid units) the mouse against an edge barrier "
+"when sensibility is 100."
+msgstr ""
+"De combien vous devez déplacer (en unités de grille) la souris à proximité "
+"d'un seuil de bord lorsque la sensibilité est réglée à 100."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:146
+msgid "Edge barrier maximum push"
+msgstr "Poussée maximale sur le seuil de bord"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:155
+msgid "Maximum push needed to overcome edge barrier."
+msgstr "Déplacement maximal pour dépasser le seuil de bord."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:156
+msgid ""
+"How much you have to push (in grid units) the mouse against an edge barrier "
+"when sensibility is 1."
+msgstr ""
+"De combien vous devez déplacer (en unités de grille) la souris à proximité "
+"d'un seuil de bord lorsque la sensibilité est réglée à 1."
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:198
+msgid "Edge drag areas width"
+msgstr "Largeur des zones activées par glissement sur les bords"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:210
+msgid "The width of the edge drag areas"
+msgstr "La largeur des zones d'action sur les bords"
+
+#: ../src/app/qml/behaviourTab/Unity8EdgeSensitivity.qml:211
+msgid "How big (in grid units) the edge-drag sensitive area should be."
+msgstr ""
+"De quelle taille (en unités de grille) doit être la zone sensible d'action "
+"près du bord."
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:49
+msgid "Enable the indicator menu"
+msgstr "Activer le menu des indicateurs"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:50
+msgid "Enable or disable the indicator menu"
+msgstr "Activer ou désactiver le menu des indicateurs"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:65
+msgid "Battery"
+msgstr "Batterie"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:68
+msgid "Show percentage on panel"
+msgstr "Afficher le pourcentage dans les indicateurs"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:76
+msgid "Date & Time"
+msgstr "Date et heure"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:79
+msgid "Show Calendar"
+msgstr "Afficher le calendrier"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:88
+msgid "Show Events"
+msgstr "Afficher les évènements"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:97
+msgid "Show Week Numbers"
+msgstr "Afficher les numéros de semaine"
+
+#: ../src/app/qml/behaviourTab/Unity8Indicators.qml:98
+msgid "Enable showing week numbers on calendar"
+msgstr "Activer l'affichage des numéros de semaine dans le calendrier"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:43
+msgid "Enable the launcher"
+msgstr "Activer le lanceur d'application"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:44
+msgid "Enable or disable the launcher"
+msgstr "Activer ou désactiver le lanceur d'application"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:60
+msgid "Autohide"
+msgstr "Masquage automatique"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:61
+msgid ""
+"This will only be applied in windowed mode. In staged mode, the launcher "
+"will always hide."
+msgstr ""
+"Ceci s'appliquera uniquement en mode fenêtré. En mode scène, le lanceur sera "
+"toujours masqué."
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:72
+msgid "Launcher width"
+msgstr "Largeur du lanceur"
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:81
+msgid "Width of the launcher in grid units."
+msgstr "Largeur du lanceur en unités de grille."
+
+#: ../src/app/qml/behaviourTab/Unity8Launcher.qml:82
+msgid "Changes the width of the launcher in all usage modes."
+msgstr "Modifie la largeur du lanceur dans tous les modes d'utilisation."
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:65
+msgid ""
+"This setting allows you to switch from the stage mode (default for mobile "
+"device) to the windowed mode."
+msgstr ""
+"Ce paramètre vous permet de basculer du mode scène (par défaut sur les "
+"appareils mobiles) au mode fenêtré."
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Staged"
+msgstr "Mode scène"
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Windowed"
+msgstr "Mode fenêtré"
+
+#: ../src/app/qml/behaviourTab/Unity8Mode.qml:71
+msgid "Automatic"
+msgstr "Automatique"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:129
+msgid "Large Text"
+msgstr "Gros texte"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:147
+msgid "Normal Text"
+msgstr "Texte normal"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:157
+msgid "Small Text"
+msgstr "Petit texte"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:172
+msgid "Preview (Approximation only)"
+msgstr "Aperçu (approximation uniquement)"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:183
+msgid "Grid Unit"
+msgstr "Unité de grille"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:191
+#, qt-format
+msgid "New value: %1"
+msgstr "Nouvelle valeur : %1"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:192
+msgid "Unity 8 scaling in grid units."
+msgstr "Mise à l'échelle d'Unity 8 en unités de grille."
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:193
+msgid "How much pixels should there be in 1 grid unit."
+msgstr "Combien de pixels il devrait y avoir dans une unité de grille."
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:233
+msgid "Test"
+msgstr "Tester"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:243
+msgid "Apply"
+msgstr "Appliquer"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:277
+msgid ""
+"This is just temporary and a device reboot will revert back to the default "
+"scaling"
+msgstr ""
+"Ceci est juste temporaire et un redémarrage de l'appareil le fera revenir à "
+"la mise à l'échelle par défaut"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:280
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:291
+msgid "This will make the scaling persistent and will survive a device reboot"
+msgstr ""
+"Ceci rendra la mise à l'échelle permanente et survivra à un redémarrage de "
+"l'appareil"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:283
+msgid "This will restore to the default scaling"
+msgstr "Ceci restaurera la mise à l'échelle par défaut"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:290
+msgid "Apply new setting"
+msgstr "Appliquer les nouveaux paramètres"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:290
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:295
+#: ../src/app/qml/systemTab/Services.qml:46
+#: ../src/app/qml/systemTab/Services.qml:69
+#: ../src/app/qml/systemTab/Services.qml:75
+msgid "Restart Unity 8"
+msgstr "Redémarrer Unity 8"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:291
+msgid ""
+"This change requires restarting Unity 8 to take effect. Do you want to "
+"restart Unity 8 now? All currently opened apps will be closed. Save all your "
+"works before continuing!"
+msgstr ""
+"Cette modification nécessite de redémarrer Unity 8 pour prendre effet. "
+"Souhaitez-vous redémarrer Unity 8 maintenant ? Toutes les applications "
+"actuellement ouvertes seront fermées. Enregistrez l'ensemble de votre "
+"travail avant de continuer !"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:292
+msgid "Note:"
+msgstr "Note :"
+
+#: ../src/app/qml/behaviourTab/Unity8Scaling.qml:295
+msgid "Proceed"
+msgstr "Continuer"
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:61
+msgid "Select None"
+msgstr "Ne rien sélectionner"
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:63
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:201
+msgid "Back to parent folder"
+msgstr "Retourner au dossier parent"
+
+#: ../src/app/qml/components/FilePickerPage.qml:31
+msgid "Pick a file"
+msgstr "Choisir un fichier"
+
+#: ../src/app/qml/main.qml:72
+msgid "Behavior"
+msgstr "Comportement"
+
+#: ../src/app/qml/main.qml:78
+msgid "Apps + Scopes"
+msgstr "Applications & Moteurs de recherche"
+
+#: ../src/app/qml/main.qml:84 ../src/app/qml/systemTab/SystemTab.qml:33
+msgid "System"
+msgstr "Système"
+
+#. TRANSLATORS: This is the app name as it is shown in app drawer.  Once set, it really shouldn't be changed again.
+#: ../src/app/qml/main.qml:106 ../src/app/qml/main.qml:110
+#: /home/scratch/GitLab/ut-tweak-tool/build/arm-linux-gnueabihf/app/po/ut-tweak-tool.sverzegnassi.desktop.in.in.h:1
+msgid "UT Tweak Tool"
+msgstr "Personnalisation d'UT"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:32
+#: ../src/app/qml/systemTab/ClickInstall.qml:146
+#: ../src/app/qml/systemTab/SystemTab.qml:37
+msgid "Install click package"
+msgstr "Installer un paquet Click"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:54
+msgid "Select package"
+msgstr "Sélectionner un paquet"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:58
+msgid "Selected package"
+msgstr "Paquet sélectionné"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:59
+msgid "<i>None</i>"
+msgstr "<i>Aucun</i>"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:63
+msgid "Pick..."
+msgstr "Choisir…"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:74
+msgid "Install"
+msgstr "Installer"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:88
+msgid "Output:"
+msgstr "Sortie :"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:115
+msgid "Choose a package"
+msgstr "Choisir un paquet"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:131
+msgid "Error"
+msgstr "Erreur"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:135
+#: ../src/app/qml/systemTab/ClickInstall.qml:150
+msgid "Close"
+msgstr "Fermer"
+
+#: ../src/app/qml/systemTab/ClickInstall.qml:147
+msgid "The package has been successfully installed."
+msgstr "Le paquet a été installé avec succès."
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:32
+#: ../src/app/qml/systemTab/SystemTab.qml:42
+msgid "Make image writable"
+msgstr "Rendre l'image modifiable"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:46
+msgid ""
+"Be very careful when editing the filesystem image. There is a high risk of "
+"breaking OTA updates."
+msgstr ""
+"Soyez prudent en modifiant l'image du système de fichiers. Il y a un risque "
+"élevé de rompre les mises à jour OTA."
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:50
+#: ../src/app/qml/systemTab/SSH.qml:55
+msgid "Available settings"
+msgstr "Paramètres disponibles"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:55
+msgid "[Read-Only] Default setting"
+msgstr "[Lecture seule] Paramètre par défaut"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:56
+msgid "[Read-Write] Temporary (until reboot)"
+msgstr "[Lecture et écriture] Temporaire (jusqu'au redémarrage)"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:57
+msgid "[Read-Write] Permanent (persists after reboot)"
+msgstr "[Lecture et écriture] Permanente (persiste après le redémarrage)"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:101
+msgid "Output"
+msgstr "Sortie"
+
+#: ../src/app/qml/systemTab/ImageWritable.qml:110
+msgid "Any errors will be displayed below."
+msgstr "Toutes les erreurs seront affichées ci-dessous."
+
+#: ../src/app/qml/systemTab/SSH.qml:31
+#: ../src/app/qml/systemTab/SystemTab.qml:48
+msgid "SSH settings"
+msgstr "Paramètres SSH"
+
+#: ../src/app/qml/systemTab/SSH.qml:45
+msgid ""
+"For information on how to configure SSH, refer back to the UBports "
+"documentation:"
+msgstr ""
+"Pour savoir comment configurer SSH, référez-vous à la documentation "
+"d'UBports :"
+
+#. TRANSLATORS: Select the best available language for http://docs.ubports.com
+#: ../src/app/qml/systemTab/SSH.qml:48
+msgid "en"
+msgstr "fr"
+
+#. TRANSLATORS: Use the documentation's page title for the selected language
+#: ../src/app/qml/systemTab/SSH.qml:51
+msgid "Shell access via ssh"
+msgstr "Accès shell via SSH"
+
+#: ../src/app/qml/systemTab/SSH.qml:58
+msgid "Enable SSH access"
+msgstr "Activer l'accès SSH"
+
+#: ../src/app/qml/systemTab/Services.qml:30
+#: ../src/app/qml/systemTab/SystemTab.qml:78
+msgid "Services"
+msgstr "Services"
+
+#: ../src/app/qml/systemTab/Services.qml:42
+msgid "Restart services"
+msgstr "Redémarrer les services"
+
+#: ../src/app/qml/systemTab/Services.qml:48
+msgid "Close all running apps and restart the home screen."
+msgstr ""
+"Fermer toutes les applications en cours et redémarrer l'écran d'accueil."
+
+#: ../src/app/qml/systemTab/Services.qml:70
+msgid "Do you want to restart Unity 8 now?"
+msgstr "Voulez-vous redémarrer Unity 8 maintenant ?"
+
+#: ../src/app/qml/systemTab/Services.qml:71
+msgid "All currently open apps will be closed."
+msgstr "Toutes les applications actuellement ouvertes seront fermées."
+
+#: ../src/app/qml/systemTab/Services.qml:72
+msgid "Save all your work before continuing!"
+msgstr "Enregistrez tout votre travail avant de continuer !"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:29
+msgid "<i>Unknown</i>"
+msgstr "<i>Inconnu</i>"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:40
+msgid "System information"
+msgstr "Informations sur le système"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:54
+msgid "Ubuntu Touch information"
+msgstr "Informations sur Ubuntu Touch"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:58
+msgid "Kernel:"
+msgstr "Noyau :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:63
+msgid "System platform:"
+msgstr "Plate-forme du système :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:68
+msgid "Distro:"
+msgstr "Distribution :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:73
+msgid "Desktop environment:"
+msgstr "Environnement de bureau :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:80
+msgid "Hardware information"
+msgstr "Informations sur le matériel"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:84
+msgid "Device name:"
+msgstr "Nom du périphérique :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:89
+msgid "CPU:"
+msgstr "Processeur :"
+
+#: ../src/app/qml/systemTab/SystemInfo.qml:94
+msgid "Memory:"
+msgstr "Mémoire :"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:54
+msgid "System informations"
+msgstr "Informations sur le système"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:61
+msgid "USB settings"
+msgstr "Paramètres de l'USB"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:66
+#: ../src/app/qml/systemTab/UsbMode.qml:32
+msgid "ADB settings"
+msgstr "Paramètres ADB"
+
+#: ../src/app/qml/systemTab/SystemTab.qml:74
+msgid "Utilities"
+msgstr "Utilitaires"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:45
+msgid "USB mode"
+msgstr "Mode USB"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:51
+msgid "MTP - Media Transfer Protocol"
+msgstr "MTP - Media Transfer Protocol (Protocole de transfert des médias)"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:52
+msgid "RNDIS - Remote Network Driver Interface Specification"
+msgstr ""
+"RNDIS - Remote Network Driver Interface Specification (Norme d'interface de "
+"pilote de réseau à distance)"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:109
+msgid "Debugging"
+msgstr "Débogage"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:115
+#: ../src/app/qml/systemTab/UsbMode.qml:134
+msgid "Revoke USB debugging authorizations"
+msgstr "Révoquer les autorisations de débogage USB"
+
+#: ../src/app/qml/systemTab/UsbMode.qml:135
+msgid ""
+"Revoke access to USB debugging from all computers you've previously "
+"authorized?"
+msgstr ""
+"Révoquer les accès au débogage USB pour tous les ordinateurs que vous avez "
+"autorisés précédemment ?"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:25
+msgid "Authentication required"
+msgstr "Authentification requise"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:27
+msgid "Enter passcode or passphrase:"
+msgstr "Saisissez le code ou le mot de passe :"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:40
+msgid "passcode or passphrase"
+msgstr "Code ou mot de passe"
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:50
+msgid "Authenticate"
+msgstr "S'authentifier"
+
+#: ../src/plugin/pamauthentication/AuthenticationService.qml:59
+msgid "Authentication failed"
+msgstr "Échec de l'authentification"
+
+#: ../src/plugin/pamauthentication/NotifyDialog.qml:25
+msgid "Ok"
+msgstr "Valider"
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:67
+msgid "Failed with miscellaneous internal error."
+msgstr "Échec lié à des erreurs internes diverses."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:70
+msgid "Failed with syntax error, or failed to parse command."
+msgstr ""
+"Échec lié à une erreur de syntaxe ou à l'échec de l'analyse de la commande."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:73
+msgid "Failed as a file or directory was not found."
+msgstr "Échec de la recherche d'un fichier ou d'un répertoire."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:76
+msgid "Nothing useful was done."
+msgstr "Rien d'utile n'a été fait."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:79
+msgid "The initial setup failed, e.g. setting the network proxy."
+msgstr ""
+"La configuration initiale a échoué, par exemple le paramétrage du proxy "
+"réseau."
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:82
+msgid "The transaction failed, see the detailed error for more information."
+msgstr ""
+"La transaction a échoué, voir le rapport d'erreur détaillé pour plus "
+"d'informations."
+
+#: /home/scratch/GitLab/ut-tweak-tool/build/arm-linux-gnueabihf/app/po/ut-tweak-tool.sverzegnassi.desktop.in.in.h:2
+msgid "tweak;tool;settings;"
+msgstr "tweak;personnalisation;tool;outil;paramètres;"
+
+#: /home/scratch/GitLab/ut-tweak-tool/build/arm-linux-gnueabihf/app/po/ut-tweak-tool.sverzegnassi.desktop.in.in.h:3
+msgid "Advanced settings for your Ubuntu device"
+msgstr "Paramètres avancés pour votre appareil sous Ubuntu"
+
+#~ msgid "Write permissions"
+#~ msgstr "Droits d'écriture"
+
+#~ msgid "Reboot device"
+#~ msgstr "Redémarrer l'appareil"
+
+#~ msgid ""
+#~ "This change require a reboot to take effect. Do you want to reboot the "
+#~ "device now?"
+#~ msgstr ""
+#~ "Cette modification nécessite de redémarrer avant de prendre effet. Voulez-"
+#~ "vous redémarrer l'appareil maintenant ?"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "Currently, only the default theme (Ambiance) is well-supported."
+#~ msgstr ""
+#~ "Actuellement, seul le thème par défaut (Ambiance) est bien supporté."
+
+#~ msgid "The other themes are only useful for testing purposes."
+#~ msgstr "Les autres thèmes sont uniquement proposés à des fins de test."
+
+#~ msgid "This change requires restarting Unity 8 to take effect."
+#~ msgstr "Ce changement nécessite de redémarrer Unity 8 pour prendre effet."
+
+#~ msgid "Battery information"
+#~ msgstr "Informations relatives à la batterie"
+
+#~ msgid "Level:"
+#~ msgstr "Niveau :"
+
+#~ msgid "Cycle count:"
+#~ msgstr "Nombre de cycles :"
+
+#~ msgid "Maximum capacity:"
+#~ msgstr "Capacité maximum :"
+
+#~ msgid "Remaining capacity:"
+#~ msgstr "Capacité restante :"
+
+#~ msgid "Capacity:"
+#~ msgstr "Capacité :"
+
+#~ msgid "Health:"
+#~ msgstr "Santé :"
+
+#~ msgid "Bad"
+#~ msgstr "Mauvaise"
+
+#~ msgid "Temperature:"
+#~ msgstr "Température :"
+
+#~ msgid "Hardware Information"
+#~ msgstr "Informations sur le matériel"
+
+#~ msgid "Reboot"
+#~ msgstr "Redémarrer"
+
+#~ msgid "Ubuntu Touch Information"
+#~ msgstr "Informations sur Ubuntu Touch"
+
+#~ msgid ""
+#~ "Here you can switch your USB connection from MTP mode (data transfer) to "
+#~ "the RNDIS mode, which allows you to share the internet connection of your "
+#~ "PC when connected via USB."
+#~ msgstr ""
+#~ "Vous pouvez choisir ici de faire basculer votre connexion USB du mode MTP "
+#~ "(transfert de données) au mode RNDIS, qui vous permet de partager la "
+#~ "connexion Internet de votre ordinateur lorsque celui-ci est connecté en "
+#~ "USB."

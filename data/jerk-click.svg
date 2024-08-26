@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="jerk_logo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="121.12321"
+     inkscape:cy="154.18331"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1866"
+     inkscape:window-height="1016"
+     inkscape:window-x="54"
+     inkscape:window-y="1107"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-229.26665)">
+    <rect
+       style="opacity:1;fill:#6299b6;fill-opacity:1;stroke:none;stroke-width:8.71375275;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect821"
+       width="68.821907"
+       height="70.692787"
+       x="-0.53454685"
+       y="227.37627"
+       ry="2.0735822" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="overlay">
+    <g
+       aria-label="&gt;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.86111069px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text826"
+       transform="translate(-3.6420145)">
+      <path
+         d="m 9.2460118,25.341042 1.4803952,-4.384245 24.597322,10.419699 v 4.555059 L 10.726407,46.351254 9.2460118,41.967008 29.459089,33.654025 Z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.86111069px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.32848987"
+         id="path828"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-0.01254317,0.86722013,0.86722013,0.01254317,-188.68798,-1.4989846)"
+       aria-label="J"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.86111069px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text833">
+      <path
+         d="m 51.02088,278.88851 q 0,2.29306 -0.504472,4.26509 -0.458611,1.97202 -1.696861,3.48544 -1.192389,1.46756 -3.256139,2.33892 -2.017889,0.8255 -5.090583,0.8255 -1.559278,0 -2.88925,-0.27517 -1.284111,-0.22931 -2.338917,-0.59619 -1.054806,-0.41275 -1.834444,-0.8255 -0.779639,-0.45862 -1.23825,-0.87137 l 1.742722,-3.5313 q 0.963083,0.68792 2.4765,1.46755 1.559278,0.73378 3.852333,0.73378 3.302,0 4.815417,-1.651 1.513416,-1.69686 1.513416,-5.7785 v -21.14197 h 4.448528 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.86111069px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         id="path835"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

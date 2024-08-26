@@ -1,0 +1,2 @@
+add_subdirectory(pamauthentication)
+add_subdirectory(tweaktool)

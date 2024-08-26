@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+clickable_minimum_required: '8'
+builder: 'cmake'
+kill: 'jerk-click'
+dependencies_target:
+  - 'libpam0g-dev'
+  - 'libgsettings-qt-dev'
+  - 'qtdeclarative5-gsettings1.0'
+# `clickable build` would otherwise always fail with error:
+#     (NEEDS REVIEW) 'unconfined' not allowed
+skip_review: true

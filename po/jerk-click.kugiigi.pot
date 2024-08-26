@@ -1,0 +1,796 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-26 07:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:11
+#: ../src/app/qml/aboutTab/AboutPage.qml:23
+msgid "About"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:26
+msgid "Credits"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+#: ../src/app/qml/aboutTab/AboutPage.qml:45
+msgid "Resources"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:42
+msgid "Bugs"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:43
+msgid "Contact"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:44
+msgid "Jerk Installer"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:45
+msgid "Jerk Packages"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+msgid "Developers"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
+msgid "Main Developer"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:100 ../src/app/qml/main.qml:100
+#: ../src/app/qml/main.qml:104
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
+msgid "Ambot Installer"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:105
+#, qt-format
+msgid "Version %1"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:113
+msgid "Installer of fun, useful but possibly dangerous hacks and mods."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:127
+msgid "(C) 2024 Kugi Eusebio"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:135
+msgid "Released under the terms of the GNU GPL v3"
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:145
+#, qt-format
+msgid "Source code available on %1"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:56
+msgid "Reset Components"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:69
+msgid "Restart Components"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:82
+msgid "OTA Updates"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:86
+msgid "Block"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:92
+msgid "Unblock"
+msgstr ""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
+#: ../src/app/qml/components/InstallerActionsItem.qml:413
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:62
+msgid "Cancel"
+msgstr ""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:61
+msgid "Select None"
+msgstr ""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:63
+msgid "Select All"
+msgstr ""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:134
+msgid "Pick"
+msgstr ""
+
+#: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:201
+msgid "Back to parent folder"
+msgstr ""
+
+#: ../src/app/qml/components/FilePickerPage.qml:31
+msgid "Pick a file"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:118
+#, qt-format
+msgid "Installing %1..."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:123
+#, qt-format
+msgid "Uninstalling %1..."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:128
+#, qt-format
+msgid "Resetting %1..."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:133
+msgid "Blocking OTA..."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:138
+msgid "Unblocking OTA..."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:240
+#, qt-format
+msgid ""
+"You can try the 'Reset %1' button or reflash (without wipe) via UBports "
+"Installer to restore the clean version"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:242
+#, qt-format
+msgid ""
+"%1 currently has modifications installed. It is highly recommended to reset "
+"the component first or uninstall these modifications. "
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:243
+msgid ""
+"Multiple installed packages in a single component is not recommended as it "
+"has higher chance for conflicts and issues."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:251
+msgid ""
+"This will restart the whole system UI and close all your open apps. Save "
+"your work before proceeding."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:252
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart, your device will be totally unusable until "
+"you reflash (without wipe)."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:253
+#: ../src/app/qml/components/InstallerActionsItem.qml:278
+msgid "Make sure you have access to UBports Installer, just in case."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:258
+msgid "This will restart the on-screen keyboard."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:259
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart, you won't be able to type or even login to "
+"your device without a physical keyboard or biometric login."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:263
+msgid "This will restart the System Settings app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:264
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart, you won't be able to open the %1 and change "
+"any setting."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:276
+#, qt-format
+msgid "This will modify %1, the desktop environment or system UI."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:277
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, your device will be "
+"totally unusable until you reflash (without wipe)."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:283
+msgid "This will modify the on-screen keyboard."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:284
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, you won't be able to "
+"type or even login to your device without a physical keyboard or biometric "
+"login."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:288
+msgid "This will modify the Bluetooth configuration."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:289
+msgid ""
+"\n"
+"\n"
+"WARNING: If the configuration changes cause an error, you may not be able to "
+"use any Bluetooth function."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:293
+msgid "This will modify the Lomiri Toolkit."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:294
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, all apps that use it "
+"will fail to open, including this app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:298
+msgid "This will modify the System Settings app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:299
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, you won't be able to "
+"open the System Settings app and change any setting."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:303
+msgid "This will modify the Web app container."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:304
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, all web apps will stop "
+"working and won't open."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:315
+#, qt-format
+msgid ""
+"This will try to uninstall %1. This is a cleaner way of uninstalling as it "
+"cleans up all files."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:316
+msgid ""
+"However, this may take a long time to finish especially with big packages "
+"like Lomiri Plus."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:317
+#, qt-format
+msgid ""
+"If this fails, try the 'Reset' function which will revert all modified files "
+"in %1 to their original copies and it's a faster process."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:318
+#, qt-format
+msgid ""
+"New files will be retained though. Reflash (without wipe) to get a clean "
+"install of %1"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:323
+#, qt-format
+msgid "This will reset %1 and remove all modifications"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:328
+msgid "This will block OTA updates via the System Settings app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:329
+msgid ""
+"This is to prevent accidental update that may cause conflicts and issues."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:330
+msgid ""
+"Delta OTA updates only update parts of the system and has a higher chance of "
+"conflicting with our modifications."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:336
+msgid "This will unblock OTA updates via the System Settings app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:337
+msgid ""
+"\n"
+"\n"
+"It is highly recommended to reset all components instead of unblocking "
+"manually."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:346
+#: ../src/app/qml/components/InstallerActionsItem.qml:522
+#: ../src/app/qml/installerTab/PackagePage.qml:149
+#, qt-format
+msgid "Restart %1"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:349
+#, qt-format
+msgid "Install %1"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:352
+#, qt-format
+msgid "Uninstall %1"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:355
+#: ../src/app/qml/components/InstallerActionsItem.qml:533
+#: ../src/app/qml/installerTab/PackagePage.qml:124
+#, qt-format
+msgid "Reset %1"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:358
+msgid "Block OTA Updates"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:361
+msgid "Unblock OTA Updates"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:371
+msgid "Restart"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:374
+#: ../src/app/qml/installerTab/PackagePage.qml:100
+msgid "Install Anyway"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:374
+#: ../src/app/qml/installerTab/PackagePage.qml:100
+msgid "Install"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:377
+msgid "Uninstall"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:380
+msgid "Reset"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:383
+msgid "Block OTA"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:386
+msgid "Unblock OTA"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:389
+msgid "Proceed"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:442
+msgid ""
+"OTA updates are blocked in the System Settings app until you use the 'Reset "
+"All' or 'Unblock OTA Updates' function in this app."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:443
+msgid "This is to avoid conflicts with delta OTA updates."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:451
+#, qt-format
+msgid "Restart %1 to make the changes take effect."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:453
+msgid "Reboot to make the changes take effect."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:455
+msgid "Apps have to be restarted before the changes take effect."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:457
+msgid "Web apps have to be restarted before the changes take effect."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:465
+msgid "Installed successfully"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:465
+msgid "Installation Failed"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:468
+msgid "Uninstalled successfully"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:468
+msgid "Uninstallation Failed"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:471
+msgid "Reset successful"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:471
+msgid "Reset Failed"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:474
+msgid "OTA Updates successfully blocked"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:474
+msgid "Failed to block OTA updates"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:477
+msgid "OTA Updates successfully unblocked"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:477
+msgid "Failed to unblock OTA updates"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:484
+#, qt-format
+msgid "%1 was successfully installed."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:487
+#, qt-format
+msgid ""
+"%1 cannot be installed. It may not be compatible with your system or you "
+"already have this package installed."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:488
+#, qt-format
+msgid "Try uninstalling or resetting %1 and try again."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:491
+#, qt-format
+msgid "%1 was successfully uninstalled."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:493
+#, qt-format
+msgid "%1 cannot be uninstalled. This package may not be installed yet."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:494
+#, qt-format
+msgid "Try resetting %1 instead."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:497
+#, qt-format
+msgid "%1 was successfully reset."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:499
+#, qt-format
+msgid "%1 cannot be reset. An unexpected issue was encountered."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:500
+msgid "Please contact the developer."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:503
+msgid "OTA updates via System Settings app has been blocked."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:504
+msgid ""
+"Use the 'Unblock OTA Updates' or 'Reset All Components' function to re-"
+"enable OTA updates"
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:505
+msgid "OTA updates cannot be blocked.."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:506
+msgid "OTA updates might be blocked already or this app needs to be updated."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:509
+msgid "OTA updates via System Settings app has been re-enabled."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:510
+msgid ""
+"Make sure you have no remaining modifications installed before applying an "
+"OTA update."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:511
+msgid ""
+"This is to avoid any conflict between our modifications and system updates."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:513
+msgid "OTA updates cannot be unblocked.."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:514
+msgid "OTA updates might not be blocked yet or this app needs to be updated."
+msgstr ""
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:543
+msgid "Close"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:13
+msgid "Bluetooth"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:18
+msgid "BREDR-FAST"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:19
+msgid ""
+"Changes controller mode from 'auto' to 'bredr' and enables 'FastConnectable'."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:26
+msgid "Lomiri"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:31
+msgid "Lomiri Plus Essentials"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:32
+msgid ""
+"Minimal Lomiri Plus that only includes essential hacks such as notch & "
+"rounded corner support."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:39
+msgid "Lomiri Plus"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:40
+msgid "Kugi's playground for Lomiri experiments."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:47
+msgid "On-Screen Keyboard"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:52
+msgid "Malakiboard"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:53
+msgid "Kugi's playground for the on-screen keyboard."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:60
+msgid "Malakiboard Layouts"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:61
+msgid "Companion package of Malakiboard"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:68
+msgid "System Settings"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:73
+msgid "Show Launcher Page"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:74
+msgid "Hack in the settings app to always show the Desktop & Launcher page."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:81
+msgid "Lomiri Toolkit"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:86
+#: ../src/app/qml/settingsTab/SettingsTab.qml:44
+msgid "MariKit"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:87
+msgid ""
+"Adds and modifies UI and features in apps that use UT's standard toolkit."
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:94
+msgid "Web App Container"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:99
+msgid "Sapot Container"
+msgstr ""
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:100
+msgid "Makes web apps look and work like Sapot Browser."
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:17
+msgid "No description"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:19
+msgid "Unkown Developer"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:20
+#: ../src/app/qml/installerTab/PackagePage.qml:21
+msgid "https://github.com/kugiigi/jerk-packages"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:22
+msgid "Unknown Component"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:88
+#, qt-format
+msgid ""
+"Modifications found in %1. This package or another one might be already "
+"installed."
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:112
+msgid "Try to Uninstall"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:139
+msgid ""
+"Restart the affected component for the installation/uninstallation to take "
+"effect"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:179
+msgid "Developer"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:189
+msgid "Source Code"
+msgstr ""
+
+#: ../src/app/qml/installerTab/PackagePage.qml:201
+msgid "Changelog"
+msgstr ""
+
+#: ../src/app/qml/main.qml:66
+msgid "Installer"
+msgstr ""
+
+#: ../src/app/qml/main.qml:72
+msgid "Actions"
+msgstr ""
+
+#: ../src/app/qml/main.qml:78
+msgid "Settings"
+msgstr ""
+
+#: ../src/app/qml/settingsTab/SettingsTab.qml:56
+msgid ""
+"These settings may only affect unconfined apps. Other apps will use the "
+"default values."
+msgstr ""
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:25
+msgid "Authentication required"
+msgstr ""
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:27
+msgid "Enter passcode or passphrase:"
+msgstr ""
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:40
+msgid "passcode or passphrase"
+msgstr ""
+
+#: ../src/plugin/pamauthentication/AuthenticationDialog.qml:50
+msgid "Authenticate"
+msgstr ""
+
+#: ../src/plugin/pamauthentication/AuthenticationService.qml:59
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/plugin/pamauthentication/NotifyDialog.qml:25
+msgid "Ok"
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:70
+msgid "Failed with miscellaneous internal error."
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:73
+msgid "Failed with syntax error, or failed to parse command."
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:76
+msgid "Failed as a file or directory was not found."
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:79
+msgid "Nothing useful was done."
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:82
+msgid "The initial setup failed, e.g. setting the network proxy."
+msgstr ""
+
+#: ../src/plugin/tweaktool/clickinstaller.cpp:85
+msgid "The transaction failed, see the detailed error for more information."
+msgstr ""
+
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
+msgid "tweak;tool;settings;mods;hacks;"
+msgstr ""
+
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
+msgid "A simple but powerful tool to install awesome and cool hacks and mods"
+msgstr ""
