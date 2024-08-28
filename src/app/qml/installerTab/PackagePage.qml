@@ -226,7 +226,8 @@ Page {
             "package_id": "malakiboard"
             , "file_name": "Malakiboard"
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
-It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard.\
+It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
+Additional settings can be accessed by long pressing the language switcher/emoji key and selecting 'Malakiboard Settings' at the bottom.\
 \n\n \
 New Features: \n\
 - Custom height for portrait and landscape orientation\n \
@@ -331,7 +332,8 @@ Swiping to the right will trigger the left header action which is usally the bac
         , {
             "package_id": "lomiri_plus_essentials"
             , "file_name": "LomiriPlus_Essentials"
-            , "description": "This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
+            , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
+This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
 Additional settings can be accessed from the System indicator at the rightmost of Indicators\n\n \
 Notable features:\n \
 - Device configuration for setting notch and rounded corner dimensions to adjust the UI accordingly \n \
