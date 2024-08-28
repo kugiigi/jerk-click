@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-26 13:07+0000\n"
+"POT-Creation-Date: 2024-08-28 04:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,6 +116,16 @@ msgid ""
 msgstr ""
 
 #: ../src/app/qml/aboutTab/AboutPage.qml:231
+msgid "Note that compatibility check is not extensive and not foolproof."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:232
+msgid ""
+"It simply compares systems files and the package base files and does not "
+"take into account programatical incompatibilities/conflicts."
+msgstr ""
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:233
 msgid ""
 "\n"
 "\n"
@@ -123,18 +133,18 @@ msgid ""
 "system and delete the system files that matches the files in the package."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:232
+#: ../src/app/qml/aboutTab/AboutPage.qml:234
 msgid "New folders created by the package will be retained."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:233
+#: ../src/app/qml/aboutTab/AboutPage.qml:235
 msgid ""
 "Uninstalling a package may take a long time for bigger packages because it "
 "reads the files from the archived package file and compare them to the "
 "system files."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:234
+#: ../src/app/qml/aboutTab/AboutPage.qml:236
 msgid ""
 "\n"
 "\n"
@@ -142,55 +152,55 @@ msgid ""
 "filename suffix/extension of this installer's modification (.JERKORIG)."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:235
+#: ../src/app/qml/aboutTab/AboutPage.qml:237
 msgid "It does not delete new files installed by the packages."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:236
+#: ../src/app/qml/aboutTab/AboutPage.qml:238
 msgid ""
 "Because of this, this is a much faster way of removing packages albeit less "
 "clean."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:243
+#: ../src/app/qml/aboutTab/AboutPage.qml:245
 msgid ""
 "\n"
 "\n"
 "Why are OTA Updates blocked?:\n"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:251
+#: ../src/app/qml/aboutTab/AboutPage.qml:253
 msgid "The Installer updates parts of your system."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:252
+#: ../src/app/qml/aboutTab/AboutPage.qml:254
 msgid "OTA Updates can be a delta update or a full update."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:253
+#: ../src/app/qml/aboutTab/AboutPage.qml:255
 msgid ""
 "We are avoiding delta updates as it also only updates parts of the system."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:254
+#: ../src/app/qml/aboutTab/AboutPage.qml:256
 msgid ""
 "When a delta update is applied, there is a chance that it changes some files "
 "that has conflict to this Installer's changes."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:255
+#: ../src/app/qml/aboutTab/AboutPage.qml:257
 msgid ""
 "A full update on the otherhand is very safe since it puts your system back "
 "to a clean slate."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:256
+#: ../src/app/qml/aboutTab/AboutPage.qml:258
 msgid ""
 "OTA updates are blocked via System Settings app to avoid accidental "
 "installation of a delta update."
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:257
+#: ../src/app/qml/aboutTab/AboutPage.qml:259
 msgid ""
 "\n"
 "\n"
@@ -871,17 +881,23 @@ msgstr ""
 
 #: ../src/app/qml/main.qml:264
 msgid ""
+"Compatibility check is not foolproof and does not take into account any "
+"programmatic incompatibilities/conflicts."
+msgstr ""
+
+#: ../src/app/qml/main.qml:265
+msgid ""
 "It is highly recommended to only use this when you have UBports Installer "
 "accessible to you."
 msgstr ""
 
-#: ../src/app/qml/main.qml:265
+#: ../src/app/qml/main.qml:266
 msgid ""
 "Don't worry, you can reflash your system without wiping your data like "
 "nothing happened :)"
 msgstr ""
 
-#: ../src/app/qml/main.qml:266
+#: ../src/app/qml/main.qml:267
 msgid ""
 "\n"
 "\n"
@@ -889,23 +905,23 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../src/app/qml/main.qml:267
+#: ../src/app/qml/main.qml:268
 msgid ""
 "Please remove all changes to your system before reporting an issue to "
 "UBports official repositories."
 msgstr ""
 
-#: ../src/app/qml/main.qml:268
+#: ../src/app/qml/main.qml:269
 msgid "You can use the 'Reset All Components' function in this app."
 msgstr ""
 
-#: ../src/app/qml/main.qml:269
+#: ../src/app/qml/main.qml:270
 msgid ""
 "After resetting, you may try to replicate the issue and see if it is an "
 "actual issue or an issue with the packages installed."
 msgstr ""
 
-#: ../src/app/qml/main.qml:270
+#: ../src/app/qml/main.qml:271
 msgid ""
 "\n"
 "\n"
@@ -913,27 +929,27 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../src/app/qml/main.qml:271
+#: ../src/app/qml/main.qml:272
 msgid ""
 "For devices with rounded corners and/or display cutout, Lomiri Plus "
 "Essentials is recommeded."
 msgstr ""
 
-#: ../src/app/qml/main.qml:272
+#: ../src/app/qml/main.qml:273
 msgid "In fact, it's the main reason why this app exists."
 msgstr ""
 
-#: ../src/app/qml/main.qml:273
+#: ../src/app/qml/main.qml:274
 msgid ""
 "To easily share the display cutout and rounded corners support until the "
 "official one is released."
 msgstr ""
 
-#: ../src/app/qml/main.qml:277
-msgid "I understand the risk"
+#: ../src/app/qml/main.qml:278
+msgid "I understand the risks"
 msgstr ""
 
-#: ../src/app/qml/main.qml:287
+#: ../src/app/qml/main.qml:288
 msgid "Get me out of here!"
 msgstr ""
 

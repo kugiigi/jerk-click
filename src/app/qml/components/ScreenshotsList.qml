@@ -126,6 +126,7 @@ Item {
             currentIndex: 0
             orientation: ListView.Horizontal
             snapMode: ListView.SnapToItem
+            highlightRangeMode: ListView.StrictlyEnforceRange // Select current item in view
             boundsBehavior: Flickable.OvershootBounds
             cacheBuffer: units.gu(1000)
 
@@ -225,7 +226,7 @@ Item {
 
                 onClicked: {
                     screenshotsView.decrementCurrentIndex()
-                    screenshotsView.positionViewAtIndex(screenshotsView.currentIndex, ListView.SnapPosition)
+                    screenshotsView.positionViewAtIndex(screenshotsView.currentIndex, ListView.Center)
                     controlsOverlay.toggleTimer.restart()
                 }
             }
@@ -242,7 +243,7 @@ Item {
 
                 onClicked: {
                     screenshotsView.incrementCurrentIndex()
-                    screenshotsView.positionViewAtIndex(screenshotsView.currentIndex, ListView.SnapPosition)
+                    screenshotsView.positionViewAtIndex(screenshotsView.currentIndex, ListView.Center)
                     controlsOverlay.toggleTimer.restart()
                 }
             }

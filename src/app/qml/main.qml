@@ -261,6 +261,7 @@ MainView {
                 ,i18n.tr("This app can and will modify your system files when you install a package.")
                 ,i18n.tr("Given the nature of this app's capability, use this app with caution and only when you accept the risk.")
                 ,i18n.tr("Although the app and packages were tested to be working, any unexpected issue or bug may render your device unusable.")
+                ,i18n.tr("Compatibility check is not foolproof and does not take into account any programmatic incompatibilities/conflicts.")
                 ,i18n.tr("It is highly recommended to only use this when you have UBports Installer accessible to you.")
                 ,i18n.tr("Don't worry, you can reflash your system without wiping your data like nothing happened :)")
                 ,i18n.tr("\n\nBe responsible!\n\n")
@@ -274,7 +275,7 @@ MainView {
             ].join(" ")
 
             Button {
-                text: i18n.tr("I understand the risk")
+                text: i18n.tr("I understand the risks")
                 color: theme.palette.normal.positive
 
                 onClicked: {

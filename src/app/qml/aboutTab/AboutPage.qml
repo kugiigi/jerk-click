@@ -228,6 +228,8 @@ Page {
                             , i18n.tr("When you install a package, it backs up the original files and copy over the modified files from a package you are trying to install.")
                             , i18n.tr("Packages have copies of unmodified files which they are based on and use those to check compatibility with your system.")
                             , i18n.tr("You can't install a package that is not found to be compatible with your system.")
+                            , i18n.tr("Note that compatibility check is not extensive and not foolproof.")
+                            , i18n.tr("It simply compares systems files and the package base files and does not take into account programatical incompatibilities/conflicts.")
                             , i18n.tr("\n\nWhen you uninstall a package, it checks if it is actually installed to your system and delete the system files that matches the files in the package.")
                             , i18n.tr("New folders created by the package will be retained.")
                             , i18n.tr("Uninstalling a package may take a long time for bigger packages because it reads the files from the archived package file and compare them to the system files.")
