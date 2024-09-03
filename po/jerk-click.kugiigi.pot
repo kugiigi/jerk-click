@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-28 07:03+0000\n"
+"POT-Creation-Date: 2024-09-03 07:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../src/app/qml/aboutTab/AboutPage.qml:104 ../src/app/qml/main.qml:112
 #: ../src/app/qml/main.qml:116 ../src/app/qml/main.qml:258
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
 msgid "Ambot Installer"
 msgstr ""
 
@@ -1007,10 +1007,10 @@ msgstr ""
 msgid "The transaction failed, see the detailed error for more information."
 msgstr ""
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
 msgid "tweak;tool;settings;mods;hacks;"
 msgstr ""
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
 msgid "A simple but powerful tool to install awesome and cool hacks and mods"
 msgstr ""
