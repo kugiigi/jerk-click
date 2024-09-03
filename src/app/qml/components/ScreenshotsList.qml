@@ -27,6 +27,7 @@ Item {
                 oneAtATime: false
                 height: units.gu(30)
                 snapMode: ListView.SnapToItem
+                highlightRangeMode: ListView.NoHighlightRange
                 leftMargin: units.gu(2)
                 rightMargin: units.gu(2)
             }
@@ -60,6 +61,7 @@ Item {
                 oneAtATime: true
                 height: parent.height
                 snapMode: ListView.SnapOneItem
+                highlightRangeMode: ListView.StrictlyEnforceRange // Select current item in view
                 leftMargin: 0
                 rightMargin: 0
             }
@@ -126,7 +128,6 @@ Item {
             currentIndex: 0
             orientation: ListView.Horizontal
             snapMode: ListView.SnapToItem
-            highlightRangeMode: ListView.StrictlyEnforceRange // Select current item in view
             boundsBehavior: Flickable.OvershootBounds
             cacheBuffer: units.gu(1000)
 
