@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-03 07:32+0000\n"
-"PO-Revision-Date: 2024-09-26 20:01+0200\n"
+"POT-Creation-Date: 2025-01-28 11:32+0000\n"
+"PO-Revision-Date: 2025-07-13 17:57+0200\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -15,129 +15,129 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 24.08.1\n"
+"X-Generator: Poedit 3.6\n"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:12
-#: ../src/app/qml/aboutTab/AboutPage.qml:24
+#: ../src/app/qml/aboutTab/AboutPage.qml:14
+#: ../src/app/qml/aboutTab/AboutPage.qml:26
 msgid "About"
 msgstr "Over"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:27
+#: ../src/app/qml/aboutTab/AboutPage.qml:29
 msgid "Credits"
 msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:30
+#: ../src/app/qml/aboutTab/AboutPage.qml:32
 msgid "How It Works"
 msgstr "Hoe werkt de app?"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:46
-#: ../src/app/qml/aboutTab/AboutPage.qml:47
 #: ../src/app/qml/aboutTab/AboutPage.qml:48
 #: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
 msgid "Resources"
 msgstr "Bronnen"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:46
+#: ../src/app/qml/aboutTab/AboutPage.qml:48
 msgid "Bugs"
 msgstr "Bugs"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:47
+#: ../src/app/qml/aboutTab/AboutPage.qml:49
 msgid "Contact"
 msgstr "Contact"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:48
+#: ../src/app/qml/aboutTab/AboutPage.qml:50
 msgid "Jerk Installer"
 msgstr "Jerk-installatie"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:49
+#: ../src/app/qml/aboutTab/AboutPage.qml:51
 msgid "Jerk Packages"
 msgstr "Jerk-pakketten"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:52
+#: ../src/app/qml/aboutTab/AboutPage.qml:54
 msgid "Developers"
 msgstr "Ontwikkelaars"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:52
+#: ../src/app/qml/aboutTab/AboutPage.qml:54
 msgid "Main Developer"
 msgstr "Hoofdontwikkelaar"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:104 ../src/app/qml/main.qml:112
+#: ../src/app/qml/aboutTab/AboutPage.qml:106 ../src/app/qml/main.qml:112
 #: ../src/app/qml/main.qml:116 ../src/app/qml/main.qml:258
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
 msgid "Ambot Installer"
 msgstr "Ambot-installatie"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:109
+#: ../src/app/qml/aboutTab/AboutPage.qml:111
 #, qt-format
 msgid "Version %1"
 msgstr "Versie %1"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:117
+#: ../src/app/qml/aboutTab/AboutPage.qml:119
 msgid "Installer of fun, useful but possibly dangerous hacks and mods."
 msgstr "Installeer leuke en nuttige, doch mogelijk gevaarlijke hacks en mods."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:131
+#: ../src/app/qml/aboutTab/AboutPage.qml:133
 msgid "(C) 2024 Kugi Eusebio"
 msgstr "(C) 2024 Kugi Eusebio"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:139
+#: ../src/app/qml/aboutTab/AboutPage.qml:141
 msgid "Released under the terms of the GNU GPL v3"
 msgstr "Uitgebracht onder de voorwaarden van de GNU GPLv3-licentie"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:149
+#: ../src/app/qml/aboutTab/AboutPage.qml:151
 #, qt-format
 msgid "Source code available on %1"
 msgstr "De broncode is beschikbaar op %1"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:219
+#: ../src/app/qml/aboutTab/AboutPage.qml:221
 msgid "How does the Installer works?\n"
 msgstr "Hoe werkt de installatie?\n"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:227
+#: ../src/app/qml/aboutTab/AboutPage.qml:229
 msgid "Ambot Installer uses a script that can modify your system files."
 msgstr ""
 "Ambot werkt aan de hand van een script dat systeembestanden kan aanpassen."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:228
+#: ../src/app/qml/aboutTab/AboutPage.qml:230
 msgid ""
 "When you install a package, it backs up the original files and copy over the "
 "modified files from a package you are trying to install."
 msgstr ""
-"Als je een pakket installeert, wordt er een reservekopie van de oorspronkelijk"
-"e bestanden gemaakt. Vervolgens worden de aangepaste bestanden naar de juiste "
-"locatie gekopieerd."
+"Als je een pakket installeert, wordt er een reservekopie van de "
+"oorspronkelijke bestanden gemaakt. Vervolgens worden de aangepaste bestanden "
+"naar de juiste locatie gekopieerd."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:229
+#: ../src/app/qml/aboutTab/AboutPage.qml:231
 msgid ""
 "Packages have copies of unmodified files which they are based on and use "
 "those to check compatibility with your system."
 msgstr ""
-"Pakketten kunnen kopieën van onaangepaste bestanden bevatten waarop ze gebasee"
-"rd zijn. Deze worden gebruikt om de compatibiliteit te controleren."
+"Pakketten kunnen kopieën van onaangepaste bestanden bevatten waarop ze "
+"gebaseerd zijn. Deze worden gebruikt om de compatibiliteit te controleren."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:230
+#: ../src/app/qml/aboutTab/AboutPage.qml:232
 msgid ""
 "You can't install a package that is not found to be compatible with your "
 "system."
 msgstr ""
-"Als een pakket niet compatibel is met je systeem, wordt de installatie afgebro"
-"ken."
+"Als een pakket niet compatibel is met je systeem, wordt de installatie "
+"afgebroken."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:231
+#: ../src/app/qml/aboutTab/AboutPage.qml:233
 msgid "Note that compatibility check is not extensive and not foolproof."
 msgstr ""
 "Let op: de compatibiliteitscontrole is niet grondig en ook niet onfeilbaar."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:232
+#: ../src/app/qml/aboutTab/AboutPage.qml:234
 msgid ""
 "It simply compares systems files and the package base files and does not "
 "take into account programatical incompatibilities/conflicts."
 msgstr ""
-"Er wordt simpelweg een controle tussen systeem- en pakketbestanden uitgevoerd,"
-" maar er wordt geen rekening gehouden met incompatibiliteit door programmeerfo"
-"uten en bestandsconflicten."
+"Er wordt simpelweg een controle tussen systeem- en pakketbestanden "
+"uitgevoerd, maar er wordt geen rekening gehouden met incompatibiliteit door "
+"programmeerfouten en bestandsconflicten."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:233
+#: ../src/app/qml/aboutTab/AboutPage.qml:235
 msgid ""
 "\n"
 "\n"
@@ -146,98 +146,124 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Als je een pakket verwijdert, wordt eerst gekeken of het wel geïnstalleerd is."
-" Daarna worden alle systeembestanden die overeenkomen met die van het pakket g"
-"ewist."
+"Als je een pakket verwijdert, wordt eerst gekeken of het wel geïnstalleerd "
+"is. Daarna worden alle systeembestanden die overeenkomen met die van het "
+"pakket gewist."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:234
+#: ../src/app/qml/aboutTab/AboutPage.qml:236
 msgid "New folders created by the package will be retained."
 msgstr "Mappen die door een pakket worden aangemaakt, blijven behouden."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:235
+#: ../src/app/qml/aboutTab/AboutPage.qml:237
 msgid ""
 "Uninstalling a package may take a long time for bigger packages because it "
 "reads the files from the archived package file and compare them to the "
 "system files."
 msgstr ""
-"Het verwijderen van een pakket kan enige tijd duren, afhankelijk van de omvang"
-". Dit komt door de compatibiliteitscontrole die wordt uitgevoerd."
+"Het verwijderen van een pakket kan enige tijd duren, afhankelijk van de "
+"omvang. Dit komt door de compatibiliteitscontrole die wordt uitgevoerd."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:236
+#: ../src/app/qml/aboutTab/AboutPage.qml:238
 msgid ""
 "\n"
 "\n"
-"When you reset a component, it simply restores all files the has the "
+"When you reset a component, it simply restores all files that has the "
 "filename suffix/extension of this installer's modification (.JERKORIG)."
 msgstr ""
 "\n"
 "\n"
-"Als je een onderdeel herstelt, worden alle bestanden met de bestandsnaam en -e"
-"xtensie in kwestie teruggezet (.JERKORIG)."
+"Als je een onderdeel herstelt, worden alle bestanden met de bestandsnaam en "
+"-extensie in kwestie teruggezet (.JERKORIG)."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:237
+#: ../src/app/qml/aboutTab/AboutPage.qml:239
 msgid "It does not delete new files installed by the packages."
 msgstr ""
 "Nieuwe bestanden die door een pakket zijn geplaatst, worden niet gewist."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:238
+#: ../src/app/qml/aboutTab/AboutPage.qml:240
 msgid ""
 "Because of this, this is a much faster way of removing packages albeit less "
 "clean."
 msgstr "Hierdoor is de verwijderprocedure korter, maar minder zorgvuldig."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:245
+#: ../src/app/qml/aboutTab/AboutPage.qml:247
 msgid ""
 "\n"
 "\n"
-"Why are OTA Updates blocked?:\n"
+"How do you update packages?\n"
+msgstr ""
+"\n"
+"\n"
+"Hoe installeer ik updates van pakketten?\n"
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:255
+msgid ""
+"This app is currently not capable of detecting package versions and new "
+"updates."
+msgstr ""
+"Deze app is momenteel niet in staat om pakketversies en updates vast te "
+"stellen."
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:256
+msgid ""
+"To make sure you have updated packages installed, reinstall each package "
+"after an app update."
+msgstr ""
+"Herinstalleer alle pakketten na een appupdate om er zeker van te zijn dat ze "
+"zijn bijgewerkt."
+
+#: ../src/app/qml/aboutTab/AboutPage.qml:263
+msgid ""
+"\n"
+"\n"
+"Why are OTA Updates blocked?\n"
 msgstr ""
 "\n"
 "\n"
 "Waarom worden systeemupdates geblokkeerd?\n"
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:253
+#: ../src/app/qml/aboutTab/AboutPage.qml:271
 msgid "The Installer updates parts of your system."
 msgstr "De installatie werkt delen van het systeem bij."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:254
+#: ../src/app/qml/aboutTab/AboutPage.qml:272
 msgid "OTA Updates can be a delta update or a full update."
 msgstr ""
-"Systeemupdates kunnen bestaan uit een delta-update (gedeeltelijke update) of v"
-"olledige update."
+"Systeemupdates kunnen bestaan uit een delta-update (gedeeltelijke update) of "
+"volledige update."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:255
+#: ../src/app/qml/aboutTab/AboutPage.qml:273
 msgid ""
 "We are avoiding delta updates as it also only updates parts of the system."
 msgstr ""
-"Delta-updates worden tegengehouden, juist omdát ze slechts delen van het syste"
-"em bijwerken."
+"Delta-updates worden tegengehouden, juist omdát ze slechts delen van het "
+"systeem bijwerken."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:256
+#: ../src/app/qml/aboutTab/AboutPage.qml:274
 msgid ""
 "When a delta update is applied, there is a chance that it changes some files "
 "that has conflict to this Installer's changes."
 msgstr ""
-"Als een delta-update wordt geïnstalleerd, is er een kans dat sommige bestanden"
-" botsen met die van de installatie."
+"Als een delta-update wordt geïnstalleerd, is er een kans dat sommige "
+"bestanden botsen met die van de installatie."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:257
+#: ../src/app/qml/aboutTab/AboutPage.qml:275
 msgid ""
 "A full update on the otherhand is very safe since it puts your system back "
 "to a clean slate."
 msgstr ""
-"Een volledige update is daarentegen zeer robuust en vervangt álle bestanden do"
-"or de oorspronkelijke."
+"Een volledige update is daarentegen zeer robuust en vervangt álle bestanden "
+"door de oorspronkelijke."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:258
+#: ../src/app/qml/aboutTab/AboutPage.qml:276
 msgid ""
 "OTA updates are blocked via System Settings app to avoid accidental "
 "installation of a delta update."
 msgstr ""
-"Systeemupdates worden geblokkeerd via de systeeminstellingen-app om de voorkom"
-"en dat delta-updates per abuis worden geïnstalleerd."
+"Systeemupdates worden geblokkeerd via de systeeminstellingen-app om de "
+"voorkomen dat delta-updates per abuis worden geïnstalleerd."
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:259
+#: ../src/app/qml/aboutTab/AboutPage.qml:277
 msgid ""
 "\n"
 "\n"
@@ -246,8 +272,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Let op: het is zeer aan te raden om alle onderdelen te herstellen voordat je e"
-"en systeemupdate installeert."
+"Let op: het is zeer aan te raden om alle onderdelen te herstellen voordat je "
+"een systeemupdate installeert."
 
 #: ../src/app/qml/actionsTab/ActionsTab.qml:56
 msgid "Reset Components"
@@ -270,7 +296,7 @@ msgid "Unblock"
 msgstr "Deblokkeren"
 
 #: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
-#: ../src/app/qml/components/InstallerActionsItem.qml:413
+#: ../src/app/qml/components/InstallerActionsItem.qml:425
 #: ../src/plugin/pamauthentication/AuthenticationDialog.qml:62
 msgid "Cancel"
 msgstr "Annuleren"
@@ -318,41 +344,42 @@ msgstr "Bezig met blokkeren van updates…"
 msgid "Unblocking OTA..."
 msgstr "Bezig met deblokkeren van updates…"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:240
+#: ../src/app/qml/components/InstallerActionsItem.qml:242
 #, qt-format
 msgid ""
 "You can try the 'Reset %1' button or reflash (without wipe) via UBports "
 "Installer to restore the clean version"
 msgstr ""
-"Als je alles wilt herstellen, kun je drukken op de knop ‘%1 herstellen’ of geb"
-"ruikmaken van UBports Installer en te kiezen voor ‘Reflash (without wipe)’."
+"Als je alles wilt herstellen, kun je drukken op de knop ‘%1 herstellen’ of "
+"gebruikmaken van UBports Installer en te kiezen voor ‘Reflash (without "
+"wipe)’."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:242
+#: ../src/app/qml/components/InstallerActionsItem.qml:244
 #, qt-format
 msgid ""
 "%1 currently has modifications installed. It is highly recommended to reset "
 "the component first or uninstall these modifications. "
 msgstr ""
-"%1 heeft aangepaste bestanden geïnstalleerd. Het is zeer aan te raden om het o"
-"nderdeel te herstellen of de aanpassingen te verwijderen."
+"%1 heeft aangepaste bestanden geïnstalleerd. Het is zeer aan te raden om het "
+"onderdeel te herstellen of de aanpassingen te verwijderen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:243
+#: ../src/app/qml/components/InstallerActionsItem.qml:245
 msgid ""
 "Multiple installed packages in a single component is not recommended as it "
 "has higher chance for conflicts and issues."
 msgstr ""
-"Het is af te raden om meerdere pakketten voor één onderdeel te installeren, da"
-"ar de kans op problemen en bestandsconflicten aanzienlijk toeneemt."
+"Het is af te raden om meerdere pakketten voor één onderdeel te installeren, "
+"daar de kans op problemen en bestandsconflicten aanzienlijk toeneemt."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:251
+#: ../src/app/qml/components/InstallerActionsItem.qml:253
 msgid ""
 "This will restart the whole system UI and close all your open apps. Save "
 "your work before proceeding."
 msgstr ""
-"Let op: de werkomgeving wordt herstart. Hierdoor worden alle openstaande apps "
-"gesloten. Bewaar je werk voordat je doorgaat."
+"Let op: de werkomgeving wordt herstart. Hierdoor worden alle openstaande "
+"apps gesloten. Bewaar je werk voordat je doorgaat."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:252
+#: ../src/app/qml/components/InstallerActionsItem.qml:254
 #, qt-format
 msgid ""
 "\n"
@@ -362,20 +389,20 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, zal je apparaat onbruikbaar zij"
-"n totdat je in UBports Installer kiest voor ‘Reflash (without wipe)’."
+"WAARSCHUWING: als %1 niet kan worden herstart, zal je apparaat onbruikbaar "
+"zijn totdat je in UBports Installer kiest voor ‘Reflash (without wipe)’."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:253
-#: ../src/app/qml/components/InstallerActionsItem.qml:278
+#: ../src/app/qml/components/InstallerActionsItem.qml:255
+#: ../src/app/qml/components/InstallerActionsItem.qml:285
 msgid "Make sure you have access to UBports Installer, just in case."
 msgstr ""
 "Zorg dat je UBports Installer bij de hand hebt, gewoon voor het geval dat."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:258
+#: ../src/app/qml/components/InstallerActionsItem.qml:260
 msgid "This will restart the on-screen keyboard."
 msgstr "Hierdoor wordt het schermtoetsenbord herstart."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:259
+#: ../src/app/qml/components/InstallerActionsItem.qml:261
 #, qt-format
 msgid ""
 "\n"
@@ -385,14 +412,32 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je niet meer typen en zelfs"
-" niet meer ontgrendelen zonder fysiek toetsenbord of biometrisch inloggen."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je niet meer typen en "
+"zelfs niet meer ontgrendelen zonder fysiek toetsenbord of biometrisch "
+"inloggen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:263
+#: ../src/app/qml/components/InstallerActionsItem.qml:265
+msgid "This will restart the Dialer app."
+msgstr "Hierdoor wordt de telefoonapp herstart."
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:266
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart, you won't be able to open the %1 and make "
+"or receive any call."
+msgstr ""
+"\n"
+"\n"
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je %1 niet meer openen en "
+"geen oproepen meer plaatsen of ontvangen."
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:270
 msgid "This will restart the System Settings app."
 msgstr "Hierdoor wordt de systeeminstellingen-app herstart."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:264
+#: ../src/app/qml/components/InstallerActionsItem.qml:271
 #, qt-format
 msgid ""
 "\n"
@@ -402,15 +447,15 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je %1 niet meer openen en g"
-"een instellingen meer aanpassen."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je %1 niet meer openen en "
+"geen instellingen meer aanpassen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:276
+#: ../src/app/qml/components/InstallerActionsItem.qml:283
 #, qt-format
 msgid "This will modify %1, the desktop environment or system UI."
 msgstr "Hierdoor wordt %1 of de werkomgeving aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:277
+#: ../src/app/qml/components/InstallerActionsItem.qml:284
 #, qt-format
 msgid ""
 "\n"
@@ -420,14 +465,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, zal je apparaat onbruikbaar zij"
-"n totdat je in UBports Installer kiest voor ‘Reflash (without wipe)’."
+"WAARSCHUWING: als %1 niet kan worden herstart, zal je apparaat onbruikbaar "
+"zijn totdat je in UBports Installer kiest voor ‘Reflash (without wipe)’."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:283
+#: ../src/app/qml/components/InstallerActionsItem.qml:290
 msgid "This will modify the on-screen keyboard."
 msgstr "Hierdoor wordt het schermtoetsenbord aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:284
+#: ../src/app/qml/components/InstallerActionsItem.qml:291
 #, qt-format
 msgid ""
 "\n"
@@ -438,14 +483,15 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je niet meer typen en zelfs"
-" niet meer ontgrendelen zonder fysiek toetsenbord of biometrisch inloggen."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je niet meer typen en "
+"zelfs niet meer ontgrendelen zonder fysiek toetsenbord of biometrisch "
+"inloggen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:288
+#: ../src/app/qml/components/InstallerActionsItem.qml:295
 msgid "This will modify the Bluetooth configuration."
 msgstr "Hierdoor worden de bluetoothinstellingen aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:289
+#: ../src/app/qml/components/InstallerActionsItem.qml:296
 msgid ""
 "\n"
 "\n"
@@ -454,14 +500,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als de aanpassingen een tussentijdse foutmelding veroorzaken, ku"
-"n je mogelijk geen gebruik meer maken van bluetooth."
+"WAARSCHUWING: als de aanpassingen een tussentijdse foutmelding veroorzaken, "
+"kun je mogelijk geen gebruik meer maken van bluetooth."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:293
+#: ../src/app/qml/components/InstallerActionsItem.qml:300
 msgid "This will modify the Lomiri Toolkit."
 msgstr "Hierdoor wordt de Lomiri-toolkit aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:294
+#: ../src/app/qml/components/InstallerActionsItem.qml:301
 #, qt-format
 msgid ""
 "\n"
@@ -471,14 +517,31 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je geen enkele app meer ope"
-"nen, dus ook niet déze app."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je geen enkele app meer "
+"openen, dus ook niet déze app."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:298
+#: ../src/app/qml/components/InstallerActionsItem.qml:305
+msgid "This will modify the Dialer app."
+msgstr "Hierdoor wordt de telefoonapp aangepast."
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:306
+#, qt-format
+msgid ""
+"\n"
+"\n"
+"WARNING: If %1 fails to restart after installation, you won't be able to "
+"open the Dialer app and make or receive any call."
+msgstr ""
+"\n"
+"\n"
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je de telefoonapp niet "
+"meer openen en geen oproepen meer plaatsen of ontvangen."
+
+#: ../src/app/qml/components/InstallerActionsItem.qml:310
 msgid "This will modify the System Settings app."
 msgstr "Hierdoor wordt de systeeminstellingen-app aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:299
+#: ../src/app/qml/components/InstallerActionsItem.qml:311
 #, qt-format
 msgid ""
 "\n"
@@ -488,14 +551,14 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je de systeeminstellingen n"
-"iet meer openen en geen instellingen meer aanpassen."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je de systeeminstellingen "
+"niet meer openen en geen instellingen meer aanpassen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:303
+#: ../src/app/qml/components/InstallerActionsItem.qml:315
 msgid "This will modify the Web app container."
 msgstr "Hierdoor wordt de webappcontainer aangepast."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:304
+#: ../src/app/qml/components/InstallerActionsItem.qml:316
 #, qt-format
 msgid ""
 "\n"
@@ -505,75 +568,76 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"WAARSCHUWING: als %1 niet kan worden herstart, kun je geen enkele webapp meer "
-"openen."
+"WAARSCHUWING: als %1 niet kan worden herstart, kun je geen enkele webapp "
+"meer openen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:315
+#: ../src/app/qml/components/InstallerActionsItem.qml:327
 #, qt-format
 msgid ""
 "This will try to uninstall %1. This is a cleaner way of uninstalling as it "
 "cleans up all files."
 msgstr ""
-"Hierdoor wordt ‘%1’ verwijderd. Dit is een nettere manier, daar álle bestanden"
-" gewist worden."
+"Hierdoor wordt ‘%1’ verwijderd. Dit is een nettere manier, daar álle "
+"bestanden gewist worden."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:316
+#: ../src/app/qml/components/InstallerActionsItem.qml:328
 msgid ""
 "However, this may take a long time to finish especially with big packages "
 "like Lomiri Plus."
 msgstr ""
-"Maar let op: het verwijderen kan daardoor langer duren, zeker bij grotere pakk"
-"etten als Lomiri Plus."
+"Maar let op: het verwijderen kan daardoor langer duren, zeker bij grotere "
+"pakketten als Lomiri Plus."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:317
+#: ../src/app/qml/components/InstallerActionsItem.qml:329
 #, qt-format
 msgid ""
 "If this fails, try the 'Reset' function which will revert all modified files "
 "in %1 to their original copies and it's a faster process."
 msgstr ""
-"Als dit mislukt, probeer dan de herstelfunctie. Daarmee worden alle aangepaste"
-" bestanden in ‘%1’ gewist en de oorspronkelijke teruggezet. Dit is sneller."
+"Als dit mislukt, probeer dan de herstelfunctie. Daarmee worden alle "
+"aangepaste bestanden in ‘%1’ gewist en de oorspronkelijke teruggezet. Dit is "
+"sneller."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:318
+#: ../src/app/qml/components/InstallerActionsItem.qml:330
 #, qt-format
 msgid ""
 "New files will be retained though. Reflash (without wipe) to get a clean "
 "install of %1"
 msgstr ""
-"Nieuwe bestanden blijven echter behouden. Open UBports Installer en kies voor "
-"‘Reflash (without wipe)’ om een schone installatie van ‘%1’ te doen"
+"Nieuwe bestanden blijven echter behouden. Open UBports Installer en kies "
+"voor ‘Reflash (without wipe)’ om een schone installatie van ‘%1’ te doen"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:323
+#: ../src/app/qml/components/InstallerActionsItem.qml:335
 #, qt-format
 msgid "This will reset %1 and remove all modifications"
 msgstr "Hierdoor wordt ‘%1’ hersteld en alle aanpassingen verwijderd"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:328
+#: ../src/app/qml/components/InstallerActionsItem.qml:340
 msgid "This will block OTA updates via the System Settings app."
 msgstr ""
 "Hierdoor worden systeemupdates geblokkeerd via de systeeminstellingen-app."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:329
+#: ../src/app/qml/components/InstallerActionsItem.qml:341
 msgid ""
 "This is to prevent accidental update that may cause conflicts and issues."
 msgstr ""
-"Dit om te voorkomen dat updates per abuis kunnen worden geïnstalleerd en probl"
-"emen en bestandsconflicten kunnen veroorzaken."
+"Dit om te voorkomen dat updates per abuis kunnen worden geïnstalleerd en "
+"problemen en bestandsconflicten kunnen veroorzaken."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:330
+#: ../src/app/qml/components/InstallerActionsItem.qml:342
 msgid ""
 "Delta OTA updates only update parts of the system and has a higher chance of "
 "conflicting with our modifications."
 msgstr ""
-"Delta-updates verhogen de kans, omdát ze slechts delen van het systeem bijwerk"
-"en."
+"Delta-updates verhogen de kans, omdát ze slechts delen van het systeem "
+"bijwerken."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:336
+#: ../src/app/qml/components/InstallerActionsItem.qml:348
 msgid "This will unblock OTA updates via the System Settings app."
 msgstr ""
 "Hierdoor worden systeemupdates gedeblokkeerd via de systeeminstellingen-app."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:337
+#: ../src/app/qml/components/InstallerActionsItem.qml:349
 msgid ""
 "\n"
 "\n"
@@ -582,246 +646,246 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Let op: het is zeer aan te raden om alle onderdelen te herstellen in plaats ha"
-"ndmatig te deblokkeren."
+"Let op: het is zeer aan te raden om alle onderdelen te herstellen in plaats "
+"handmatig te deblokkeren."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:346
-#: ../src/app/qml/components/InstallerActionsItem.qml:522
+#: ../src/app/qml/components/InstallerActionsItem.qml:358
+#: ../src/app/qml/components/InstallerActionsItem.qml:535
 #: ../src/app/qml/installerTab/PackagePage.qml:149
 #, qt-format
 msgid "Restart %1"
 msgstr "‘%1’ herstarten"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:349
+#: ../src/app/qml/components/InstallerActionsItem.qml:361
 #, qt-format
 msgid "Install %1"
 msgstr "‘%1’ installeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:352
+#: ../src/app/qml/components/InstallerActionsItem.qml:364
 #, qt-format
 msgid "Uninstall %1"
 msgstr "‘%1’ verwijderen"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:355
-#: ../src/app/qml/components/InstallerActionsItem.qml:533
+#: ../src/app/qml/components/InstallerActionsItem.qml:367
+#: ../src/app/qml/components/InstallerActionsItem.qml:546
 #: ../src/app/qml/installerTab/PackagePage.qml:124
 #, qt-format
 msgid "Reset %1"
 msgstr "‘%1’ herstellen"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:358
+#: ../src/app/qml/components/InstallerActionsItem.qml:370
 msgid "Block OTA Updates"
 msgstr "Systeemupdates blokkeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:361
+#: ../src/app/qml/components/InstallerActionsItem.qml:373
 msgid "Unblock OTA Updates"
 msgstr "Systeemupdates deblokkeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:371
+#: ../src/app/qml/components/InstallerActionsItem.qml:383
 msgid "Restart"
 msgstr "Herstarten"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:374
+#: ../src/app/qml/components/InstallerActionsItem.qml:386
 #: ../src/app/qml/installerTab/PackagePage.qml:100
 msgid "Install Anyway"
 msgstr "Tóch installeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:374
+#: ../src/app/qml/components/InstallerActionsItem.qml:386
 #: ../src/app/qml/installerTab/PackagePage.qml:100
 msgid "Install"
 msgstr "Installeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:377
+#: ../src/app/qml/components/InstallerActionsItem.qml:389
 msgid "Uninstall"
 msgstr "Verwijderen"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:380
+#: ../src/app/qml/components/InstallerActionsItem.qml:392
 msgid "Reset"
 msgstr "Herstellen"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:383
+#: ../src/app/qml/components/InstallerActionsItem.qml:395
 msgid "Block OTA"
 msgstr "Systeemupdates blokkeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:386
+#: ../src/app/qml/components/InstallerActionsItem.qml:398
 msgid "Unblock OTA"
 msgstr "Systeemupdates deblokkeren"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:389
+#: ../src/app/qml/components/InstallerActionsItem.qml:401
 msgid "Proceed"
 msgstr "Doorgaan"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:442
+#: ../src/app/qml/components/InstallerActionsItem.qml:454
 msgid ""
 "OTA updates are blocked in the System Settings app until you use the 'Reset "
 "All' or 'Unblock OTA Updates' function in this app."
 msgstr ""
-"Systeemupdates wocden geblokkeerd via de systeeminstellingen-app, totdat je op"
-" de herstelknop of ‘Systeemupdates deblokkeren’ drukt."
+"Systeemupdates wocden geblokkeerd via de systeeminstellingen-app, totdat je "
+"op de herstelknop of ‘Systeemupdates deblokkeren’ drukt."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:443
+#: ../src/app/qml/components/InstallerActionsItem.qml:455
 msgid "This is to avoid conflicts with delta OTA updates."
 msgstr ""
-"Dit om te voorkomen dat er problemen kunnen ontstaan door delta-updates (gedee"
-"ltelijke updates)."
+"Dit om te voorkomen dat er problemen kunnen ontstaan door delta-updates "
+"(gedeeltelijke updates)."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:451
+#: ../src/app/qml/components/InstallerActionsItem.qml:464
 #, qt-format
 msgid "Restart %1 to make the changes take effect."
 msgstr "Herstart %1 om de wijzigingen toe te passen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:453
+#: ../src/app/qml/components/InstallerActionsItem.qml:466
 msgid "Reboot to make the changes take effect."
 msgstr "Herstart je apparaat om de wijzigingen toe te passen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:455
+#: ../src/app/qml/components/InstallerActionsItem.qml:468
 msgid "Apps have to be restarted before the changes take effect."
 msgstr "Herstart geopende apps om de wijzigingen toe te passen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:457
+#: ../src/app/qml/components/InstallerActionsItem.qml:470
 msgid "Web apps have to be restarted before the changes take effect."
 msgstr "Herstart geopende webapps om de wijzigingen toe te passen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:465
+#: ../src/app/qml/components/InstallerActionsItem.qml:478
 msgid "Installed successfully"
 msgstr "De installatie is voltooid"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:465
+#: ../src/app/qml/components/InstallerActionsItem.qml:478
 msgid "Installation Failed"
 msgstr "De installatie is mislukt"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:468
+#: ../src/app/qml/components/InstallerActionsItem.qml:481
 msgid "Uninstalled successfully"
 msgstr "Het verwijderen is voltooid"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:468
+#: ../src/app/qml/components/InstallerActionsItem.qml:481
 msgid "Uninstallation Failed"
 msgstr "Het verwijderen is mislukt"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:471
+#: ../src/app/qml/components/InstallerActionsItem.qml:484
 msgid "Reset successful"
 msgstr "Het herstellen is voltooid"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:471
+#: ../src/app/qml/components/InstallerActionsItem.qml:484
 msgid "Reset Failed"
 msgstr "Het herstellen is mislukt"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:474
+#: ../src/app/qml/components/InstallerActionsItem.qml:487
 msgid "OTA Updates successfully blocked"
 msgstr "Systeemupdates zijn geblokkeerd"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:474
+#: ../src/app/qml/components/InstallerActionsItem.qml:487
 msgid "Failed to block OTA updates"
 msgstr "Systeemupdates kunnen niet worden geblokkeerd"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:477
+#: ../src/app/qml/components/InstallerActionsItem.qml:490
 msgid "OTA Updates successfully unblocked"
 msgstr "Systeemupdates zijn gedeblokkeerd"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:477
+#: ../src/app/qml/components/InstallerActionsItem.qml:490
 msgid "Failed to unblock OTA updates"
 msgstr "Systeemupdates kunnen niet worden geblokkeerd"
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:484
+#: ../src/app/qml/components/InstallerActionsItem.qml:497
 #, qt-format
 msgid "%1 was successfully installed."
 msgstr "‘%1’ is geïnstalleerd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:487
+#: ../src/app/qml/components/InstallerActionsItem.qml:500
 #, qt-format
 msgid ""
 "%1 cannot be installed. It may not be compatible with your system or you "
 "already have this package installed."
 msgstr ""
-"‘%1’ kan niet worden geïnstalleerd. Het pakket is mogelijk niet compatibel met"
-" je systeem of reeds geïnstalleerd."
+"‘%1’ kan niet worden geïnstalleerd. Het pakket is mogelijk niet compatibel "
+"met je systeem of reeds geïnstalleerd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:488
+#: ../src/app/qml/components/InstallerActionsItem.qml:501
 #, qt-format
 msgid "Try uninstalling or resetting %1 and try again."
 msgstr "Verwijder of herstel ‘%1’ en probeer het opnieuw."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:491
+#: ../src/app/qml/components/InstallerActionsItem.qml:504
 #, qt-format
 msgid "%1 was successfully uninstalled."
 msgstr "‘%1’ is verwijderd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:493
+#: ../src/app/qml/components/InstallerActionsItem.qml:506
 #, qt-format
 msgid "%1 cannot be uninstalled. This package may not be installed yet."
 msgstr ""
-"‘%1’ kan niet worden verwijderd. Het pakket is wellicht nog niet geïnstalleerd"
-"."
+"‘%1’ kan niet worden verwijderd. Het pakket is wellicht nog niet "
+"geïnstalleerd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:494
+#: ../src/app/qml/components/InstallerActionsItem.qml:507
 #, qt-format
 msgid "Try resetting %1 instead."
 msgstr "Probeer ‘%1’ te herstellen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:497
+#: ../src/app/qml/components/InstallerActionsItem.qml:510
 #, qt-format
 msgid "%1 was successfully reset."
 msgstr "‘%1’ is hersteld."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:499
+#: ../src/app/qml/components/InstallerActionsItem.qml:512
 #, qt-format
 msgid "%1 cannot be reset. An unexpected issue was encountered."
 msgstr ""
 "‘%1’ kan niet worden hersteld, omdat er een onverwachte fout is opgetreden."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:500
+#: ../src/app/qml/components/InstallerActionsItem.qml:513
 msgid "Please contact the developer."
 msgstr "Neem contact op met de ontwikkelaar."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:503
+#: ../src/app/qml/components/InstallerActionsItem.qml:516
 msgid "OTA updates via System Settings app has been blocked."
 msgstr "Systeemupdates zijn geblokkeerd via de systeeminstellingen-app."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:504
+#: ../src/app/qml/components/InstallerActionsItem.qml:517
 msgid ""
 "Use the 'Unblock OTA Updates' or 'Reset All Components' function to re-"
 "enable OTA updates"
 msgstr ""
-"Druk op ‘Systeemupdates deblokkeren’ of ‘Alle onderdelen herstellen’ om systee"
-"mupdates weer in te schakelen."
+"Druk op ‘Systeemupdates deblokkeren’ of ‘Alle onderdelen herstellen’ om "
+"systeemupdates weer in te schakelen."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:505
+#: ../src/app/qml/components/InstallerActionsItem.qml:518
 msgid "OTA updates cannot be blocked.."
 msgstr "Systeemupdates kunnen niet worden geblokkeerd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:506
+#: ../src/app/qml/components/InstallerActionsItem.qml:519
 msgid "OTA updates might be blocked already or this app needs to be updated."
 msgstr "Wellicht zijn ze reeds geblokkeerd of moet de app worden bijgewerkt."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:509
+#: ../src/app/qml/components/InstallerActionsItem.qml:522
 msgid "OTA updates via System Settings app has been re-enabled."
 msgstr "Systeemupdates zijn gedeblokkeerd via de systeeminstellingen-app."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:510
+#: ../src/app/qml/components/InstallerActionsItem.qml:523
 msgid ""
 "Make sure you have no remaining modifications installed before applying an "
 "OTA update."
 msgstr ""
-"Let op: zorg dat als je aanpassingen hersteld zijn voordat je een systeemupdat"
-"e installeert."
+"Let op: zorg dat als je aanpassingen hersteld zijn voordat je een "
+"systeemupdate installeert."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:511
+#: ../src/app/qml/components/InstallerActionsItem.qml:524
 msgid ""
 "This is to avoid any conflict between our modifications and system updates."
 msgstr ""
-"Dit om te voorkomen dat er problemen kunnen ontstaan door aangepaste bestanden"
-"."
+"Dit om te voorkomen dat er problemen kunnen ontstaan door aangepaste "
+"bestanden."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:513
+#: ../src/app/qml/components/InstallerActionsItem.qml:526
 msgid "OTA updates cannot be unblocked.."
 msgstr "Systeemupdates kunnen niet worden gedeblokkeerd."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:514
+#: ../src/app/qml/components/InstallerActionsItem.qml:527
 msgid "OTA updates might not be blocked yet or this app needs to be updated."
 msgstr ""
 "Wellicht zijn ze nog niet geblokkeerd of moet de app worden bijgewerkt."
 
-#: ../src/app/qml/components/InstallerActionsItem.qml:543
+#: ../src/app/qml/components/InstallerActionsItem.qml:556
 msgid "Close"
 msgstr "Sluiten"
 
@@ -837,90 +901,102 @@ msgstr "BREDR-FAST"
 msgid ""
 "Changes controller mode from 'auto' to 'bredr' and enables 'FastConnectable'."
 msgstr ""
-"Wijzigt de bedienmodus van ‘auto’ naar ‘bredr’ en schakelt ‘FastConnectable’ i"
-"n."
+"Wijzigt de bedienmodus van ‘auto’ naar ‘bredr’ en schakelt ‘FastConnectable’ "
+"in."
 
 #: ../src/app/qml/installerTab/InstallerTab.qml:26
+msgid "Dialer App"
+msgstr "Telefoonapp"
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:31
+msgid "Redesigned UI"
+msgstr "Nieuw ontwerp"
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:32
+msgid "Applies a redesigned UI to the dialer app."
+msgstr "Voorzie de telefoonapp van een nieuw ontwerp."
+
+#: ../src/app/qml/installerTab/InstallerTab.qml:39
 msgid "Lomiri"
 msgstr "Lomiri"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:31
+#: ../src/app/qml/installerTab/InstallerTab.qml:44
 msgid "Lomiri Plus Essentials"
 msgstr "Lomiri Plus - Essentieel"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:32
+#: ../src/app/qml/installerTab/InstallerTab.qml:45
 msgid ""
 "Minimal Lomiri Plus that only includes essential hacks such as notch & "
 "rounded corner support."
 msgstr ""
-"Een minimale uitvoering van Lomiri Plus die alleen de essentiële noodoplossing"
-"en bevat, zoals ondersteuning voor schermen met inkepingen."
+"Een minimale uitvoering van Lomiri Plus die alleen de essentiële "
+"noodoplossingen bevat, zoals ondersteuning voor schermen met inkepingen."
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:39
+#: ../src/app/qml/installerTab/InstallerTab.qml:52
 msgid "Lomiri Plus"
 msgstr "Lomiri Plus"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:40
+#: ../src/app/qml/installerTab/InstallerTab.qml:53
 msgid "Kugi's playground for Lomiri experiments."
 msgstr "Kugi's zandbak, vol met Lomiri-speelgoed en -experimenten."
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:47
+#: ../src/app/qml/installerTab/InstallerTab.qml:60
 msgid "On-Screen Keyboard"
 msgstr "Schermtoetsenbord"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:52
+#: ../src/app/qml/installerTab/InstallerTab.qml:65
 msgid "Malakiboard"
 msgstr "Malakiboard"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:53
+#: ../src/app/qml/installerTab/InstallerTab.qml:66
 msgid "Kugi's playground for the on-screen keyboard."
 msgstr "Kugi's zandbak met schermtoetsenbordexperimenten."
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:60
+#: ../src/app/qml/installerTab/InstallerTab.qml:73
 msgid "Malakiboard Layouts"
 msgstr "Malakiboard-indelingen"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:61
+#: ../src/app/qml/installerTab/InstallerTab.qml:74
 msgid "Companion package of Malakiboard"
 msgstr "Een aanvulling op Malakiboard"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:68
+#: ../src/app/qml/installerTab/InstallerTab.qml:81
 msgid "System Settings"
 msgstr "Systeeminstellingen"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:73
+#: ../src/app/qml/installerTab/InstallerTab.qml:86
 msgid "Show Launcher Page"
 msgstr "Starterinstellingen tonen"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:74
+#: ../src/app/qml/installerTab/InstallerTab.qml:87
 msgid "Hack in the settings app to always show the Desktop & Launcher page."
 msgstr "Toon de bureaublad- en starterpagina in de systeeminstellingen-app."
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:81
+#: ../src/app/qml/installerTab/InstallerTab.qml:94
 msgid "Lomiri Toolkit"
 msgstr "Lomiri-toolkit"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:86
-#: ../src/app/qml/settingsTab/SettingsTab.qml:44
+#: ../src/app/qml/installerTab/InstallerTab.qml:99
+#: ../src/app/qml/settingsTab/SettingsTab.qml:45
 msgid "MariKit"
 msgstr "MariKit"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:87
+#: ../src/app/qml/installerTab/InstallerTab.qml:100
 msgid ""
 "Adds and modifies UI and features in apps that use UT's standard toolkit."
 msgstr ""
-"Voegt functies toe aan de vormgeving van apps die gebruikmaken van de standaar"
-"d toolkit van Ubuntu Touch."
+"Voegt functies toe aan de vormgeving van apps die gebruikmaken van de "
+"standaard toolkit van Ubuntu Touch."
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:94
+#: ../src/app/qml/installerTab/InstallerTab.qml:107
 msgid "Web App Container"
 msgstr "Webappcontainer"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:99
+#: ../src/app/qml/installerTab/InstallerTab.qml:112
 msgid "Sapot Container"
 msgstr "Sapot-container"
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:100
+#: ../src/app/qml/installerTab/InstallerTab.qml:113
 msgid "Makes web apps look and work like Sapot Browser."
 msgstr "Laat webapps zich voordoen als Sapot Browser."
 
@@ -947,8 +1023,8 @@ msgid ""
 "Modifications found in %1. This package or another one might be already "
 "installed."
 msgstr ""
-"Er zijn aanpassingen aangetroffen in ‘%1’. Dit of een vergelijkbaar pakket is "
-"mogelijk reeds geïnstalleerd."
+"Er zijn aanpassingen aangetroffen in ‘%1’. Dit of een vergelijkbaar pakket "
+"is mogelijk reeds geïnstalleerd."
 
 #: ../src/app/qml/installerTab/PackagePage.qml:112
 msgid "Try to Uninstall"
@@ -959,8 +1035,8 @@ msgid ""
 "Restart the affected component for the installation/uninstallation to take "
 "effect"
 msgstr ""
-"Herstart het onderdeel in kwestie om de installatie of verwijdering toe te pas"
-"sen"
+"Herstart het onderdeel in kwestie om de installatie of verwijdering toe te "
+"passen"
 
 #: ../src/app/qml/installerTab/PackagePage.qml:179
 msgid "Developer"
@@ -998,32 +1074,33 @@ msgstr ""
 msgid ""
 "This app can and will modify your system files when you install a package."
 msgstr ""
-"Deze app kan en zal na installatie van een pakket je systeembestanden aanpasse"
-"n."
+"Deze app kan en zal na installatie van een pakket je systeembestanden "
+"aanpassen."
 
 #: ../src/app/qml/main.qml:262
 msgid ""
 "Given the nature of this app's capability, use this app with caution and "
 "only when you accept the risk."
 msgstr ""
-"Weel hierdoor terughoudend met het gebruik ervan en wees je bewust van alle mo"
-"gelijke risico's."
+"Weel hierdoor terughoudend met het gebruik ervan en wees je bewust van alle "
+"mogelijke risico's."
 
 #: ../src/app/qml/main.qml:263
 msgid ""
 "Although the app and packages were tested to be working, any unexpected "
 "issue or bug may render your device unusable."
 msgstr ""
-"De app en pakketten worden van tevoren getest, maar onverwachte bugs (fouten) "
-"kunnen soms niet voorkomen worden en je apparaat mogelijk onbruikbaar maken."
+"De app en pakketten worden van tevoren getest, maar onverwachte bugs "
+"(fouten) kunnen soms niet voorkomen worden en je apparaat mogelijk "
+"onbruikbaar maken."
 
 #: ../src/app/qml/main.qml:264
 msgid ""
 "Compatibility check is not foolproof and does not take into account any "
 "programmatic incompatibilities/conflicts."
 msgstr ""
-"De compatibiliteitscontrole is niet feilloos en er wordt geen rekening gehoude"
-"n met incompatibiliteit door programmeerfouten en bestandsconflicten."
+"De compatibiliteitscontrole is niet feilloos en er wordt geen rekening "
+"gehouden met incompatibiliteit door programmeerfouten en bestandsconflicten."
 
 #: ../src/app/qml/main.qml:265
 msgid ""
@@ -1037,8 +1114,8 @@ msgid ""
 "Don't worry, you can reflash your system without wiping your data like "
 "nothing happened :)"
 msgstr ""
-"Maar geen zorgen: je kunt gewoon opnieuw flashen zonder je gegevens te verwijd"
-"eren, dus het is dan net alsof er niks gebeurd is. :)"
+"Maar geen zorgen: je kunt gewoon opnieuw flashen zonder je gegevens te "
+"verwijderen, dus het is dan net alsof er niks gebeurd is. :)"
 
 #: ../src/app/qml/main.qml:267
 msgid ""
@@ -1057,22 +1134,22 @@ msgid ""
 "Please remove all changes to your system before reporting an issue to "
 "UBports official repositories."
 msgstr ""
-"Verwijder alle aanpassingen voordat je een probleem aan de UBports-ontwikkelaa"
-"rs meldt."
+"Verwijder alle aanpassingen voordat je een probleem aan de UBports-"
+"ontwikkelaars meldt."
 
 #: ../src/app/qml/main.qml:269
 msgid "You can use the 'Reset All Components' function in this app."
 msgstr ""
-"Hiervoor kun je gebruikmaken van de knop ‘Alle onderdelen herstellen’ in de ap"
-"p."
+"Hiervoor kun je gebruikmaken van de knop ‘Alle onderdelen herstellen’ in de "
+"app."
 
 #: ../src/app/qml/main.qml:270
 msgid ""
 "After resetting, you may try to replicate the issue and see if it is an "
 "actual issue or an issue with the packages installed."
 msgstr ""
-"Na het herstellen kun je het probleem opnieuw proberen te veroorzaken en zien "
-"of het systeemprobleem is of een probleem met een pakket."
+"Na het herstellen kun je het probleem opnieuw proberen te veroorzaken en "
+"zien of het systeemprobleem is of een probleem met een pakket."
 
 #: ../src/app/qml/main.qml:271
 msgid ""
@@ -1091,8 +1168,8 @@ msgid ""
 "For devices with rounded corners and/or display cutout, Lomiri Plus "
 "Essentials is recommeded."
 msgstr ""
-"‘Lomiri Plus - Essentieel’ is aanbevolen voor apparaten met schermen die over "
-"afgeronde hoeken en/of een inkeping beschikken."
+"‘Lomiri Plus - Essentieel’ is aanbevolen voor apparaten met schermen die "
+"over afgeronde hoeken en/of een inkeping beschikken."
 
 #: ../src/app/qml/main.qml:273
 msgid "In fact, it's the main reason why this app exists."
@@ -1103,8 +1180,8 @@ msgid ""
 "To easily share the display cutout and rounded corners support until the "
 "official one is released."
 msgstr ""
-"Zo kunnen deze aanpassingen op een makkelijke manier worden gedeeld, totdat er"
-" op een dag officiële ondersteuning beschikbaar is."
+"Zo kunnen deze aanpassingen op een makkelijke manier worden gedeeld, totdat "
+"er op een dag officiële ondersteuning beschikbaar is."
 
 #: ../src/app/qml/main.qml:278
 msgid "I understand the risks"
@@ -1114,13 +1191,21 @@ msgstr "Ik begrijp het risico"
 msgid "Get me out of here!"
 msgstr "Haal me hier weg!"
 
-#: ../src/app/qml/settingsTab/SettingsTab.qml:56
+#: ../src/app/qml/settingsTab/SettingsTab.qml:57
 msgid ""
 "These settings may only affect unconfined apps. Other apps will use the "
 "default values."
 msgstr ""
-"Deze instellingen zijn mogelijk alleen van toepassing op apps die geen beheerd"
-"erstoegang vereisen."
+"Deze instellingen zijn mogelijk alleen van toepassing op apps die geen "
+"beheerderstoegang vereisen."
+
+#: ../src/app/qml/settingsTab/SettingsTab.qml:89
+msgid ""
+"This setting will try to load bottom gesture in the root item of a Header. "
+"Useful in apps where the toolkit's Page is not used but Header is used"
+msgstr ""
+"Met behulp van deze instelling wordt het gebaar aan de onderkant van een "
+"kopitem geladen. Nuttig in apps waarvan de toolkit een kop gebruikt."
 
 #: ../src/plugin/pamauthentication/AuthenticationDialog.qml:25
 msgid "Authentication required"
@@ -1170,14 +1255,14 @@ msgstr "De instelhulp is niet goed afgerond."
 #: ../src/plugin/tweaktool/clickinstaller.cpp:85
 msgid "The transaction failed, see the detailed error for more information."
 msgstr ""
-"De overdracht is mislukt. Bekijk voor meer informatie de uitgebreide foutmeldi"
-"ng."
+"De overdracht is mislukt. Bekijk voor meer informatie de uitgebreide "
+"foutmelding."
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
 msgid "tweak;tool;settings;mods;hacks;"
 msgstr "tweak;tool;hulpmiddel;instellingen;mods;hacks;aanpassingen;"
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
 msgid "A simple but powerful tool to install awesome and cool hacks and mods"
 msgstr ""
 "Een eenvoudige doch krachtige app om toffe hacks en mods mee te installeren"
