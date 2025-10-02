@@ -8,6 +8,7 @@ import "../js/shell.js" as Shell
 Item {
     id: rootItem
 
+    readonly property string oldVersionSuffix: "_OLD"
     readonly property bool confirmedComponentIsDirty: componentWasChecked && !componentIsClean
 
     property string package_id
@@ -45,9 +46,22 @@ Item {
         }
     }
     readonly property Timer delayedInstallTimer: Timer {
+        property bool installOldVersion: false
+
         interval: LomiriAnimation.BriskDuration
+
+        function startTimer(_old = false) {
+            installOldVersion = _old
+            restart()
+        }
+        
         onTriggered: {
-            if (Shell.installPackage(rootItem.fileName)) {
+            let _fileName = rootItem.fileName
+            if (installOldVersion) {
+                _fileName += rootItem.oldVersionSuffix
+            }
+
+            if (Shell.installPackage(_fileName)) {
                 checkComponentIfClean()
                 Shell.blockOTA()
                 showFinishDialog("install", true)
@@ -114,9 +128,9 @@ Item {
         })
     }
 
-    function installPackage() {
+    function installPackage(_old = false) {
         showModalLoadingScreen(i18n.tr("Installing %1...").arg(rootItem.packageName))
-        delayedInstallTimer.restart()
+        delayedInstallTimer.startTimer(_old)
     }
 
     function uninstallPackage() {
@@ -139,7 +153,7 @@ Item {
         delayedUnblockOTATimer.restart()
     }
 
-    function askToInstall() {
+    function askToInstall(_old = false) {
         let _popup = PopupUtils.open(confirmDialog, rootItem, { "mode": "install" , "component_id": rootItem.component_id
                                                                     , "componentName": rootItem.componentName
                                                                     , "package_id": rootItem.package_id
@@ -147,7 +161,7 @@ Item {
                                                                     , "componentIsDirty": rootItem.confirmedComponentIsDirty })
 
         _popup.accepted.connect(function() {
-            installPackage()
+            installPackage(_old)
         })
     }
 
