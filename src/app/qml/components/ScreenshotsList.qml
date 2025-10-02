@@ -147,16 +147,18 @@ Item {
             Behavior on scale { LomiriNumberAnimation {} }
 
             delegate: LomiriShape {
+                id: screenshotShape
+
                 height: ListView.view.oneAtATime ? ListView.view.height : parent.height
-                width: ListView.view.oneAtATime ? ListView.view.width : screenshot.sourceSize.width * height / screenshot.sourceSize.height
+                width: ListView.view.oneAtATime ? ListView.view.width : screenshot.implicitWidth * height / screenshot.implicitHeight
                 aspect: LomiriShape.Flat
                 sourceFillMode: LomiriShape.PreserveAspectFit
                 source: Image {
                     id: screenshot
                     asynchronous: true
                     source: Qt.resolvedUrl("../screenshots/" + rootItem.path + "/" + modelData)
-                    smooth: true
-                    antialiasing: true
+                    smooth: false
+                    sourceSize.height: screenshotsView.height
                 }
 
                 AbstractButton {
@@ -307,6 +309,7 @@ Item {
     Item {
         id: viewShadowsContainer
 
+        z: viewContainer.z + 1
         anchors {
             fill: parent
             topMargin: units.gu(1)

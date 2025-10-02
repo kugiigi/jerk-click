@@ -1,5 +1,6 @@
 import QtQuick 2.4
 import Lomiri.Components 1.3
+ import Lomiri.Components.Styles 1.3
 import Lomiri.Components.Popups 1.3
 import QtQuick.Layouts 1.12
 
@@ -21,6 +22,7 @@ Page {
     readonly property url sourceUrl: packageData ? packageData.sourceUrl : i18n.tr("https://github.com/kugiigi/jerk-packages")
     readonly property string componentName: componentData ? componentData.name : i18n.tr("Unknown Component")
     readonly property bool hasRestart: componentData ? componentData.hasRestart : false
+    readonly property bool hasOldVersion: packageData && packageData.old_version
 
     property string package_id
     property string component_id
@@ -97,10 +99,28 @@ Page {
                     Layout.rightMargin: units.gu(2)
                     Layout.maximumWidth: internal.maximumItemWidth
                     Layout.alignment: Qt.AlignLeft| Qt.AlignVCenter
-                    text: actionsItem.confirmedComponentIsDirty ? i18n.tr("Install Anyway") : i18n.tr("Install")
+                    text: {
+                        if (rootItem.hasOldVersion) {
+                            return actionsItem.confirmedComponentIsDirty ? i18n.tr("Install Anyway (Latest version)") : i18n.tr("Install (Latest version)")
+                        } else {
+                            return actionsItem.confirmedComponentIsDirty ? i18n.tr("Install Anyway") : i18n.tr("Install")
+                        }
+                    }
                     color: actionsItem.confirmedComponentIsDirty ? theme.palette.normal.base : theme.palette.normal.positive
                     visible: actionsItem.componentWasChecked
                     onClicked: actionsItem.askToInstall()
+                }
+
+                Button {
+                    Layout.fillWidth: true
+                    Layout.leftMargin: units.gu(2)
+                    Layout.rightMargin: units.gu(2)
+                    Layout.maximumWidth: internal.maximumItemWidth
+                    Layout.alignment: Qt.AlignLeft| Qt.AlignVCenter
+                    text: actionsItem.confirmedComponentIsDirty ? i18n.tr("Install Anyway (Previous version)") : i18n.tr("Install (Previous version)")
+                    color: theme.palette.normal.base
+                    visible: actionsItem.componentWasChecked && rootItem.hasOldVersion
+                    onClicked: actionsItem.askToInstall(true)
                 }
 
                 Button {
@@ -225,6 +245,7 @@ Page {
         {
             "package_id": "malakiboard"
             , "file_name": "Malakiboard"
+            , "old_version": true
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
 It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
 \n\nAdditional settings can be accessed by long pressing the language switcher/emoji key and selecting 'Malakiboard Settings' at the bottom.\
@@ -242,7 +263,16 @@ New Features: \n\
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/Malakiboard"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.6\n\
+            , "changelog": "v1.7\n\
+- Compatibility with recent Focal OTAs\n\
+- Option to replace the extended keys of the Period key with domain keys in EN layout\n\
+- Exit cursor swipe mode when entering Notebook\n\
+- Option to hide Language key\n\
+- Replaced Checkbox in settings with one from Lomiri Plus and customized a bit\n\
+- New Language Switcher action for the Shortcuts Bar\n\
+- Interchange undo and redo in word ribbon when in cursor swipe mode\n\
+- Implemented custom clipboard in the Notebook feature\n\n\n\
+v1.6\n\
 - Notebook: Feature for saving texts that are available for pasting whenever you need them\n\
 - Custom Themes: Allow adding and creating unlimited number of custom themes\n\
 - Shortcuts Bar: Display easily accessible actions in the word ribbon\n\
@@ -261,7 +291,8 @@ v1.5 \n\
         , {
             "package_id": "malakiboard_layouts"
             , "file_name": "MalakiboardLayouts"
-            , "description": "This is a companion package for Malakiboard which includes changes specific to languages/layouts. Ideally, this should be installed together with Malakiboard but this is optional unless you find issues."
+            , "old_version": true
+            , "description": "This is a companion package for Malakiboard which includes changes specific to languages/layouts. Install this if you installed Malakiboard to get the full functionalities and features."
             , "screenshots": []
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/MalakiboardLayouts"
             , "developer": "Kugi Eusebio"
@@ -271,6 +302,7 @@ v1.5 \n\
         , {
             "package_id": "bredr_fast"
             , "file_name": "Bluetooth_BRDER_FAST"
+            , "old_version": false
             , "description": "This changes controller mode from 'auto' to 'bredr' and enables 'FastConnectable'. This may fix some Bluetooth issues but there's no guarantee and battery drain may be higher. Feel free to try."
             , "screenshots": []
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Bluetooth_Conf/BREDR_FAST"
@@ -281,6 +313,7 @@ v1.5 \n\
         , {
             "package_id": "dialerapp_redesigned"
             , "file_name": "DialerAppRedesigned"
+            , "old_version": false
             , "description": "This a redesign of the dialer app that is already merged but will probably be only released in Noble."
             , "screenshots": ["1.png", "2.png", "3.png"]
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/DialerApp/Redesign"
@@ -291,6 +324,7 @@ v1.5 \n\
         , {
             "package_id": "settings_show_launcher"
             , "file_name": "Settings_ShowLauncher"
+            , "old_version": false
             , "description": "This makes the 'Desktop & Launhcer' settings page to be always shown instead of being only shown in large screens."
             , "screenshots": ["1.png", "2.png"]
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/System_Settings/ShowLauncher"
@@ -301,6 +335,7 @@ v1.5 \n\
         , {
             "package_id": "sapot_container"
             , "file_name": "SapotContainer"
+            , "old_version": true
             , "description": "Sapot Container modifies the standard web app container to make it look and work similar to the Sapot Browser. This brings many features available in Sapot Browser.\n\n \
 Notable Features:\n \
 - Bottom horizontal swipe gesture for navigating back and forward in web pages\n \
@@ -315,7 +350,15 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/WebContainer/SapotContainer"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.2\n\
+            , "changelog": "v1.3\n\
+- Pull up webview when onscreen keyboard is displayed\n\
+- Option to put the scroll positioner to a different position when in wide layout\n\
+- Changed the behavior of the Incognito overlay setting. It will now only affect external links when opened on an overlay.\n\
+  For internal links, a new option to explicitly open them in invognito overlay has been added\n\
+- Title bar now hides immediately upon start up when the webapp is set to always hide it\n\
+- Implemented work around to hide tooltip when it gets stuck being shown\n\
+- Fixed context menu position when opened with mouse in wide layout\n\n\n\
+v1.2\n\
 - Implemented Reader mode\n\
 - Added option for a floating scroll button\n\
 - UI improvements in the Settings page\n\
@@ -338,6 +381,7 @@ v1.1\n \
         , {
             "package_id": "marikit"
             , "file_name": "MariKit"
+            , "old_version": false
             , "description": "MariKit changes components and adds features to the Lomiri toolkit which is used by most Ubuntu Touch apps especially the core apps. \
 New features may not work properly, or at all, on some apps since it depends on how the app uses the modified Toolkit components.\n\n\
 Notable features:\n \
@@ -361,6 +405,7 @@ v1.1 \n \
         , {
             "package_id": "lomiri_plus_essentials"
             , "file_name": "LomiriPlus_Essentials"
+            , "old_version": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
 This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
 \n\nAdditional settings can be accessed from the System indicator at the rightmost of Indicators\n\n \
@@ -373,12 +418,15 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.0 \n\
+            , "changelog": "v1.1\n\
+- Work around to fix Never games and other games that has incorrect orientation\n\n\n\
+v1.0 \n\
 - Initial release"
         }
         , {
             "package_id": "lomiri_plus"
             , "file_name": "LomiriPlus"
+            , "old_version": true
             , "description": "** Not recommended for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
 Lomiri Plus is Kugi's playground for all his experiments in Lomiri. It includes fixes, changes, new features and random things that may or may never land in upstream Lomiri. \
@@ -400,7 +448,92 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v2.2\n\
+            , "changelog": "v2.3\n\
+New Features:\n\
+- [Abot Kamay] New option to change the location and height of the swipe area for Abot Kamay\n\
+- [App Drawer] Option to extend over the Top Bar or not\n\
+- [App Grids] Added option for indicator size and disabling expansion when hovering with mouse\n\
+- [Convergence] Option to set the brightness to low when an external display is connected and in virtual touchpad mode\n\
+- [Convergence] Option to make cursor bigger on external displays\n\
+- [Detox Mode] Display a fun page at fixed or random interval when using apps that you selected to be part of your digital detox ::)\n\
+- [Dynamic Cove] Option to hide infographics circles when in CD Player\n\
+- [Dynamic Cove/Infographics] Option to display on the desktop when device is unlocked\n\
+- [Extras] Option to show BSOD with delay\n\
+- [Fingerprint] Option to require a swipe before fully unlocking and hiding the lockscreen\n\
+- [Fully Charged Alarm] Added option in dialog to notify full charged silently\n\
+- [Fully Charged Alarm] Option to show charging time\n\
+- [Indicator Panels] Option to expand header of the Notifications panel only when there are notifications when opened from a bottom gesture\n\
+- [Indicator Panels] Option to use indicator selector when opening the Indicator panels from a bottom gesture\n\
+- [Outer Wilds] Option to display the Solar System on the desktop\n\
+- [Physical Buttons] Option to disable volume buttons when Camera app is the current app\n\
+- [Punchhole Battery Indicator] Support for middle position and changed < 50% to yellow instead of orange\n\
+- [Quick Actions] Option to use physical size of items or not when swiping\n\
+- [Quick Actions] Option to select items with or without offset below the item\n\
+- [Quick Actions] Added option to display items where you start the swipe instead of always being fixed at the top of the swipe area\n\
+- [Quick Actions] Option to make the swipe gesture accessible even while the OSK is displayed\n\
+- [Quick Actions] Option to use an icon for certain action types\n\
+- [Quick Actions] Option to use custom title\n\
+- [Quick Toggles] Option to only show in Notification/Messages indicator panel\n\
+- [Quick Toggles] Added Auto-brightness toggle in the Brightness slider to switch betweeen disabled, system and custom auto-brightness\n\
+- [Screenshot] Add option to disable sound when taking a screenshot\n\
+- [Top Bar] Option to disable balanced spacing for the icons on the left and right of the middle notch\n\
+- [Window Decoration] Introduce Clean mode in Windowed mode which hides the title bar of windows\n\n\n\
+Improvements:\n\
+- [Abot Kamay] Added Abot Kamay animation\n\
+- [Abot Kamay] Automatically pull up when OSK is shown\n\
+- [Abot Kamay] Change behavior and target height on external display\n\
+- [Auto-Brightness DIY] Do not change brightness if there's near proximity is detected\n\
+- [Awake Tracking] Improved Awake tracking logic\n\
+- [Battery Tracking] Attempt to always update the last full charge time\n\
+- [Battery Tracking] Make sure invalid date are not added to the tracking data i.e. when system has incorrect date at boot\n\
+- [Color Overlay] Converted toggles to toggle sensor-based instead of the actual enabling of Color Overlay\n\
+- [Drawer] Added haptics when clicking apps\n\
+- [Drawer] Added more bottom margin to the indicator selector when in external display and tall displays\n\
+- [Dynamic Cove] Better readbility of song details in the CD Player\n\
+- [Dynamic Cove] Made Dynamic cove usable with Mouse\n\
+- [Dynamic Cove] Improved accuracy when setting the Timer\n\
+- [Dynamic Cove] Tweaks in the Media Player's playlist selection\n\
+- [Dynamic Cove] Adjust size on big scaled devices (i.e. Lenovo M10 HD)\n\
+- [Fingerprint] Turn on display when fingerprint is enabled while screen is off and you are locked out even when it's still a failed scan\n\
+- [Indicator Panels] Respect Expandable header settings even when inverted\n\
+- [Indicator Panels] Automatically collapse header when the on-screen keyboard is displayed\n\
+- [Indicator Panels] Automatically collapse header when Quick Toggles is expanded and automatically collapse quick toggles when panel header is expanded\n\
+- [Outer Wilds] Adjust Main Menu size on big scaled devices (i.e. Lenovo M10 HD)\n\
+- [Outer Wilds] Adjusts detection of large screen for spacing and sizing of elements\n\
+- [Pocket Mode] Do not enter pocket mode when there's an external display\n\
+- [Quick Actions] Implemented different styles (i.e. Default, Circular and Rounded Square)\n\
+- [Quick Actions] Added media controls - play, next, previous\n\
+- [Quick Actions] Less subtle visual hint\n\
+- [Quick Actions] Show visual hint when in settings page\n\
+- [Quick Actions] Rearranged and grouped the settings page\n\
+- [Quick Actions] Disable haptics when not swiping\n\
+- [Quick Actions] Make search drawer action always search instead of toggling the drawer\n\
+- [Quick Actions] Search drawer action will now work properly when triggered from the lockscreen\n\
+- [Quick Toggles] Implement right click to function the same as press and hold\n\
+- [Quick Toggles] Make media controls usable with mouse\n\
+- [Settings] Button to hide the settings page\n\
+- [Show Desktop] Revert back show desktop when an app is opened or refocused\n\
+- [Top Bar] Minor tweak to behavior when top bar matches the current app. It won't change until the current app is change or spread is completely shown instead of immediately when edge drag/push is in-progress\n\
+- [Top Panel] Use wallpaper as blur source when there's no main stage app and side-stage is hidden\n\n\n\
+Bug Fixes:\n\
+- [Advanced Screenshot] Fixed layout of Share popup in wide layout\n\
+- [Advanced Screenshot] Fixed hover breaking when screenshot popup is dismissed by tapping outside or the close button\n\
+- [Battery Tracking] Fixed incorrect date in battery tracking when booting\n\
+- [Dynamic Cove] Fixed Disco mode not working\n\
+- [Dynamic Cove] Fixed CD player hiding when screen is off when blur is enabled\n\
+- [Hot corners] Fixed bug where toggle desktop also swicth to previous app\n\
+- [Quick Actions] Fixed highlighted item overlapped by some surrounding actions\n\
+- [Quick Actions] Fixed label clipping on the side\n\
+- [Shell] Work around to fix Never games and other games that has incorrect orientation\n\
+- [Keyboard Shortcut] Fix terminal keyboard shortcut\n\
+- [Settings] Fixed App Grids in Features page\n\
+- [Top Panel] Fixed issues with proper matching of top panel when drawer or indicator panel is open\n\n\n\
+Technical:\n\
+- Implmented Lomiri MR#191 and MR#213 to fix stutters when toggling fullscreen\n\
+- Updated code for rotate button from MR\n\
+- Made some icons load asynchronously\n\
+- Fixed bug related to 'maximizeWindowShortcut'\n\n\n\
+v2.2\n\
 New Features:\n\
 - Auto-brightness DIY: Added option to make your own auto-brightness behavior\n\
 - Advanced Screenshot: Provide direct access to actions such as sharing and editing of screenshots\n\
