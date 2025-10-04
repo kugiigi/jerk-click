@@ -27,5 +27,5 @@ jobs:
     - name: Upload .click package
       uses: actions/upload-artifact@v4
       with:
-        name: "ubports-${{ matrix.arch }}--${{ matrix.build }}--${{ matrix.ut_version }}"
+        name: "ambot-installer-${{ matrix.arch }}"
         path: build/*/app/*.click
