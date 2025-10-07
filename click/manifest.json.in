@@ -2,7 +2,7 @@
     "name": "jerk-click.kugiigi",
     "title": "Ambot Installer",
     "description": "A simple but powerful tool to install awesome and cool hacks and mods",
-    "framework" : "ubuntu-sdk-20.04",
+    "framework" : "@CLICK_FRAMEWORK@",
     "architecture": "@CLICK_ARCH@",
     "icon": "@ICON@",
     "hooks": {

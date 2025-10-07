@@ -8,32 +8,6 @@ ScrollView {
 
     Column {
         width: view.width
-
-        ListItems.SectionDivider {
-            text: i18n.tr("Bluetooth")
-            iconName: "bluetooth-active"
-        }
-
-        ListItems.Page {
-            text: i18n.tr("BREDR-FAST")
-            summary.text: i18n.tr("Changes controller mode from 'auto' to 'bredr' and enables 'FastConnectable'.")
-            summary.maximumLineCount: Number.MAX_VALUE
-            pageUrl: Qt.resolvedUrl("PackagePage.qml")
-            pushProperties: { "component_id": "bluetooth_conf", "package_id": "bredr_fast", "pageTitle": text }
-        }
-
-        ListItems.SectionDivider {
-            text: i18n.tr("Dialer App")
-            iconName: "dialer-app-symbolic"
-        }
-
-        ListItems.Page {
-            text: i18n.tr("Redesigned UI")
-            summary.text: i18n.tr("Applies a redesigned UI to the dialer app.")
-            summary.maximumLineCount: Number.MAX_VALUE
-            pageUrl: Qt.resolvedUrl("PackagePage.qml")
-            pushProperties: { "component_id": "dialer-app", "package_id": "dialerapp_redesigned", "pageTitle": text }
-        }
         
         ListItems.SectionDivider {
             text: i18n.tr("Lomiri")
@@ -50,6 +24,7 @@ ScrollView {
 
         ListItems.Page {
             text: i18n.tr("Lomiri Plus")
+            visible: false
             summary.text: i18n.tr("Kugi's playground for Lomiri experiments.")
             summary.maximumLineCount: Number.MAX_VALUE
             pageUrl: Qt.resolvedUrl("PackagePage.qml")
@@ -75,19 +50,6 @@ ScrollView {
             summary.maximumLineCount: Number.MAX_VALUE
             pageUrl: Qt.resolvedUrl("PackagePage.qml")
             pushProperties: { "component_id": "maliit-keyboard-layouts", "package_id": "malakiboard_layouts", "pageTitle": text }
-        }
-
-        ListItems.SectionDivider {
-            text: i18n.tr("System Settings")
-            iconName: "settings"
-        }
-
-        ListItems.Page {
-            text: i18n.tr("Show Launcher Page")
-            summary.text: i18n.tr("Hack in the settings app to always show the Desktop & Launcher page.")
-            summary.maximumLineCount: Number.MAX_VALUE
-            pageUrl: Qt.resolvedUrl("PackagePage.qml")
-            pushProperties: { "component_id": "system-settings", "package_id": "settings_show_launcher", "pageTitle": text }
         }
 
         ListItems.SectionDivider {

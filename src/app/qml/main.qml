@@ -27,7 +27,7 @@ import Lomiri.Components.Popups 1.3
 
 MainView {
     // DO NOT MODIFY, this is updated automatically during the build
-    readonly property var appVersion: "1.0.2"
+    readonly property var appVersion: "1.0.3"
     property alias settings: settingsItem
     property alias overlayContainer: overlayContainer
 
@@ -299,16 +299,6 @@ MainView {
             "component_id": "all"
             , "name": "All Components"
             , "hasRestart": false
-        }
-        , {
-            "component_id": "bluetooth_conf"
-            , "name": "Bluetooth Config"
-            , "hasRestart": false
-        }
-        , {
-            "component_id": "dialer-app"
-            , "name": "Dialer App"
-            , "hasRestart": true
         }
         , {
             "component_id": "lomiri"
