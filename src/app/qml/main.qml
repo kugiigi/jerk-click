@@ -27,7 +27,7 @@ import Lomiri.Components.Popups 1.3
 
 MainView {
     // DO NOT MODIFY, this is updated automatically during the build
-    readonly property var appVersion: "1.0.3"
+    readonly property var appVersion: "1.0.4"
     property alias settings: settingsItem
     property alias overlayContainer: overlayContainer
 

@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.0.4]
+- First Noble only release
+- Reintroduce Lomiri Plus (v2.4)
+- Updated Lomiri Plus Essentials to properly suport left notch/punchhole (v1.2)
+- Updated Sapot Container (v1.4)
+- Updated Malakiboard (v1.8)
+
 # [1.0.3]
 - Noble release
 - Removed Bluetooth, Show Launcher and Phone app packages

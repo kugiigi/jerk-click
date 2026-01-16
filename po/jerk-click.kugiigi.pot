@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-07 05:55+0000\n"
+"POT-Creation-Date: 2026-01-16 10:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -768,53 +768,53 @@ msgstr ""
 msgid "Lomiri Plus"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:28
+#: ../src/app/qml/installerTab/InstallerTab.qml:27
 msgid "Kugi's playground for Lomiri experiments."
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:35
+#: ../src/app/qml/installerTab/InstallerTab.qml:34
 msgid "On-Screen Keyboard"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:40
+#: ../src/app/qml/installerTab/InstallerTab.qml:39
 msgid "Malakiboard"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:41
+#: ../src/app/qml/installerTab/InstallerTab.qml:40
 msgid "Kugi's playground for the on-screen keyboard."
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:48
+#: ../src/app/qml/installerTab/InstallerTab.qml:47
 msgid "Malakiboard Layouts"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:49
+#: ../src/app/qml/installerTab/InstallerTab.qml:48
 msgid "Companion package of Malakiboard"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:56
+#: ../src/app/qml/installerTab/InstallerTab.qml:55
 msgid "Lomiri Toolkit"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:61
+#: ../src/app/qml/installerTab/InstallerTab.qml:60
 #: ../src/app/qml/settingsTab/SettingsTab.qml:45
 msgid "MariKit"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:62
+#: ../src/app/qml/installerTab/InstallerTab.qml:61
 msgid ""
 "Adds and modifies UI and features in apps that use UT's standard toolkit."
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:69
+#: ../src/app/qml/installerTab/InstallerTab.qml:68
 msgid "Web App Container"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:74
+#: ../src/app/qml/installerTab/InstallerTab.qml:73
 msgid "Sapot Container"
 msgstr ""
 
-#: ../src/app/qml/installerTab/InstallerTab.qml:75
+#: ../src/app/qml/installerTab/InstallerTab.qml:74
 msgid "Makes web apps look and work like Sapot Browser."
 msgstr ""
 

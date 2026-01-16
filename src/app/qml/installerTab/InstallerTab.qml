@@ -24,7 +24,6 @@ ScrollView {
 
         ListItems.Page {
             text: i18n.tr("Lomiri Plus")
-            visible: false
             summary.text: i18n.tr("Kugi's playground for Lomiri experiments.")
             summary.maximumLineCount: Number.MAX_VALUE
             pageUrl: Qt.resolvedUrl("PackagePage.qml")
