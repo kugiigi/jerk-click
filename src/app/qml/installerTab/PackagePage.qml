@@ -23,6 +23,7 @@ Page {
     readonly property string componentName: componentData ? componentData.name : i18n.tr("Unknown Component")
     readonly property bool hasRestart: componentData ? componentData.hasRestart : false
     readonly property bool hasOldVersion: packageData && packageData.old_version
+    readonly property bool shoudBeVisible: packageData && packageData.visible
 
     property string package_id
     property string component_id
@@ -245,7 +246,8 @@ Page {
         {
             "package_id": "malakiboard"
             , "file_name": "Malakiboard"
-            , "old_version": true
+            , "old_version": false
+            , "visible": true
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
 It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
 \n\nAdditional settings can be accessed by long pressing the language switcher/emoji key and selecting 'Malakiboard Settings' at the bottom.\
@@ -291,7 +293,8 @@ v1.5 \n\
         , {
             "package_id": "malakiboard_layouts"
             , "file_name": "MalakiboardLayouts"
-            , "old_version": true
+            , "old_version": false
+            , "visible": true
             , "description": "This is a companion package for Malakiboard which includes changes specific to languages/layouts. Install this if you installed Malakiboard to get the full functionalities and features."
             , "screenshots": []
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/MalakiboardLayouts"
@@ -300,42 +303,10 @@ v1.5 \n\
             , "changelog": ""
         }
         , {
-            "package_id": "bredr_fast"
-            , "file_name": "Bluetooth_BRDER_FAST"
-            , "old_version": false
-            , "description": "This changes controller mode from 'auto' to 'bredr' and enables 'FastConnectable'. This may fix some Bluetooth issues but there's no guarantee and battery drain may be higher. Feel free to try."
-            , "screenshots": []
-            , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Bluetooth_Conf/BREDR_FAST"
-            , "developer": "Kugi Eusebio"
-            , "devUrl": "https://github.com/kugiigi"
-            , "changelog": ""
-        }
-        , {
-            "package_id": "dialerapp_redesigned"
-            , "file_name": "DialerAppRedesigned"
-            , "old_version": false
-            , "description": "This a redesign of the dialer app that is already merged but will probably be only released in Noble."
-            , "screenshots": ["1.png", "2.png", "3.png"]
-            , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/DialerApp/Redesign"
-            , "developer": "Kugi Eusebio"
-            , "devUrl": "https://github.com/kugiigi"
-            , "changelog": ""
-        }
-        , {
-            "package_id": "settings_show_launcher"
-            , "file_name": "Settings_ShowLauncher"
-            , "old_version": false
-            , "description": "This makes the 'Desktop & Launhcer' settings page to be always shown instead of being only shown in large screens."
-            , "screenshots": ["1.png", "2.png"]
-            , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/System_Settings/ShowLauncher"
-            , "developer": "Kugi Eusebio"
-            , "devUrl": "https://github.com/kugiigi"
-            , "changelog": ""
-        }
-        , {
             "package_id": "sapot_container"
             , "file_name": "SapotContainer"
-            , "old_version": true
+            , "old_version": false
+            , "visible": true
             , "description": "Sapot Container modifies the standard web app container to make it look and work similar to the Sapot Browser. This brings many features available in Sapot Browser.\n\n \
 Notable Features:\n \
 - Bottom horizontal swipe gesture for navigating back and forward in web pages\n \
@@ -382,6 +353,7 @@ v1.1\n \
             "package_id": "marikit"
             , "file_name": "MariKit"
             , "old_version": false
+            , "visible": true
             , "description": "MariKit changes components and adds features to the Lomiri toolkit which is used by most Ubuntu Touch apps especially the core apps. \
 New features may not work properly, or at all, on some apps since it depends on how the app uses the modified Toolkit components.\n\n\
 Notable features:\n \
@@ -405,7 +377,8 @@ v1.1 \n \
         , {
             "package_id": "lomiri_plus_essentials"
             , "file_name": "LomiriPlus_Essentials"
-            , "old_version": true
+            , "old_version": false
+            , "visible": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
 This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
 \n\nAdditional settings can be accessed from the System indicator at the rightmost of Indicators\n\n \
@@ -419,6 +392,7 @@ Notable features:\n \
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
             , "changelog": "v1.1\n\
+- Fixed blur in Drawer and Indicator Panel\n\
 - Work around to fix Never games and other games that has incorrect orientation\n\n\n\
 v1.0 \n\
 - Initial release"
@@ -426,7 +400,8 @@ v1.0 \n\
         , {
             "package_id": "lomiri_plus"
             , "file_name": "LomiriPlus"
-            , "old_version": true
+            , "old_version": false
+            , "visible": false
             , "description": "** Not recommended for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
 Lomiri Plus is Kugi's playground for all his experiments in Lomiri. It includes fixes, changes, new features and random things that may or may never land in upstream Lomiri. \

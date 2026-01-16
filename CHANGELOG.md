@@ -1,5 +1,10 @@
 # Changelog
 
+# [1.0.3]
+- Noble release
+- Removed Bluetooth, Show Launcher and Phone app packages
+- Hide Lomiri Plus (for now)
+
 # [1.0.2]
 - Updated Dutch translation (Thanks Vistaus)
 - Scale screenshots instead of being always loaded in full resolution
