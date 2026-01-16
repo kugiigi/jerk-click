@@ -246,7 +246,7 @@ Page {
         {
             "package_id": "malakiboard"
             , "file_name": "Malakiboard"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
 It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
@@ -265,7 +265,11 @@ New Features: \n\
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/Malakiboard"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.7\n\
+            , "changelog": "v1.8\n\
+- Fixed clipping in the Notebook list views\n\
+- Added option to use custom display pixel density. Useful for devices like the Faiphone 5 which has an incorrect pixel density. This affects gestures that use physical sizing.\n\
+- Fixed errors related to `keyboardRect` in MKBaseDialog\n\n\n\
+v1.7\n\
 - Compatibility with recent Focal OTAs\n\
 - Option to replace the extended keys of the Period key with domain keys in EN layout\n\
 - Exit cursor swipe mode when entering Notebook\n\
@@ -305,7 +309,7 @@ v1.5 \n\
         , {
             "package_id": "sapot_container"
             , "file_name": "SapotContainer"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "Sapot Container modifies the standard web app container to make it look and work similar to the Sapot Browser. This brings many features available in Sapot Browser.\n\n \
 Notable Features:\n \
@@ -321,7 +325,11 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/WebContainer/SapotContainer"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.3\n\
+            , "changelog": "v1.4\n\
+- Fixed issue when dragging the floating scroll button where it momentarily jumps to the top before going back to correct position\n\
+- Quick action items do not hide when disabled anymore. This helps make the position of items predicatable instead of constantly changing based on item's enablement.\n\
+- Added option to list URLs/patterns which will be forced as external links regardless if it's from the internal domain/subdomain of the webpp. This is useful for sneaky bastards that user their own domain to redirect to external links.\n\n\n\
+v1.3\n\
 - Pull up webview when onscreen keyboard is displayed\n\
 - Option to put the scroll positioner to a different position when in wide layout\n\
 - Changed the behavior of the Incognito overlay setting. It will now only affect external links when opened on an overlay.\n\
@@ -377,7 +385,7 @@ v1.1 \n \
         , {
             "package_id": "lomiri_plus_essentials"
             , "file_name": "LomiriPlus_Essentials"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
 This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
@@ -391,7 +399,9 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.1\n\
+            , "changelog": "v1.2\n\
+- Properly support left notch/punchhole by adding margins in the indicators\n\n\n\
+v1.1\n\
 - Fixed blur in Drawer and Indicator Panel\n\
 - Work around to fix Never games and other games that has incorrect orientation\n\n\n\
 v1.0 \n\
@@ -401,7 +411,7 @@ v1.0 \n\
             "package_id": "lomiri_plus"
             , "file_name": "LomiriPlus"
             , "old_version": false
-            , "visible": false
+            , "visible": true
             , "description": "** Not recommended for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
 Lomiri Plus is Kugi's playground for all his experiments in Lomiri. It includes fixes, changes, new features and random things that may or may never land in upstream Lomiri. \
@@ -423,7 +433,89 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v2.3\n\
+            , "changelog": "v2.4\n\
+New features:\n\n\
+- [Advanced Search] Implemented a new custom Drawer search page which includes optional OpenStore and Web results\n\
+- [Air Mouse] Implemented custom click behavior where you swipe to trigger mouse clicks and drags\n\
+- [Air Mouse] Changed swipe behavior from vertical to horizontal. Swipe to right is now right click and swipe to left is for dragging a window\n\
+- [Air Mouse] Option to use volume buttons for left and right click\n\
+- [Battery Tracking] List view option for the battery graphs by long pressing to toggle between the two view modes\n\
+- [Device Configuration] Option to use custom display pixel density for devices with incorrect value such as the Fairphone 5. This affects gestures and UI elements that use physical size\n\
+- [Emoji Selector] New Emoji selector popup that can be opened via Ctrl + . (period) or Quick Actions that can be used to search and enter emojis\n\
+- [Fingerprint] Added option to disable fingerprint while typing your passcode. Helpful to avoid accidentally touching side-mounted fingerprint sensors while typing.\n\
+- [Indicator Panels] Added option to display expanded top bar with transparency matching the indicator panels\n\
+- [Infographics] Option to display a custom text and random circles\n\
+- [Launcher] Added option to lock and always display the Launcher regardless of screen size or mode (Staged/Windowed)\n\
+- [Lockscreen] Added option to change the dark background on the lock screen and cover page\n\
+- [Navigation Buttons] Implemented Navigation Buttons similar to Android but adapted to functions in Ubuntu Touch/Lomiri\n\
+- [Notifications] Added option to force light mode for the notification bubble\n\
+- [Quick Toggles] Added option to show Quick Toggles only in Notification indicator except when on external display\n\
+- [Top Bar] Added option to make the top bar fully transparent when on the desktop and also change the text/icon color\n\
+- [Virtual Touchpad] Added option to enable edge gestures for toggling the Drawer, the Spread, Indicators panels or even Quick Actions\n\
+- [Virtual Touchpad] Added rotate button to rotate the touchpad\n\
+- [Virtual Touchpad] Added multi-touch gestures for searching the App Drawer, switching workspace and dragging/resizing windows\n\
+- [Virtual Touchpad] Added option to invert scrolling with the touchpad\n\
+- [Virtual Touchpad] Added scroll sensitivity settings for the virtual touchpad scrolling\n\
+- [Virtual Touchpad] Added 2-finger double tap to press and hold the right-click mouse button. Useful for dragging with right-click\n\
+- [Windowed Mode] Added a way to resize a window with Alt + Right-click mouse drag\n\
+\n\n\
+Improvements:\n\n\
+- [Air Mouse] Moved toggle from swipe from the bottom to a button at the top\n\
+- [Battery Tracking] Added bottom spacing/margin in the Battery indicator panel\n\
+- [Battery Tracking] Fixed extra icon in the average screen time menu item in the Battery indicator panel\n\
+- [Detox Mode] New setting for the locked-in period instead of always being 24 hours\n\
+- [Detox Mode] Timer for showing the 'fun page' now pauses when OSK is displayed and resumes after it is dismissed\n\
+- [Detox Mode] Timer for showing the 'fun page' now pauses and resumes when switching between apps instead of restarting the timer\n\
+- [Detox Mode] Timer for showing the 'fun page' now pauses and resumes in these conditions: Drawer is open/close, Indicator is open/close, Lockscreen is shown or not, desktop shown or not\n\
+- [Drawer] Close Drawer when opening the App Spread\n\
+- [Dynamic Cove] Hide Dynamic Cove on the desktop when there's an app focused and desktop isn't shown\n\
+- [Dynamic Cove] Fixed quirks in Stopwatch where previous time is restored when it wasn't supposed to\n\
+- [Dynamic Cove] Slightly darken the album art to improve legibility\n\
+- [Dynamic Cove] Minor change in the CD player design to make it look more like a real CD\n\
+- [Fingerprint] Also check temporary unlock via fingerprint when disabling actions or toggles on the lockscreen\n\
+- [Hot Corners] Changed trigger behavior from hovering to pushing the mouse\n\
+- [Indicator Panels] Added fallback icon in Indicator Selector for Time and Date indicator when there's no alarm\n\
+- [Launcher] Stop showing the Launcher when clicking an empty workspace in the App Spread\n\
+- [Lomiri Plus Settings] Reorganized some Launcher settings such as those related to Launcher locking/hiding to a separate page\n\
+- [Lomiri Plus Settings] Added way to minimize the dialog\n\
+- [Lomiri Plus Settings] Added way to go back to home page by double clicking or long pressing the back button\n\
+- [Pocket Mode] Disable Pocket Mode detection when there's an external display\n\
+- [Quick Actions] Power dialog action is now disabled when the device is locked\n\
+- [Shell] Changed behavior of the 'Use timer for blur updates...' toggle and now affects both Staged and Windowed mode. Lomiri now enables live blur updates by default\n\
+- [Virtual Touchpad] Added hint in the onscreen keyboard button when it's enabled or disabled\n\
+- [Virtual Touchpad] Added option to reduce click threshold to avoid triggering left-click when doing small mouse movements\n\
+\n\n\
+Bug fixes:\n\n\
+- [Detox mode] Fixed adding the first app from the combo box results to Unknown app\n\
+- [Notch/Punchhole] Fixed left notch support on the indcators or top bar and battery circle\n\
+- [Dynamic Cove] Fixed hour hand gets set as 25 instead of 1 in the Timer\n\
+- [Dynamic Cove] Fixed swipe up gesture to show desktop conflicting with toggling the Dynamic Cove\n\
+- [Dynamic Cove] Fixed issue when items don't fully load when rotating to landscape and back to portrait\n\
+- [Hot Corners] Fixed issue where hot corners are triggered when trying to snap windows to quarter corners via mouse\n\
+- [Indicator Panels] Fixed missing VoLTE icon\n\
+- [Lockscreen] Fixed entering passcode via keyboard directly to the circle pattern pin prompt\n\
+- [Lockscreen] Fixed backspace in the Circle pattern pin prompt\n\
+- [Spread] Fixed Issue#150: Spread is broken when opened via keyboard after switching workspace via keyboard\n\
+- [Spread] Fixed Issue#154/155: Binding loop error and Spread closing automatically when selecting the current workspace in the App Spread\n\
+- [Spread] Fixed Issue#157: Incorrect workspace preview in switcher UI when in non-native orientation\n\
+- [Windowed Mode] Fixed Issue#151: Double clicking top bar to restore window have incorrect restore position\n\
+- [Windowed Mode] Fixed issue when in Windowed mode where maximized windows get resized when locking and unlocking because the Launcher gets hidden and shown\n\
+\n\n\
+Technical:\n\n\
+- Updated indicator names/ids and added display indicator which has the rotation toggle now\n\
+- Removed Screen rotation button settings since it's in Lomiri upstream now\n\
+- Removed option to hide parenthesis in battery indicator since it's now removed by default in Noble\n\
+- Fixed code errors related to Battery tracking and battery graph\n\
+- Implmented logic to migrate data and settings to new names in Noble (Indicators and App IDs)\n\
+- Fixed 2-digit format indicator clock in Noble\n\
+- Disable swipe up gesture for disabling Show Desktop to allow swiping up to toggle Dynamic Cove on the desktop\n\
+- Created custom button component\n\
+- Updated LPFlickable with a function to scroll to item\n\
+- Made action popovers narrower (units.gu(35))\n\
+- Some adjustments and fixes for Light mode such as Lomiri Plus Settings and Indicator panels\n\
+- Fixed icon source loading error in direct actions delegate\n\
+\n\n\n\
+v2.3\n\
 New Features:\n\
 - [Abot Kamay] New option to change the location and height of the swipe area for Abot Kamay\n\
 - [App Drawer] Option to extend over the Top Bar or not\n\
@@ -507,131 +599,7 @@ Technical:\n\
 - Implmented Lomiri MR#191 and MR#213 to fix stutters when toggling fullscreen\n\
 - Updated code for rotate button from MR\n\
 - Made some icons load asynchronously\n\
-- Fixed bug related to 'maximizeWindowShortcut'\n\n\n\
-v2.2\n\
-New Features:\n\
-- Auto-brightness DIY: Added option to make your own auto-brightness behavior\n\
-- Advanced Screenshot: Provide direct access to actions such as sharing and editing of screenshots\n\
-- Battery Tracking: Added option to track screen on and off time and options to display the data in the Battery indicator\n\
-- Fingerprint: Added option to enable the sensor even when the display is off and also added other options\n\
-- Fully Charged Alarm: Option to trigger an alarm when the device is fully charged or reached your set percentage\n\
-- Indicators: Added option to show bluetooth devices list in the Bluetooth indicator panel\n\
-- Light Sensor: Added option to allow automatically enabling Color Overlay and Dark Mode based on light sensor\n\
-- Lockscreen: Added option to change display name and use custom icon\n\
-- Notifications: Add option to display notification bubbles at the bottom\n\
-- Pocket Mode: All touch interactions are disabled when proximity sensor detects something near and the light sensor detects darkness\n\
-- Snatch Alarm: Set a contact that when it calls, silent mode is automatically disabled and volume is set to max\n\
-- Top Bar: Added option to use custom color for the icons and texts (Only when collapsed for now)\n\
-- Wake Up Alarms: Automatically disable wake up alarms until the next day once you press the awake in the lockscreen\n\
-- Waydroid Gestures: Added an option to disable a portion of the left and right edge gestures so you can use Waydroid gesture-based navigation\n\
-- Added option to disable shutdown and reboot options when in lockscreen. They can still be accessed by doing an extra step.\n\
-\n\
-Improvements:\n\
-- App Drawer: Added mouse hover area at the top/bottom to start search when the field is hidden\n\
-- App Drawer Dock: Added maximum expanded height settings\n\
-- Dynamic Cove: Added ambient mode in the media controls which overlays the current album art in your lockscreen\n\
-- Dynamic Cove: Added option to not hide CD Player when screen is off\n\
-- Quick Actions: Select Edge items when swipe exceeds the grid\n\
-- Quick Actions: Added search drawer action\n\
-- Quick Toggles: Added a settings for disabling indicator toggles when the device is locked\n\
-- Quick Toggles and Drawer Dock: Improved swipe gesture for expanding/collapsing\n\
-- Quick Toggles and Drawer Dock: Properly handle when expanded height exceeds the available height by making it scrollable\n\
-- Notifications: Disable swipe to dismiss for incoming calls\n\
-- Added subtle color change in the side-stage divider to indicate which stage is currently in focus\n\
-- Added option to automatically pause the media upon disconnecting a Bluetooth audio device\n\
-- Adjust the App splash image size based on window size when in windowed mode\n\
-- Added Features page in settings to consolidate all major features in Lomiri Plus\n\
-\n\
-Fixes:\n\
-- App Drawer: Fixed issues with mouse and multirow use in the selector indicator\n\
-- Dynamic Cove: Reload the media player object to try to fix when playing a playlist does nothing\n\
-- Launcher: Fixed noticeable change of color when quickly opening the Drawer by removing the animation\n\
-- Quick Actions: Fixed issue where sometimes quickly swiping will trigger the left/right edge most item\n\
-- Top Bar: Fixed blur background when using show desktop\n\
-- Fixed binding loop in indicator panels\n\
-- Fixed some misplaced items in Lomiri Plus settings\n\
-- Changed remaing labels of Direct Actions to Quick Actions\n\
-\n\
-Technical: \n\
-- Dynamic Cove: Use `Audio` instead of `MediaPlayer` for the media player\n\
-- Disable bottom gestures from MariKit in indicator panels (rely on MariKit changes)\n\n\n\
-v2.1 \n\
-General:\n \
-- Added option to show touch visuals (only works with one touchpoint and don't work perfectly)\n \
-- Apply custom BFB logo settings even when not using custom logo\n \
-- Added color and opacity settings for the Launcher, App Drawer, Top Bar and Indicator Panels\n \
-- Added option to use the wallpaper as source of all background blurs\n \
-- Added option to change Launcher opacity based on Drawer's open/close progress\n \
-- Added option to add bottom margin to the Launcher based on the rounded corner margin in Device Configuration when in Staged mode\n \
-- Added option to match Top Bar's opacity and color to Drawer or Indicator panel when they are open\n \
-- Added option to enable background blur to the Top Bar and Launcher\n \
-- Added option to match the Top Bar's background to the current app's top part color (Staged mode only)\n \
-- Added option to make Top Bar fully transparent in the lockscreen\n \
-- Added swipe down gesture from the top edge to show the Top Bar when in fullscreen\n \
-- Added settings for delaying app suspension upon opening an app and/or everytime it goes to the background\n \
-- Made selecting from the App Grid indicator selector easier when there's only 1 row\n \
-- Made the touch area in the App Grid indicator selector a bit bigger\n \
-- Renamed Direct Actions to Quick Actions\n \
-- Made Direct Actions UI more consistent across different scaling and made it centered for most phones in portrait\n \
-- Direct actions can now be opened via Hot Corners\n \
-- Added option to use Direct Actions via tapping instead of immediately commiting after releasing the swipe\n \
-- Added new Direct Action type Custom URI which can be used to add custom actions via URI i.e. sms://0123456789\n \
-- Added keyboard shortcut to open Direct Actions\n \
-- Added edit mode in Direct Actions (Via Lomiri Plus settings)\n \
-\n \
-- Stop updating BackgroundBlur when display is off\n \
-- Added option to disable Sensor Gestures when screen is off\n \
-- Hide window titlebar when maximized so it won't show behind translucent Top Bar\n \
-- Shorten Side-Stage handle so it won't show under the Top Panel\n \
-- Added optional device hack for devices that has a problem with bottom gestures in certain orientations\n \
-- Outer Wilds: Removed BFB appearance changes aside from the icon itself\n \
-- Outer Wilds: Loading circle pauses when typing the passcode\n \
-\n \
-Fixes:\n \
-- Disable lock screen, app screenshot and close app Direct Actions when in lockscreen\n \
-- Do not hide Top Bar in Windowed mode\n \
-- Corrected logic to always show the first screen in Workspaces unless there's multiple screens and in Virtual touchpad mode\n \
-- Fixed focus when moving unfocused apps between Main and Side Stage. Automatically move them to the foreground.\n \
-- Fixed issues with header collapse/expand in the Indicator Panels\n \
-- Removed opacity animation of header label in Indicator Panels to avoid delayed animation when quickly expanding/collapsing\n \
-- Fixed issue when resetting App Grids headers when inverted\n \
-- Stop expanding the header of App Grids when in Windowed mode\n \
-- Properly set Dark mode without using a hardcoded URL\n \
-- Fixed Auto Dark Mode always triggering when rebooting or restarting Lomiri even if disabled\n \
-- Fixed all hard coded paths to properly use standard user paths (custom wallpaper, custom BFB, etc)\n \
-- Tries to limit battery drain in Dynamic Cove\n \
-- Fixes in Outer Wilds themes\n \
-\n \
-Desktop/Windowed mode related:\n \
-- Identify devices with touchscreen as tablet which makes the desktop mode toggle actually work to swicth to Staged mode\n \
-- Added options to enable more advanced keyboard shortcuts for snapping windows - added quarter snapping to the shortcut, replace horizontal and vertical snapping to top and bottom snapping and delayed snapping \n \
-- Added option to set custom window snapping preview colors\n \
-- Switch between workspaces with 4 finger swipe gesture. 5 finger to move current app to selected workspace\n \
-- Implemented keyboard shortcut for moving current app while switching workspace\n \
-- Added option to delay Workspace Switcher UI when quickly switching\n \
-- Enabled short swipe to switch to previous app in windowed mode\n \
-- Added option to enlarge window buttons when window resize/move touch controls are displayed\n \
-- Added option to match window titlebar with app's top part color\n \
-- Automatically switch to the workspace of the app getting focused\n \
-- Fixed maximized apps getting restored when switching workspace\n \
-- Fixed maximized/snapped and fullscreen windows getting unnecessarily resized when entering spread, in the spread and when minimized\n \
-- Fixed transition animation from minimized to maximized/snapped\n \
-- Fixed minimize animation to actually show\n \
-- Fixed Spread showing in inncomplete state when switching workpsace then using the keyboard shortcut/Hot Corner to open the Spread\n \
-- Fixed window control buttons still show up in the Top Bar when closing a maximized app that is the only app open\n \
-- Workspace preview fixes such as correct sizing for maximized/snapped windows and in Staged mode (still not perfect though), changing size based on screen orientation, screen size and aspect ratio with consideration ofthe Launcher and top panel\n \
-- Added option to enable less sensitive edge barriers for activating the left and right edge via mouse (For opening the Drawer and Spread)\n \
-- Fixed App Grid issue on the desktops\n \
-- Proper mouse navigation support in the App Grid indicator selector\n \
-- Wonky Wobbly Windows :)\n \
-- Optional Spread workaround in Ubuntu desktop where apps steal touch events\n \
-- Added option to disable keyboard shortcuts overlay\n \
-\n \
-Device Specific:\n \
-Fxtec Pro1-X\n \
- - Added Quick toggle, Direct actions and auto behaviors settings for the keypad backlight settings\n \
-\n \
-- Blue 💀"
+- Fixed bug related to 'maximizeWindowShortcut'"
         }
     ]
 }
