@@ -328,6 +328,8 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "changelog": "v1.4\n\
 - Fixed issue when dragging the floating scroll button where it momentarily jumps to the top before going back to correct position\n\
 - Quick action items do not hide when disabled anymore. This helps make the position of items predicatable instead of constantly changing based on item's enablement.\n\
+- Added hover UI when toggling the header with the mouse and also extended the amount of time before the header shows up\n\
+- Sync zoom value to Zoom settings when zooming via Ctrl + mouse scroll \n\
 - Added option to list URLs/patterns which will be forced as external links regardless if it's from the internal domain/subdomain of the webpp. This is useful for sneaky bastards that user their own domain to redirect to external links.\n\n\n\
 v1.3\n\
 - Pull up webview when onscreen keyboard is displayed\n\
@@ -360,7 +362,7 @@ v1.1\n \
         , {
             "package_id": "marikit"
             , "file_name": "MariKit"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "MariKit changes components and adds features to the Lomiri toolkit which is used by most Ubuntu Touch apps especially the core apps. \
 New features may not work properly, or at all, on some apps since it depends on how the app uses the modified Toolkit components.\n\n\
@@ -373,7 +375,9 @@ Swiping to the right will trigger the left header action which is usally the bac
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/UITK/MariKit"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.2\n\
+            , "changelog": "v1.3\n\
+- Make vertical scrollbars more usable with touch. When dragging a flickable, side margin is added to the scrollbar thumb to avoid conflict with side gestures and also the touch detection area becomes wider.\n\n\
+v1.2\n\
 - Fixed anchor keyboard in dialogs in apps with Qt::AA_EnableHighDpiScaling such as Morph\n\
 - Force bottom gesture in apps where Header is used but not Page (Affects apps like TELEports)\n\
 - New QML property to force disable bottom gestures in `Page` components\n\n\n\
@@ -439,8 +443,10 @@ New features:\n\n\
 - [Air Mouse] Implemented custom click behavior where you swipe to trigger mouse clicks and drags\n\
 - [Air Mouse] Changed swipe behavior from vertical to horizontal. Swipe to right is now right click and swipe to left is for dragging a window\n\
 - [Air Mouse] Option to use volume buttons for left and right click\n\
+- [App Spread] Option for a redesigned highlight UI\n\
 - [Battery Tracking] List view option for the battery graphs by long pressing to toggle between the two view modes\n\
 - [Device Configuration] Option to use custom display pixel density for devices with incorrect value such as the Fairphone 5. This affects gestures and UI elements that use physical size\n\
+- [Dynamic Cove] Added option to automatically hide the information texts in the CD player after a set period of time\n\
 - [Emoji Selector] New Emoji selector popup that can be opened via Ctrl + . (period) or Quick Actions that can be used to search and enter emojis\n\
 - [Fingerprint] Added option to disable fingerprint while typing your passcode. Helpful to avoid accidentally touching side-mounted fingerprint sensors while typing.\n\
 - [Indicator Panels] Added option to display expanded top bar with transparency matching the indicator panels\n\
@@ -482,6 +488,9 @@ Improvements:\n\n\
 - [Pocket Mode] Disable Pocket Mode detection when there's an external display\n\
 - [Quick Actions] Power dialog action is now disabled when the device is locked\n\
 - [Shell] Changed behavior of the 'Use timer for blur updates...' toggle and now affects both Staged and Windowed mode. Lomiri now enables live blur updates by default\n\
+- [Shell] Improved Alt Tabbing by disabling mouse hover while it is in-progress\n\
+- [Shell] Added a Welcome dialog for Lomiri Plus\n\
+- [Shell] Showing desktop will close the Drawer and the Spread\n\
 - [Virtual Touchpad] Added hint in the onscreen keyboard button when it's enabled or disabled\n\
 - [Virtual Touchpad] Added option to reduce click threshold to avoid triggering left-click when doing small mouse movements\n\
 \n\n\
