@@ -15,8 +15,10 @@ Item {
     property string packageName
     property string component_id
     property string componentName
-    property string fileName
+    property string fileName: getFilename(filePath.toString())
+    property url filePath
     property bool hasRestart: false
+    property bool externalFile: false
 
     property bool componentWasChecked: false
     property bool componentIsClean: false
@@ -47,11 +49,13 @@ Item {
     }
     readonly property Timer delayedInstallTimer: Timer {
         property bool installOldVersion: false
+        property bool isExternal: false
 
         interval: LomiriAnimation.BriskDuration
 
-        function startTimer(_old = false) {
+        function startTimer(_old = false, _external = false) {
             installOldVersion = _old
+            isExternal = _external
             restart()
         }
         
@@ -61,12 +65,22 @@ Item {
                 _fileName += rootItem.oldVersionSuffix
             }
 
-            if (Shell.installPackage(_fileName)) {
-                checkComponentIfClean()
-                Shell.blockOTA()
-                showFinishDialog("install", true)
+            let _result = false
+
+            if (delayedInstallTimer.isExternal) {
+                _result = Shell.installExternalPackage(rootItem.cleanFilePath(rootItem.filePath))
             } else {
-                showFinishDialog("install", false)
+                _result = Shell.installPackage(_fileName)
+            }
+
+            if (_result) {
+                if (!delayedInstallTimer.isExternal) {
+                    checkComponentIfClean()
+                }
+                Shell.blockOTA()
+                showFinishDialog("install", true, delayedInstallTimer.isExternal)
+            } else {
+                showFinishDialog("install", false, delayedInstallTimer.isExternal)
             }
             hideModalLoadingScreen()
         }
@@ -98,6 +112,15 @@ Item {
         }
     }
 
+    function getFilename(_filepath) {
+        let _returnValue = _filepath.toString().split('\\').pop().split('/').pop();
+        return _returnValue
+    }
+
+    function cleanFilePath(_filePath) {
+        return _filePath.toString().replace(/^file:\/\//, "")
+    }
+
     function checkComponentIfClean() {
         let _returnCode = Shell.checkComponentForMods(rootItem.component_id)
         componentIsClean = _returnCode
@@ -112,13 +135,19 @@ Item {
         mainView.overlayContainer.hide()
     }
 
-    function showFinishDialog(_action, _success) {
-        let _popup = PopupUtils.open(finishDialog, parent, { "mode": _action
+    function showFinishDialog(_action, _success, _external) {
+        let _popup
+        if (_external) {
+            _popup = PopupUtils.open(externalFinishDialog, parent, { "mode": _action
+                                                                    , "isSuccess": _success })
+        } else {
+            _popup = PopupUtils.open(finishDialog, parent, { "mode": _action
                                                                     , "component_id": rootItem.component_id
                                                                     , "componentName": rootItem.componentName
                                                                     , "packageName": rootItem.packageName
                                                                     , "offerRestart": rootItem.hasRestart
                                                                     , "isSuccess": _success })
+        }
 
         _popup.restart.connect(function() {
             askToRestart()
@@ -131,6 +160,11 @@ Item {
     function installPackage(_old = false) {
         showModalLoadingScreen(i18n.tr("Installing %1...").arg(rootItem.packageName))
         delayedInstallTimer.startTimer(_old)
+    }
+
+    function installExternalPackage() {
+        showModalLoadingScreen(i18n.tr("Installing %1...").arg(rootItem.fileName))
+        delayedInstallTimer.startTimer(false, true)
     }
 
     function uninstallPackage() {
@@ -162,6 +196,15 @@ Item {
 
         _popup.accepted.connect(function() {
             installPackage(_old)
+        })
+    }
+
+    function askToInstallExternalFile(_filePath) {
+        rootItem.filePath = _filePath
+        let _popup = PopupUtils.open(externalFileConfirmDialog, rootItem, { "mode": "install" , "filePath": _filePath })
+
+        _popup.accepted.connect(function() {
+            installExternalPackage()
         })
     }
 
@@ -232,6 +275,95 @@ Item {
         })
     }
     
+    Component {
+        id: externalFileConfirmDialog
+        Dialog {
+            id: externalFileConfirmDialogue
+
+            signal accepted
+
+            property string mode: "install"
+            property url filePath
+            readonly property string fileName: rootItem.getFilename(filePath)
+
+            readonly property bool isInstall: mode === "install"
+            readonly property bool isUninstall: mode === "uninstall"
+
+            Label {
+                horizontalAlignment: Text.AlignHCenter
+                text: {
+                    if (externalFileConfirmDialogue.isInstall) {
+                        return i18n.tr("Install %1").arg(externalFileConfirmDialogue.fileName)
+                    }
+                    if (externalFileConfirmDialogue.isUninstall) {
+                        return i18n.tr("Uninstall %1").arg(externalFileConfirmDialogue.fileName)
+                    }
+                }
+                wrapMode: Text.Wrap
+                elide: Text.ElideRight
+                textSize: Label.Large
+                color: theme.palette.normal.overlayText
+                visible: (text !== "")
+            }
+
+            Label {
+                horizontalAlignment: Text.AlignHCenter
+                text: {
+                    if (externalFileConfirmDialogue.isInstall) {
+                        return [ i18n.tr("This will install an external package and will modify your system.")
+                                        , i18n.tr("\n\nWARNING: Unknown and unverified packages may be dangerous or even malicious.")
+                                        , i18n.tr("Only proceed if you're totally sure of what you're doing.")
+                                        , i18n.tr("This installation may render your device unusable.")
+                                        , i18n.tr("Make sure you have access to UBports Installer.")
+                                ].join(" ")
+                    }
+
+                    if (externalFileConfirmDialogue.isUninstall) {
+                        return [i18n.tr("This will try to uninstall the selected package file. This is a cleaner way of uninstalling as it cleans up all files.")
+                                , i18n.tr("However, this may take a long time to finish especially with big packages like Lomiri Plus.")
+                                , i18n.tr("If this fails, try the 'Reset' function which will revert all modified files to their original copies and it's a faster process.")
+                                , i18n.tr("New files will be retained though. Reflash (without wipe) to get a clean install of the system")
+                                ].join(" ")
+                    }
+                }
+                color: theme.palette.normal.overlayText
+                wrapMode: Text.Wrap
+                visible: (text !== "")
+            }
+
+            Button {
+                text: {
+                    if (externalFileConfirmDialogue.isInstall) {
+                        return i18n.tr("Install")
+                    }
+                    if (externalFileConfirmDialogue.isUninstall) {
+                        return i18n.tr("Uninstall")
+                    }
+
+                    return i18n.tr("Proceed")
+                }
+                color: {
+                    switch(true) {
+                        case externalFileConfirmDialogue.isUninstall:
+                            return theme.palette.normal.negative
+                    }
+
+                    return theme.palette.normal.positive
+                }
+
+                onClicked:  {
+                    externalFileConfirmDialogue.accepted()
+                    PopupUtils.close(externalFileConfirmDialogue)
+                }
+            }
+
+            Button {
+                text: i18n.tr("Cancel")
+                onClicked: PopupUtils.close(externalFileConfirmDialogue)
+            }
+        }
+    }
+
     Component {
         id: confirmDialog
         Dialog {
@@ -569,6 +701,61 @@ Item {
             Button {
                 text: i18n.tr("Close")
                 onClicked: PopupUtils.close(finishDialogue)
+            }
+        }
+    }
+
+    Component {
+        id: externalFinishDialog
+        Dialog {
+            id: externalFinishDialogue
+
+            signal restart
+            signal reset
+
+            property string mode: "install"
+            property bool isSuccess: false
+
+            readonly property bool isInstall: mode === "install"
+            readonly property bool isUninstall: mode === "uninstall"
+
+            readonly property string otaBlockedText: [
+                i18n.tr("OTA updates are blocked in the System Settings app until you use the 'Reset All' or 'Unblock OTA Updates' function in this app.")
+                , i18n.tr("This is to avoid conflicts with delta OTA updates.")
+            ].join(" ")
+            readonly property string restartText: i18n.tr("A reboot may be required for the changes to take effect.")
+
+            title: {
+                if (isInstall) {
+                    return isSuccess ? i18n.tr("Installed successfully") : i18n.tr("Installation Failed")
+                }
+                if (isUninstall) {
+                    return isSuccess ? i18n.tr("Uninstalled successfully") : i18n.tr("Uninstallation Failed")
+                }
+
+                return ""
+            }
+            text: {
+                if (isInstall) {
+                    return isSuccess ? [i18n.tr("%1 was successfully installed.").arg(rootItem.fileName)
+                                        , otaBlockedText
+                                        , restartText].join(" ")
+                                : [i18n.tr("%1 cannot be installed. It may not be compatible with your system or you already have this package installed.").arg(rootItem.fileName)
+                                    , i18n.tr("Try uninstalling or resetting the affected component and try again.")].join(" ")
+                }
+                if (isUninstall) {
+                    return isSuccess ? [i18n.tr("%1 was successfully uninstalled.").arg(rootItem.fileName)
+                                        , restartText].join(" ")
+                                : [i18n.tr("%1 cannot be uninstalled. This package may not be installed yet.").arg(rootItem.fileName)
+                                    , i18n.tr("Try resetting instead.")].join(" ")
+                }
+
+                return ""
+            }
+
+            Button {
+                text: i18n.tr("Close")
+                onClicked: PopupUtils.close(externalFinishDialogue)
             }
         }
     }

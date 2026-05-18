@@ -93,5 +93,23 @@ ScrollView {
             iconName: "tick"
             onClicked: actionsItem.askToUnblockOTA()
         }
+
+        ListItems.SectionDivider {
+            iconName: "dialog-warning-symbolic"
+            text: i18n.tr("Extras")
+        }
+
+        ListItems.Control {
+            title.text: mainView.settings.extraPowerUnlocked ? i18n.tr("You have unlocked the power of the Eye!") : i18n.tr("Unlock the power of the Eye")
+            enabled: !mainView.settings.extraPowerUnlocked
+            iconName: "view-on"
+            onClicked: {
+                if (mainView.settings.extraPowerUnlocked) {
+                    mainView.settings.extraPowerUnlocked = false
+                } else {
+                    mainView.openUnlockPowerDialog()
+                }
+            }
+        }
     }
 }
