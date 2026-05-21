@@ -26,6 +26,7 @@ import Qt.labs.settings 1.0
 import Lomiri.Components.Popups 1.3
 import Lomiri.Content 1.3
 import QtQuick.Layouts 1.15
+import QtSensors 5.12
 import "components"
 
 MainView {
@@ -540,6 +541,31 @@ MainView {
                             
                     }
                 }
+                Rectangle {
+                    id: blackoutRec
+                    opacity: 0
+                    visible: opacity > 0
+                    color: "black"
+                    anchors.fill: parent
+                    anchors.margins: units.gu(-2)
+                    anchors.topMargin: 0
+                    radius: units.gu(2)
+                    z: 9999
+                    Behavior on opacity { LomiriNumberAnimation { duration: LomiriAnimation.BriskDuration } }
+                    onOpacityChanged: {
+                        if (opacity === 1) {
+                            container.powerButtonAlreadyPressed = true
+                            planetsContainer.randomHighlight()
+                        }
+                    }
+
+                    function show() {
+                        opacity = 1
+                    }
+                    function hide() {
+                        opacity = 0
+                    }
+                }
                 Timer {
                     id: volumeDownTimeoutTimer
                     interval: 200
@@ -581,6 +607,31 @@ MainView {
                     quoom.shouldShow = _shouldBeVisible
 
                     restartTimer()
+                }
+
+                AmbientLightSensor {
+                    id: ambientLightSensor
+                    active: unlockPowersDialogue.stage >= 1
+                    dataRate: 20
+                    onReadingChanged: {
+                        switch (reading.lightLevel) {
+                            case AmbientLightReading.Dark:
+                                blackoutRec.show()
+                                break
+                            case AmbientLightReading.Twilight:
+                            case AmbientLightReading.Light:
+                            case AmbientLightReading.Bright:
+                            case AmbientLightReading.Sunny:
+                            default:
+                                blackoutRec.hide()
+                                break
+                        }
+                    }
+                }
+                Compass {
+                    id: compassSensor
+                    active: unlockPowersDialogue.stage >= 2
+                    dataRate: 20
                 }
 
                 Icon {
@@ -647,6 +698,18 @@ MainView {
                                     color: planetsContainer.highlightedIndex === index ? theme.palette.normal.activity //"#4c5195"
                                                     : theme.palette.normal.backgroundText
                                     keyColor: "#ffffff"
+
+                                    Rectangle {
+                                        visible: planetsContainer.highlightedIndex === index
+                                        anchors.fill: parent
+                                        anchors.margins: units.gu(-0.5)
+                                        radius: width / 2
+                                        color: "transparent"
+                                        border {
+                                            width: units.dp(1)
+                                            color: theme.palette.normal.activity
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -674,6 +737,8 @@ MainView {
                         }
 
                         Repeater {
+                            id: directionsRepeater
+
                             model: [
                                 {text: "N",  angle: 0},
                                 {text: "NE", angle: 45},
@@ -690,6 +755,17 @@ MainView {
                                 height: width
                                 x: directionsContainer.width/2  - width/2  + directionsContainer.radius * Math.sin(modelData.angle * Math.PI / 180)
                                 y: directionsContainer.height/2 - height/2 - directionsContainer.radius * Math.cos(modelData.angle * Math.PI / 180)
+                                Connections {
+                                    target: compassSensor
+                                    onReadingChanged: {
+                                        const _currentReading = target.reading.azimuth
+                                        if ((modelData.angle === 0 && (_currentReading > 360 - 22.5 || _currentReading <= modelData.angle + 22.5))
+                                                || (modelData.angle !== 0 && _currentReading > modelData.angle - 22.5 && _currentReading <= modelData.angle + 22.5)
+                                                ) {
+                                            directionsContainer.selectedIndex = index
+                                        }
+                                    }
+                                }
 
                                 onClicked: directionsContainer.selectedIndex = index
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-18 11:01+0000\n"
+"POT-Creation-Date: 2026-05-21 05:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,9 +61,9 @@ msgstr ""
 msgid "Main Developer"
 msgstr ""
 
-#: ../src/app/qml/aboutTab/AboutPage.qml:106 ../src/app/qml/main.qml:131
-#: ../src/app/qml/main.qml:135 ../src/app/qml/main.qml:277
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
+#: ../src/app/qml/aboutTab/AboutPage.qml:106 ../src/app/qml/main.qml:132
+#: ../src/app/qml/main.qml:136 ../src/app/qml/main.qml:278
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:1
 msgid "Ambot Installer"
 msgstr ""
 
@@ -262,7 +262,7 @@ msgstr ""
 #: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
 #: ../src/app/qml/components/InstallerActionsItem.qml:361
 #: ../src/app/qml/components/InstallerActionsItem.qml:571
-#: ../src/app/qml/main.qml:338
+#: ../src/app/qml/main.qml:339
 #: ../src/plugin/pamauthentication/AuthenticationDialog.qml:62
 msgid "Cancel"
 msgstr ""
@@ -965,60 +965,60 @@ msgstr ""
 msgid "Changelog"
 msgstr ""
 
-#: ../src/app/qml/main.qml:82
+#: ../src/app/qml/main.qml:83
 msgid "Installer"
 msgstr ""
 
-#: ../src/app/qml/main.qml:88
+#: ../src/app/qml/main.qml:89
 msgid "Actions"
 msgstr ""
 
-#: ../src/app/qml/main.qml:94
+#: ../src/app/qml/main.qml:95
 msgid "Settings"
 msgstr ""
 
-#: ../src/app/qml/main.qml:279
+#: ../src/app/qml/main.qml:280
 msgid ""
 "READ BEFORE USE!\n"
 "\n"
 msgstr ""
 
-#: ../src/app/qml/main.qml:280
+#: ../src/app/qml/main.qml:281
 msgid ""
 "This app can and will modify your system files when you install a package."
 msgstr ""
 
-#: ../src/app/qml/main.qml:281
+#: ../src/app/qml/main.qml:282
 msgid ""
 "Given the nature of this app's capability, use this app with caution and "
 "only when you accept the risk."
 msgstr ""
 
-#: ../src/app/qml/main.qml:282
+#: ../src/app/qml/main.qml:283
 msgid ""
 "Although the app and packages were tested to be working, any unexpected "
 "issue or bug may render your device unusable."
 msgstr ""
 
-#: ../src/app/qml/main.qml:283
+#: ../src/app/qml/main.qml:284
 msgid ""
 "Compatibility check is not foolproof and does not take into account any "
 "programmatic incompatibilities/conflicts."
 msgstr ""
 
-#: ../src/app/qml/main.qml:284
+#: ../src/app/qml/main.qml:285
 msgid ""
 "It is highly recommended to only use this when you have UBports Installer "
 "accessible to you."
 msgstr ""
 
-#: ../src/app/qml/main.qml:285
+#: ../src/app/qml/main.qml:286
 msgid ""
 "Don't worry, you can reflash your system without wiping your data like "
 "nothing happened :)"
 msgstr ""
 
-#: ../src/app/qml/main.qml:286
+#: ../src/app/qml/main.qml:287
 msgid ""
 "\n"
 "\n"
@@ -1026,23 +1026,23 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../src/app/qml/main.qml:287
+#: ../src/app/qml/main.qml:288
 msgid ""
 "Please remove all changes to your system before reporting an issue to "
 "UBports official repositories."
 msgstr ""
 
-#: ../src/app/qml/main.qml:288
+#: ../src/app/qml/main.qml:289
 msgid "You can use the 'Reset All Components' function in this app."
 msgstr ""
 
-#: ../src/app/qml/main.qml:289
+#: ../src/app/qml/main.qml:290
 msgid ""
 "After resetting, you may try to replicate the issue and see if it is an "
 "actual issue or an issue with the packages installed."
 msgstr ""
 
-#: ../src/app/qml/main.qml:290
+#: ../src/app/qml/main.qml:291
 msgid ""
 "\n"
 "\n"
@@ -1050,81 +1050,81 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../src/app/qml/main.qml:291
+#: ../src/app/qml/main.qml:292
 msgid ""
 "For devices with rounded corners and/or display cutout, Lomiri Plus "
 "Essentials is recommeded."
 msgstr ""
 
-#: ../src/app/qml/main.qml:292
+#: ../src/app/qml/main.qml:293
 msgid "In fact, it's the main reason why this app exists."
 msgstr ""
 
-#: ../src/app/qml/main.qml:293
+#: ../src/app/qml/main.qml:294
 msgid ""
 "To easily share the display cutout and rounded corners support until the "
 "official one is released."
 msgstr ""
 
-#: ../src/app/qml/main.qml:297
+#: ../src/app/qml/main.qml:298
 msgid "I understand the risks"
 msgstr ""
 
-#: ../src/app/qml/main.qml:307
+#: ../src/app/qml/main.qml:308
 msgid "Get me out of here!"
 msgstr ""
 
-#: ../src/app/qml/main.qml:329
+#: ../src/app/qml/main.qml:330
 msgid "Select file from..."
 msgstr ""
 
-#: ../src/app/qml/main.qml:454
+#: ../src/app/qml/main.qml:455
 msgid "Congratulations!"
 msgstr ""
 
-#: ../src/app/qml/main.qml:454
+#: ../src/app/qml/main.qml:455
 msgid "You have failed"
 msgstr ""
 
-#: ../src/app/qml/main.qml:458
+#: ../src/app/qml/main.qml:459
 msgid ""
 "You have unlocked the power of the Eye. This power can be dangerous. Only "
 "use it if you know what you are doing ;;)"
 msgstr ""
 
-#: ../src/app/qml/main.qml:460
+#: ../src/app/qml/main.qml:461
 msgid "Your Quantum journey is yet to be completed."
 msgstr ""
 
-#: ../src/app/qml/main.qml:464
+#: ../src/app/qml/main.qml:465
 msgid "Recall the rule of Quantum Imaging"
 msgstr ""
 
-#: ../src/app/qml/main.qml:466
+#: ../src/app/qml/main.qml:467
 msgid "Recall the rule of Quantum Entanglement"
 msgstr ""
 
-#: ../src/app/qml/main.qml:468
+#: ../src/app/qml/main.qml:469
 msgid "Recall the rule of the Sixth Location"
 msgstr ""
 
-#: ../src/app/qml/main.qml:470
+#: ../src/app/qml/main.qml:471
 msgid "Recall the rule of Pancit Quantum"
 msgstr ""
 
-#: ../src/app/qml/main.qml:478
+#: ../src/app/qml/main.qml:479
 msgid "Let's go!"
 msgstr ""
 
-#: ../src/app/qml/main.qml:480
+#: ../src/app/qml/main.qml:481
 msgid "I must return"
 msgstr ""
 
-#: ../src/app/qml/main.qml:482
+#: ../src/app/qml/main.qml:483
 msgid "Collapse all possibilities"
 msgstr ""
 
-#: ../src/app/qml/main.qml:484
+#: ../src/app/qml/main.qml:485
 msgid "I'm not ready"
 msgstr ""
 
@@ -1188,10 +1188,10 @@ msgstr ""
 msgid "The transaction failed, see the detailed error for more information."
 msgstr ""
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:2
 msgid "tweak;tool;settings;mods;hacks;"
 msgstr ""
 
-#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/x86_64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
+#: /home/kugiigi/Documents/Development/Jerk/jerk-click/build/aarch64-linux-gnu/app/po/jerk-click.kugiigi.desktop.in.in.h:3
 msgid "A simple but powerful tool to install awesome and cool hacks and mods"
 msgstr ""
