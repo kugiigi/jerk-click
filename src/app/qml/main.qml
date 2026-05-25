@@ -609,29 +609,28 @@ MainView {
                     restartTimer()
                 }
 
-                AmbientLightSensor {
-                    id: ambientLightSensor
+                LightSensor {
+                    id: lightSensor
                     active: unlockPowersDialogue.stage >= 1
                     dataRate: 20
                     onReadingChanged: {
-                        switch (reading.lightLevel) {
-                            case AmbientLightReading.Dark:
-                                blackoutRec.show()
-                                break
-                            case AmbientLightReading.Twilight:
-                            case AmbientLightReading.Light:
-                            case AmbientLightReading.Bright:
-                            case AmbientLightReading.Sunny:
-                            default:
-                                blackoutRec.hide()
-                                break
+                        if (reading.illuminance <= 1) {
+                            blackoutRec.show()
+                        } else {
+                            blackoutRec.hide()
                         }
                     }
                 }
                 Compass {
                     id: compassSensor
+
+                    property bool isWorking: false
+
                     active: unlockPowersDialogue.stage >= 2
                     dataRate: 20
+
+                    // Detect if the sensor is actually working
+                    onReadingChanged: if (!isWorking && reading.azimuth > 0) isWorking = true
                 }
 
                 Icon {
@@ -758,11 +757,14 @@ MainView {
                                 Connections {
                                     target: compassSensor
                                     onReadingChanged: {
-                                        const _currentReading = target.reading.azimuth
-                                        if ((modelData.angle === 0 && (_currentReading > 360 - 22.5 || _currentReading <= modelData.angle + 22.5))
-                                                || (modelData.angle !== 0 && _currentReading > modelData.angle - 22.5 && _currentReading <= modelData.angle + 22.5)
-                                                ) {
-                                            directionsContainer.selectedIndex = index
+                                        // Only force selection if the sensor actually works. Otherwise, let the user click on a direction
+                                        if (target.isWorking) {
+                                            const _currentReading = target.reading.azimuth
+                                            if ((modelData.angle === 0 && (_currentReading > 360 - 22.5 || _currentReading <= modelData.angle + 22.5))
+                                                    || (modelData.angle !== 0 && _currentReading > modelData.angle - 22.5 && _currentReading <= modelData.angle + 22.5)
+                                                    ) {
+                                                directionsContainer.selectedIndex = index
+                                            }
                                         }
                                     }
                                 }
