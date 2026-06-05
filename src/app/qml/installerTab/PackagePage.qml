@@ -250,7 +250,9 @@ Page {
             , "visible": true
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
 It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
-\n\nAdditional settings can be accessed by long pressing the language switcher/emoji key and selecting 'Malakiboard Settings' at the bottom.\
+\n\n****************  IMPORTANT ****************\n\
+Additional settings can be accessed by long pressing the language switcher/emoji key and selecting 'Malakiboard Settings' at the bottom.\
+\n**********************************************\
 \n\n \
 New Features: \n\
 - Custom height for portrait and landscape orientation\n \
@@ -393,7 +395,9 @@ v1.1 \n \
             , "visible": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
 This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
-\n\nAdditional settings can be accessed from the System indicator at the rightmost of Indicators\n\n \
+\n\n****************  IMPORTANT ****************\n\
+Additional settings can be accessed from the System indicator at the rightmost of Indicators \
+\n**********************************************\n\n\
 Notable features:\n \
 - Device configuration for setting notch and rounded corner dimensions to adjust the UI accordingly \n \
 - Option to enable Side-stage. Splitscreen-like feature that is enabled in landscape orientation. Apps can be dragged between stages with 3-finger drag. 3-finger tap will show/hide the Side-stage\n \
@@ -420,7 +424,9 @@ v1.0 \n\
 Install at your own risk! **\n\n\
 Lomiri Plus is Kugi's playground for all his experiments in Lomiri. It includes fixes, changes, new features and random things that may or may never land in upstream Lomiri. \
 This is a big package that changes many things in Lomiri. This is not professionally made and may or may not include some surprises. \
-\n\nLomiri Plus settings can be accessed from the System indicator at the rightmost of Indicators or by swiping up from the bottom of the lockscreen, if enabled.\n\n \
+\n\n****************  IMPORTANT ****************\n\
+Lomiri Plus settings can be accessed from the System indicator at the rightmost of Indicators or by swiping up from the bottom of the lockscreen, if enabled. \
+\n**********************************************\n\n\
 \
 Notable features:\n \
 - Device configuration for setting notch and rounded corner dimensions to adjust the UI accordingly \n \
