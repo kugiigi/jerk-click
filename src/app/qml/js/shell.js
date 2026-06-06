@@ -21,6 +21,14 @@ function installPackage(_fileName) {
     return processLaunch(_cmd, _useSudo, _incStdError, _logToConsole).indexOf("Installation has been completed successfully") > -1;
 }
 
+function installExternalPackage(_filePath) {
+    let _cmd = [_jerkInstallerPath, "-p", "install", '"' + _filePath + '"'].join(" ");
+    let _useSudo = true
+    let _incStdError = false
+    let _logToConsole = true
+    return processLaunch(_cmd, _useSudo, _incStdError, _logToConsole).indexOf("Installation has been completed successfully") > -1;
+}
+
 function uninstallPackage(_fileName) {
     let _cmd = [_jerkInstallerPath, "-p", "uninstall", getJerkPackagePath(_fileName)].join(" ");
     let _useSudo = true
