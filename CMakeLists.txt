@@ -19,7 +19,7 @@ set(APP_NAME           "jerk-click")
 set(DESKTOP_FILE        "${PROJECT_NAME}.desktop")
 set(LP_PROJECT          jerk-click)
 set(ICON_FILE           jerk-click.svg)
-set(VERSION             "1.0.4")
+set(VERSION             "1.0.5")
 
 # Sets BZR_REVNO
 execute_process(

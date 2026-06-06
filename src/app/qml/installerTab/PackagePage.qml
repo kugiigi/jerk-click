@@ -327,7 +327,12 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/WebContainer/SapotContainer"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.4\n\
+            , "changelog": "v1.5\n\
+- Added option to make the bottom gesture area not overlap the webview. Default is to not overlap\n\
+- New quick action for opening the general context menu\n\
+- Added Find in page function in the general context menu\n\
+- Fixed zoom dialog showing up at startup when the default zoom level isn't 100%\n\n\n\
+v1.4\n\
 - Fixed issue when dragging the floating scroll button where it momentarily jumps to the top before going back to correct position\n\
 - Quick action items do not hide when disabled anymore. This helps make the position of items predicatable instead of constantly changing based on item's enablement.\n\
 - Added hover UI when toggling the header with the mouse and also extended the amount of time before the header shows up\n\
@@ -418,7 +423,7 @@ v1.0 \n\
         , {
             "package_id": "lomiri_plus"
             , "file_name": "LomiriPlus"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "** Not recommended for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
@@ -440,10 +445,38 @@ Notable features:\n \
 - App Grids: Adds customizable pages in the App Drawer\n \
 - Outer Wilds themes ::)"
             , "screenshots": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
-            , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
+            , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v2.4\n\
+            , "changelog": "v2.5\n\
+New Features:\n\n\
+- [Quick Actions] Added new actions: Play all songs, Play 'Favorites' playlist\n\
+- [Workspaces] Workspaces has been redesigned so switching between them is now seamless and without delay when reloading all windows/apps\n\
+- [Workspaces] Added a new behavior when using keyboard  shortcuts for switching between workspaces\n\
+- [Workspaces] Added shortcut to switch between workspaces by scrolling over the Launcher panel or Top bar\n\
+\n\n\
+Improvements:\n\n\
+- [App Grids] Made animation when switching between pages faster\n\
+- [Dynamic Cove] Also hide dimming when overlay hides and minor tweaks to the other border\n\
+- [Drawer Advanced Search] Do not anchor to OSK when app grid/list is inverted. This improves performance when initiating search mode.\n\
+- [Detox Mode] Changed Detox mode sliders to be based on seconds instead of minutes for better fine control\n\
+- [Detox Mode] Added duration setting for the fun pages that appears\n\
+- [Detox Mode] New Horror page\n\
+- [Emoji Selector] Added recent list\n\
+- [Extras] Changed delay sliders to be based on seconds instead of minutes for better fine control\n\
+- [Fully Charge Alarm] Disable dialog popup on external displays\n\
+- [Indicator Selector] Added an option to immediately select items upon highlighting them. This affects App grids and indicator panels\n\
+- [Shell] Added haptics to various buttons such as settings slider buttons\n\
+\n\n\
+Bug fixes:\n\n\
+- [App Spread] Fixed workspace preview for side-stage apps\n\
+- [App Drawer] Fixed refresh not working when the search field is displayed\n\
+- [Detox Mode] Fixed pausing timer when showing desktop\n\
+- [Dynamic Cove] Improve work around when playing a playlist sometimes won't actually play the first song\n\
+- [Indicator Panels] Fixed blur and transparency of the handle when inverted\n\
+- [Top Bar] Fixed top bar full transparency optional settings when blur is disabled\n\
+\n\n\n\
+v2.4\n\
 New features:\n\n\
 - [Advanced Search] Implemented a new custom Drawer search page which includes optional OpenStore and Web results\n\
 - [Air Mouse] Implemented custom click behavior where you swipe to trigger mouse clicks and drags\n\
