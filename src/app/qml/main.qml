@@ -31,7 +31,7 @@ import "components"
 
 MainView {
     // DO NOT MODIFY, this is updated automatically during the build
-    readonly property var appVersion: "1.0.5"
+    readonly property var appVersion: "1.0.6"
     property alias settings: settingsItem
     property alias overlayContainer: overlayContainer
 

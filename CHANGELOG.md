@@ -1,9 +1,15 @@
 # Changelog
 
+# [1.0.6]
+- Updated packages for 24.04-1.4 compatibility
+- Updated Malakiboard (v1.9)
+- Updated MariKit (v1.4)
+
 # [1.0.5]
 - Added a locked feature for installing external jerk package files
 - Updated package descriptions to make the instruction on how to access the settings more noticeable
 - Corrected source link for Lomiri Plus
+
 # [1.0.4]
 - First Noble only release
 - Reintroduce Lomiri Plus (v2.4)

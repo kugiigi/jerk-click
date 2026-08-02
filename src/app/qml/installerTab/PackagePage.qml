@@ -267,7 +267,13 @@ New Features: \n\
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/Malakiboard"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.8\n\
+            , "changelog": "v1.9\n\
+- 24.04-1.4 Compatibility\n\
+- Fixes regressions and conflicts with the new update i.e layout issue when switching to symbols\n\
+- Improves display of word ribbon when Shorcuts Bar is enabled\n\
+- Do not force show word ribbon when Notebook feature is enabled. Only force show when Shortcuts bar is enabled\n\
+- Hide Emoji and Language actions when in numbers and telephone layouts\n\n\
+v1.8\n\
 - Fixed clipping in the Notebook list views\n\
 - Added option to use custom display pixel density. Useful for devices like the Faiphone 5 which has an incorrect pixel density. This affects gestures that use physical sizing.\n\
 - Fixed errors related to `keyboardRect` in MKBaseDialog\n\n\n\
@@ -382,7 +388,9 @@ Swiping to the right will trigger the left header action which is usally the bac
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/UITK/MariKit"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.3\n\
+            , "changelog": "v1.4\n\
+- Fixed bug where header swipe won't work one time after pressing a header button\n\n\
+v1.3\n\
 - Make vertical scrollbars more usable with touch. When dragging a flickable, side margin is added to the scrollbar thumb to avoid conflict with side gestures and also the touch detection area becomes wider.\n\n\
 v1.2\n\
 - Fixed anchor keyboard in dialogs in apps with Qt::AA_EnableHighDpiScaling such as Morph\n\
