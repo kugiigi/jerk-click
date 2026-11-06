@@ -267,7 +267,10 @@ New Features: \n\
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/Malakiboard"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.9\n\
+            , "changelog": "v2.1\n\
+- 24.04-2.2 compatibility\n\
+- Directly switch to a language via Shortcut bar button or Quick Actions. Experimental and needs restarting the keyboard when adding/removing languages\n\n\n\
+v1.9\n\
 - 24.04-1.4 Compatibility\n\
 - Fixes regressions and conflicts with the new update i.e layout issue when switching to symbols\n\
 - Improves display of word ribbon when Shorcuts Bar is enabled\n\
@@ -305,14 +308,15 @@ v1.5 \n\
         , {
             "package_id": "malakiboard_layouts"
             , "file_name": "MalakiboardLayouts"
-            , "old_version": false
+            , "old_version": true
             , "visible": true
             , "description": "This is a companion package for Malakiboard which includes changes specific to languages/layouts. Install this if you installed Malakiboard to get the full functionalities and features."
             , "screenshots": []
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Keyboard/MalakiboardLayouts"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": ""
+            , "changelog": "v1.8\n\
+- 24.04-2.2 compatibility"
         }
         , {
             "package_id": "sapot_container"
@@ -333,7 +337,13 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/WebContainer/SapotContainer"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.5\n\
+            , "changelog": "v1.6\n\
+- 24.04-2.2 compatibility\n\
+- Disabled features that rely on orientation sensor (Qt6 library isn't available yet)\n\
+- Fixed 'Open link in incognito overlay' menu option when using inside an overlay\n\
+- Dynamically hide/show webviews depending if they are visually displayed in the app or not\n\
+- Use Material QQC2 Style since Suru is still not available in Qt6\n\n\n\
+v1.5\n\
 - Added option to make the bottom gesture area not overlap the webview. Default is to not overlap\n\
 - New quick action for opening the general context menu\n\
 - Added Find in page function in the general context menu\n\
@@ -388,7 +398,10 @@ Swiping to the right will trigger the left header action which is usally the bac
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/UITK/MariKit"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.4\n\
+            , "changelog": "v1.5\n\
+- 24.04-2.2 compatibility\n\
+- Implemented horizontal scroll on page headers to simulate swiping\n\n\n\
+v1.4\n\
 - Fixed bug where header swipe won't work one time after pressing a header button\n\n\
 v1.3\n\
 - Make vertical scrollbars more usable with touch. When dragging a flickable, side margin is added to the scrollbar thumb to avoid conflict with side gestures and also the touch detection area becomes wider.\n\n\
@@ -407,6 +420,8 @@ v1.1 \n \
             , "old_version": true
             , "visible": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
+** REPLACES THE BUILT-IN NOTCH AND ROUNDED CORNERS SOLUTION\n\n\
+** Custom notch solution is more complete since it supports all orientations albeit it has its own quirks\n\n\n\
 This is a minimal version of Lomiri Plus that only includes fixes, changes and new features that are 'essential' such as Notch and Rounded Corners support. \
 \n\n****************  IMPORTANT ****************\n\
 Additional settings can be accessed from the System indicator at the rightmost of Indicators \
@@ -420,7 +435,9 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus_Essentials"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.2\n\
+            , "changelog": "v1.3\n\
+- 24.04-2.2 compatibility\n\n\n\
+v1.2\n\
 - Properly support left notch/punchhole by adding margins in the indicators\n\n\n\
 v1.1\n\
 - Fixed blur in Drawer and Indicator Panel\n\
@@ -433,8 +450,9 @@ v1.0 \n\
             , "file_name": "LomiriPlus"
             , "old_version": true
             , "visible": true
-            , "description": "** Not recommended for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
+            , "description": "** NOT RECOMMENDED for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
+** REPLACES THE BUILT-IN NOTCH AND ROUNDED CORNERS SOLUTION\n\n\n\
 Lomiri Plus is Kugi's playground for all his experiments in Lomiri. It includes fixes, changes, new features and random things that may or may never land in upstream Lomiri. \
 This is a big package that changes many things in Lomiri. This is not professionally made and may or may not include some surprises. \
 \n\n****************  IMPORTANT ****************\n\
@@ -456,7 +474,82 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v2.5\n\
+            , "changelog": "v2.7\n\
+General:\n\
+- 24.04-2.2 compatibility\n\
+\n\n\
+New Features:\n\
+ - [Battery Saver Mode] Added levels - Standard, High, and Extreme \n\
+ - [Rotate Screen Action] Option to set the alternate orientation when toggline rotation in Quick Actions, Navigation Buttons, etc\n\
+ - [Rotate Screen Action] Option to support all orientations especially inverted portrait which is usually disabled\n\
+ - [Rotate Screen Action] Toggle between all orientations on external displays\n\
+ - [Rotate Screen Action] Option to rotate based on the device's physical orientation\n\
+\n\n\
+Improvements:\n\
+ - [Advanced Screenshot] Overrides the built-in screenshot editor\n\
+ - [Advanced Screenshot] Added delete button\n\
+ - [Advanced Screenshot] Added option to capture more elements that are previously hidden such as floating rotate button and Navigation Buttons. However, screenshots do not follow the rotation of the shell\n\
+ - [Detox Mode] Added option to pause when using Mobile data\n\
+ - [Indicator Panels] Do not hide 'Do not suspend' toggle even in Windowed mode since we now have Battery saver mode\n\
+ - [Launcher] Option to hide Launcher when in narrow screen now applies even in landscape on phones and tablets\n\
+ - [Navigation Buttons] Fix layout in inverted portrait\n\
+ - [Settings] Rearranged items and improved Device Configuration page\n\
+ - [Top Bar] Hide custom indicator icons on the left when hovering and the current app is maximized\n\
+ - [Window Decoration] Hide resize hints in the touch overlay when the window is snapped\n\
+ - [Window Decoration] Enlarged window controls do not go out of the window surface anymore so they're accessible as long as the top part of the window is\n\
+ - [Workspaces] Reduced width threshold for displaying the workspaces indicator in the top bar\n\
+\n\n\
+Bug fixes:\n\
+- [Indicator Panels] Fix adding new items to recent bluetooth list and also set the max count to 5\n\
+- [Indicator Panels] Fix issue with drop shadows that was introduced in 2.x\n\
+- [Infographics] Do not dim wallpaper when Infographics/Dynamic Cover isn't shown on the desktop\n\
+- [Touch Visuals] Fix being behind the Navigation Buttons\n\
+- [Window Management] Fix bug where titlebar won't come back after exiting fullscreen of an app in Windowed mode\n\n\n\
+v2.6\n\
+New Features:\n\
+- [Shell] Option to use horizontal scrolling on the Launcher or left edge to toggle the Launcher and/or Drawer\n\
+- [Shortcuts] Added Super + D to toggle Show Desktop\n\
+- [Windowed Mode] Added Battery Saver mode when in Windowed mode. Apps that are visually in the background gets suspended while in Extreme battery saver mode, all background apps are suspended like in Staged mode\n\
+- [Window Management] Added an option to have a margin between snapped windows\n\
+- [Window Management] Option to automatically display a tab bar for easy switching between windows that have the same maximized state\n\
+- [Window Snapping] Option to change the animation speed of the snapping visual hint\n\
+- [Workspaces] Implemented partial dynamic workspace. New workspace is added when switching to the right and the current one is not empty and the last workspace\n\
+- [Workspaces] Option to display an indicator\n\
+- [Workpsaces] New keyboard shortcuts: Ctrl + Super + 0-9 to switch to specific workspaces, Ctrl + Super + Tab to switch to the previous active workspace\n\
+- [Virtual Touchpad] Sensitivity settings\n\
+- [Virtual Touchpad] Added separate horizontal scrolling sensitivity\n\
+\n\n\
+Improvements:\n\
+- [App Suspension] Do not delay suspension when display is off\n\
+- [Clean Mode] Display window controls when touch overlay is displayed (3-finger tap)\n\
+- [Convergence] Partial workaround for Launcher getting messed up when plugging/unplugging external displays\n\
+- [Detox Mode] Added Pets and Custom Images options\n\
+- [Drawer Advanced Search] Hide Search button while the grid indicator selector is active\n\
+- [Immersive Mode] Now also disabled left and right edge mouse push. Useful for games.\n\
+- [Immersive Mode] Added option to automatically enter Immersive mode when current app is fullscreen\n\
+- [Immersive Mode] Top panel is now totally disabled when hidden so app can take advantage of pushing the mouse to the top\n\
+- [Infographics] Added dim background to make the texts easier to read\n\
+- [Pocket Mode] Brightness is set to lowest when in pocket mode\n\
+- [Shell] Implemented a work around so that the Drawer won't be toggled anymore when quickly pressing a keyboard shortcut that involes the Super key\n\
+- [Shell] Use pointing hand cursor in some clickable elements e.g. Quick Actions and Quick Toggles \n\
+- [Spread] Super + W will now also close the Spread\n\
+- [Window Management] Disable resize hover in snapped windows\n\
+- [Workspaces] Horizontal scroll on the top bar to switch between workspaces optimized for touchpads\n\
+- [Workspaces] Disable workspace shortcuts when there's only one workspace\n\
+- [Workspaces] Disable screen change shortcuts when in virtual touchpad mode\n\
+- [Virtual Touchpad] Improved distinguishing vertical and horizontal scrolling\n\
+\n\n\
+Bug fixes:\n\
+- [Clean Mode] Hide windows decoration in the fake window when moving an app to another workspace via keyboard shortcut\n\
+- [Clean Mode] Fix incorrect window height when in Spread which unnecessarily resize all windows going in and out of Spread and also incorrect workspace preview\n\
+- [Emoji Selector] Delete duplicates in recent list\n\
+- [Shortcuts] Fix Ctrl + Super + D to minimize all windows\n\
+- [Window Management] Fix bug where titlebar won't come back after exiting fullscreen of an app in Windowed mode\n\
+- [Workspaces] Do not hide current workspaces in inactive screens in Multi-display mode\n\
+\n\n\
+Technical:\n\
+- Removed unnecessary loggings\n\n\n\
+v2.5\n\
 New Features:\n\n\
 - [Quick Actions] Added new actions: Play all songs, Play 'Favorites' playlist\n\
 - [Workspaces] Workspaces has been redesigned so switching between them is now seamless and without delay when reloading all windows/apps\n\
