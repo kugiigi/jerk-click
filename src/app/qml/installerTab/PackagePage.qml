@@ -339,7 +339,8 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "devUrl": "https://github.com/kugiigi"
             , "changelog": "v1.6\n\
 - 24.04-2.2 compatibility\n\
-- Disabled features that rely on orientation sensor (Qt6 library isn't available yet)\n\
+- Disabled features that rely on orientation sensor (Qt6 library isn't available yet).\n\
+- Added rotate button when going fullscreen with a video which rotates it 90° \n\
 - Fixed 'Open link in incognito overlay' menu option when using inside an overlay\n\
 - Dynamically hide/show webviews depending if they are visually displayed in the app or not\n\
 - Use Material QQC2 Style since Suru is still not available in Qt6\n\n\n\
