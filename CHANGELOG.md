@@ -1,5 +1,13 @@
 # Changelog
 
+# [1.0.7]
+- Updated packages for 24.04-2.2 compatibility
+- Updated Lomiri Plus (v2.7)
+- Updated Sapot Container (v1.6)
+- Updated Malakiboard (v2.1)
+- Updated Malakiboard Layouts (v1.8)
+- Updated MariKit (v1.5)
+
 # [1.0.6]
 - Updated packages for 24.04-1.4 compatibility
 - Updated Malakiboard (v1.9)
