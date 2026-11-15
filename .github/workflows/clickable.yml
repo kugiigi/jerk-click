@@ -1,31 +1,63 @@
+
 name: Build
 
 on:
   push:
     branches: [ main ]
+    tags:
+      - 'v*'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   ubuntu-touch:
     strategy:
       fail-fast: false
       matrix:
-         arch: [armhf, arm64, amd64]
+        arch: [armhf, arm64, amd64]
+
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout 
-      uses: actions/checkout@v4 # Required to mount the Github Workspace to a volume
-      with:
-        submodules: recursive
-    - name: build package
-      uses: tuxecure/clickable@v1
-      with:
-        image: clickable/ci-20.04-${{ matrix.arch }}
-        run: clickable build
-    - name: Upload .click package
-      uses: actions/upload-artifact@v4
-      with:
-        name: "ambot-installer-${{ matrix.arch }}"
-        path: build/*/app/*.click
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Build package
+        uses: tuxecure/clickable@v1
+        with:
+          image: clickable/ci-ut24.04-1.x-${{ matrix.arch }}
+          run: clickable build
+
+      - name: Upload .click package
+        uses: actions/upload-artifact@v4
+        with:
+          name: jerk-click-${{ matrix.arch }}
+          path: build/*/app/*.click
+          if-no-files-found: error
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: ubuntu-touch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Click packages
+        uses: actions/download-artifact@v4
+        with:
+          pattern: jerk-click-*
+          path: dist
+          merge-multiple: true
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ github.ref_name }}
+          generate_release_notes: true
+          files: dist/*.click
+          fail_on_unmatched_files: true
