@@ -1,5 +1,12 @@
 # Changelog
 
+# [1.0.8]
+- Mainly for fixing/disabling the bluetooth devices crashing Lomiri in Lomiri Plus
+- Updated Lomiri Plus (v2.8)
+- Updated Sapot Container (v1.7)
+- Setup automated bulding packages from jerk-packages
+- Disabled installing previous versions for now
+
 # [1.0.7]
 - Updated packages for 24.04-2.2 compatibility
 - Updated Lomiri Plus (v2.7)

@@ -246,7 +246,7 @@ Page {
         {
             "package_id": "malakiboard"
             , "file_name": "Malakiboard"
-            , "old_version": true
+            , "old_version": false
             , "visible": true
             , "description": "Malakiboard is a collection of hacks, modifications, and mods for the Lomiri keyboard used in Ubuntu Touch. \
 It is Kugi's playground for fixes, changes and new features that may or may never land on the upstream Lomiri keyboard. \
@@ -308,7 +308,7 @@ v1.5 \n\
         , {
             "package_id": "malakiboard_layouts"
             , "file_name": "MalakiboardLayouts"
-            , "old_version": true
+            , "old_version": false
             , "visible": true
             , "description": "This is a companion package for Malakiboard which includes changes specific to languages/layouts. Install this if you installed Malakiboard to get the full functionalities and features."
             , "screenshots": []
@@ -321,7 +321,7 @@ v1.5 \n\
         , {
             "package_id": "sapot_container"
             , "file_name": "SapotContainer"
-            , "old_version": true
+            , "old_version": false
             , "visible": true
             , "description": "Sapot Container modifies the standard web app container to make it look and work similar to the Sapot Browser. This brings many features available in Sapot Browser.\n\n \
 Notable Features:\n \
@@ -337,7 +337,14 @@ You can also add custom URLs as Quick Actions to help you quickly accessing page
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/WebContainer/SapotContainer"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v1.6\n\
+            , "changelog": "v1.7\n\
+- Bug fixes introduced in last update related to Qt6 upgrade\n\
+- Fixed Yahoo search\n\
+- Fixed downloading in overlays\n\
+- Freeze and hide webviews that aren't visually displayed\n\
+- Improved user agent handling\n\
+- Fixed screenshot overlay when going to the background with the OSK open\n\n\n\
+v1.6\n\
 - 24.04-2.2 compatibility\n\
 - Disabled features that rely on orientation sensor (Qt6 library isn't available yet).\n\
 - Added rotate button when going fullscreen with a video which rotates it 90° \n\
@@ -386,7 +393,7 @@ v1.1\n \
         , {
             "package_id": "marikit"
             , "file_name": "MariKit"
-            , "old_version": true
+            , "old_version": false
             , "visible": true
             , "description": "MariKit changes components and adds features to the Lomiri toolkit which is used by most Ubuntu Touch apps especially the core apps. \
 New features may not work properly, or at all, on some apps since it depends on how the app uses the modified Toolkit components.\n\n\
@@ -417,8 +424,8 @@ v1.1 \n \
         }
         , {
             "package_id": "lomiri_plus_essentials"
-            , "file_name": "LomiriPlus_Essentials"
-            , "old_version": true
+            , "file_name": "Lomiri_Plus_Essentials"
+            , "old_version": false
             , "visible": true
             , "description": "** Recommended for devices with rounded corners and/or display cutout/notch **\n\n\
 ** REPLACES THE BUILT-IN NOTCH AND ROUNDED CORNERS SOLUTION\n\n\
@@ -448,8 +455,8 @@ v1.0 \n\
         }
         , {
             "package_id": "lomiri_plus"
-            , "file_name": "LomiriPlus"
-            , "old_version": true
+            , "file_name": "Lomiri_Plus"
+            , "old_version": false
             , "visible": true
             , "description": "** NOT RECOMMENDED for most users as this changes a lot of things which makes it more prone from unexpected results such as higher battery drain and worse system performance. \
 Install at your own risk! **\n\n\
@@ -475,7 +482,12 @@ Notable features:\n \
             , "sourceUrl": "https://github.com/kugiigi/jerk-packages/tree/main/Lomiri/Lomiri_Plus"
             , "developer": "Kugi Eusebio"
             , "devUrl": "https://github.com/kugiigi"
-            , "changelog": "v2.7\n\
+            , "changelog": "v2.8\n\
+- Disabled device list in bluetooth indicator as it crashes Lomiri in 24.04-2.x\n\
+- Added context menu in stacked window tabs bar\n\
+- Option to not hide indicator icons in large and wide displays\n\
+- Support viewing Snaps in the OpenStore from the App Drawer\n\n\n\
+v2.7\n\
 General:\n\
 - 24.04-2.2 compatibility\n\
 \n\n\

@@ -18,7 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
-      uses: actions/checkout@v4 # Required to mount the Github Workspace to a volume 
+      uses: actions/checkout@v4 # Required to mount the Github Workspace to a volume
+      with:
+        submodules: recursive
     - name: build package
       uses: tuxecure/clickable@v1
       with:

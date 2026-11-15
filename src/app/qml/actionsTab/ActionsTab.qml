@@ -111,5 +111,10 @@ ScrollView {
                 }
             }
         }
+        ListItems.Control {
+            title.text: i18n.tr("Latest packages")
+            iconName: "package-x-generic-symbolic"
+            onClicked: Qt.openUrlExternally("https://github.com/kugiigi/jerk-packages/releases/latest");
+        }
     }
 }
