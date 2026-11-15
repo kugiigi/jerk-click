@@ -41,6 +41,7 @@ jobs:
           path: build/*/app/*.click
           if-no-files-found: error
 
+  
   release:
     if: startsWith(github.ref, 'refs/tags/v')
     needs: ubuntu-touch
@@ -52,12 +53,26 @@ jobs:
         with:
           pattern: jerk-click-*
           path: dist
-          merge-multiple: true
+
+      - name: Collect Click packages
+        run: |
+          mkdir -p release-files
+
+          find dist -type f -name '*.click' -print -exec cp {} release-files/ \;
+
+          echo "Collected files:"
+          ls -lah release-files
+
+          if ! compgen -G "release-files/*.click" > /dev/null; then
+            echo "Error: No .click files were downloaded!"
+            exit 1
+          fi
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           name: ${{ github.ref_name }}
           generate_release_notes: true
-          files: dist/*.click
+          files: release-files/*.click
           fail_on_unmatched_files: true
+
