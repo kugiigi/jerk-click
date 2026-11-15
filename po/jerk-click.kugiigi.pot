@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-09 08:21+0000\n"
+"POT-Creation-Date: 2026-11-15 07:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -257,6 +257,10 @@ msgstr ""
 
 #: ../src/app/qml/actionsTab/ActionsTab.qml:103
 msgid "Unlock the power of the Eye"
+msgstr ""
+
+#: ../src/app/qml/actionsTab/ActionsTab.qml:115
+msgid "Latest packages"
 msgstr ""
 
 #: ../src/app/qml/components/Dialogs/FileChooserDialog.qml:46
